@@ -1,4 +1,4 @@
-Android Training Course Repository
+Android Development Training Course Repository
 ======
 
 Androidアプリ開発の基礎知識と実務スキルを身に付けるトレーニングコース
