@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    <TextView
+        style="@style/BigTextViewStyle"
+        android:id="@+id/HelloWorld1"
+        android:text="@string/hello_world" />
+    <TextView
+        style="@style/BigTextViewStyle.Black"
+        android:id="@+id/HelloWorld2"
+        android:text="@string/hello_world" />
+    <TextView
+        style="@style/BigTextViewStyle.Red"
+        android:id="@+id/HelloWorld3"
+        android:text="@string/hello_world" />
+    <!-- スタイルを上書きすることも可能 -->
+    <TextView
+        style="@style/BigTextViewStyle.Red.Bold"
+        android:id="@+id/HelloWorld4"
+        android:layout_height="20dp"
+        android:text="@string/hello_world" />
+    <TextView
+        style="@style/SmallTextViewStyle"
+        android:id="@+id/HelloWorld5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    <TextView
+        style="@style/SmallTextViewStyle.Blue"
+        android:id="@+id/HelloWorld6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    <TextView
+        style="@style/SmallTextViewStyle.Green"
+        android:id="@+id/HelloWorld7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+</LinearLayout>
