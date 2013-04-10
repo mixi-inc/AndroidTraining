@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 一番下のレイヤに配置する、グレーで塗りつぶされた四角形の Drawable を持つ item 要素 -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#f5f5f5"/>
+        </shape>
+    </item>
+    <!-- 一番上のレイヤに配置する、薄茶色で塗りつぶされた四角形の Drawable を持つ item 要素 -->
+    <!-- 上端から 30dp 分のオフセットが設定されている -->
+    <item android:top="30dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#deb887"/>
+        </shape>
+    </item>
+</layer-list>
