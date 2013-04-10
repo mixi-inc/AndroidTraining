@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StringResourceSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- String resources examples -->
+    <string name="normal_string">Normal String. This is the most common use case.</string>
+    <string name="format_string">My name is %1$s. I like to %2$s with my friends.</string>
+    <string-array name="array_strings">
+        <item>First String.</item>
+        <item>Second String.</item>
+        <item>Third String.</item>
+    </string-array>
+    <plurals name="plurals_string">
+        <item quantity="one">I have one apple.</item>
+        <item quantity="other">I have %1$d apples.</item>
+    </plurals>
+</resources>

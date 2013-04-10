@@ -1,4 +1,4 @@
-package jp.mixi.sample.drawable;
+package jp.mixi.sample.res.drawable;
 
 import java.util.Timer;
 import java.util.TimerTask;
