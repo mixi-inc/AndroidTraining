@@ -10,7 +10,6 @@ import android.graphics.drawable.ScaleDrawable;
 import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Menu;
 
 public class MainActivity extends Activity {
 	private static final int TRANSITION_DURATION = 5000;
@@ -22,11 +21,11 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Drawable levelListDrawable = findViewById(R.id.LevelListButton).getBackground();
         final Handler handler = new Handler();
         final Timer timer = new Timer();
 
         // 5秒ごとにレベルを変更するタスク
+        final Drawable levelListDrawable = findViewById(R.id.LevelListButton).getBackground();
         timer.scheduleAtFixedRate(
         		new TimerTask() {
 					@Override
