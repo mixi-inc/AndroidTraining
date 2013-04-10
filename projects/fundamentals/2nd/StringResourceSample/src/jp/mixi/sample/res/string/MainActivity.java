@@ -5,24 +5,23 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+        TextView formatView = (TextView) findViewById(R.id.FormatText);
+        TextView arrayView = (TextView) findViewById(R.id.ArrayText);
+        TextView pluralsView = (TextView) findViewById(R.id.PluralsText);
 
-		TextView formatView = (TextView) findViewById(R.id.FormatText);
-		TextView arrayView = (TextView) findViewById(R.id.ArrayText);
-		TextView pluralsView = (TextView) findViewById(R.id.PluralsText);
+        // ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆã«åŸ‹ã‚è¾¼ã‚“ã§æ–‡å­—åˆ—ã‚’æ•´å½¢ã™ã‚‹
+        // ãƒ•ã‚©ãƒ¼ãƒãƒƒãƒˆã¯å¯å¤‰é•·å¼•æ•°ã§æŒ‡å®šã™ã‚‹ã®ã§ã€ã„ãã¤ã§ã‚‚åŸ‹ã‚è¾¼ã‚€ã“ã¨ãŒå¯èƒ½
+        formatView.setText(getString(R.string.format_string, "Hoge", "driving"));
 
-		// ƒtƒH[ƒ}ƒbƒg‚É–„‚ß‚ñ‚Å•¶š—ñ‚ğ®Œ`‚·‚é
-		// ƒtƒH[ƒ}ƒbƒg‚Í‰Â•Ï’·ˆø”‚Åw’è‚·‚é‚Ì‚ÅA‚¢‚­‚Â‚Å‚à–„‚ß‚Ş‚±‚Æ‚ª‰Â”\
-		formatView.setText(getString(R.string.format_string, "Hoge", "driving"));
+        // æ–‡å­—åˆ—ã®é…åˆ—ã‚’å–ã‚Šå‡ºã—ã¦ã€0ç•ªç›®ã®æ–‡å­—åˆ—ã‚’è¡¨ç¤ºã™ã‚‹
+        arrayView.setText(getResources().getStringArray(R.array.array_strings)[0]);
 
-		// •¶š—ñ‚Ì”z—ñ‚ğæ‚èo‚µ‚ÄA0”Ô–Ú‚Ì•¶š—ñ‚ğ•\¦‚·‚é
-		arrayView.setText(getResources().getStringArray(R.array.array_strings)[0]);
-
-		// •¡”Œ`‚Ì•\Œ»‚ğ•\¦‚·‚é
-		pluralsView.setText(getResources().getQuantityString(R.plurals.plurals_string, 0, 0));
-	}
+        // è¤‡æ•°å½¢ã®è¡¨ç¾ã‚’è¡¨ç¤ºã™ã‚‹
+        pluralsView.setText(getResources().getQuantityString(R.plurals.plurals_string, 0, 0));
+    }
 }

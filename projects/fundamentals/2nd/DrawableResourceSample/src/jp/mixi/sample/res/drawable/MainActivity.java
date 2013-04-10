@@ -12,11 +12,11 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class MainActivity extends Activity {
-	private static final int TRANSITION_DURATION = 5000;
-	private static final long TIMER_TASK_PERIOD = 1000L;
-	private static final int TIMER_TASK_DELAY = 0;
+    private static final int TRANSITION_DURATION = 5000;
+    private static final long TIMER_TASK_PERIOD = 1000L;
+    private static final int TIMER_TASK_DELAY = 0;
 
-	@Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -24,49 +24,49 @@ public class MainActivity extends Activity {
         final Handler handler = new Handler();
         final Timer timer = new Timer();
 
-        // 5•b‚²‚Æ‚ÉƒŒƒxƒ‹‚ğ•ÏX‚·‚éƒ^ƒXƒN
+        // 5ç§’ã”ã¨ã«ãƒ¬ãƒ™ãƒ«ã‚’å¤‰æ›´ã™ã‚‹ã‚¿ã‚¹ã‚¯
         final Drawable levelListDrawable = findViewById(R.id.LevelListButton).getBackground();
         timer.scheduleAtFixedRate(
-        		new TimerTask() {
-					@Override
-					public void run() {
-						final int level = levelListDrawable.getLevel();
-						handler.post(new Runnable() {
-							@Override
-							public void run() {
-								if (level == 0) {
-									levelListDrawable.setLevel(1);
-								} else {
-									levelListDrawable.setLevel(0);
-								}
-							}
-						});
-					}
-				},
-				TIMER_TASK_DELAY, TIMER_TASK_PERIOD);
+                new TimerTask() {
+                    @Override
+                    public void run() {
+                        final int level = levelListDrawable.getLevel();
+                        handler.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                if (level == 0) {
+                                    levelListDrawable.setLevel(1);
+                                } else {
+                                    levelListDrawable.setLevel(0);
+                                }
+                            }
+                        });
+                    }
+                },
+                TIMER_TASK_DELAY, TIMER_TASK_PERIOD);
 
-        // ƒNƒƒXƒtƒF[ƒh‚ğŠJn‚·‚é
+        // ã‚¯ãƒ­ã‚¹ãƒ•ã‚§ãƒ¼ãƒ‰ã‚’é–‹å§‹ã™ã‚‹
         final TransitionDrawable transition = (TransitionDrawable) findViewById(R.id.TransitionView).getBackground();
         transition.startTransition(TRANSITION_DURATION);
 
-        // 5•b‚²‚Æ‚ÉƒŒƒxƒ‹‚ğ•ÏX‚µAƒNƒŠƒbƒv‚Ì”ÍˆÍ‚ğ•Ï‰»‚³‚¹‚éƒ^ƒXƒN
+        // 5ç§’ã”ã¨ã«ãƒ¬ãƒ™ãƒ«ã‚’å¤‰æ›´ã—ã€ã‚¯ãƒªãƒƒãƒ—ã®ç¯„å›²ã‚’å¤‰åŒ–ã•ã›ã‚‹ã‚¿ã‚¹ã‚¯
         final ClipDrawable clipDrawable = (ClipDrawable) findViewById(R.id.ClipView).getBackground();
         timer.scheduleAtFixedRate(
-      		new TimerTask() {
-					@Override
-					public void run() {
-						handler.post(new Runnable() {
-							@Override
-							public void run() {
-								clipDrawable.setLevel(clipDrawable.getLevel() + 1000);
-							}
-						});
-					}
-				},
-				TIMER_TASK_DELAY, TIMER_TASK_PERIOD);
+                new TimerTask() {
+                    @Override
+                    public void run() {
+                        handler.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                clipDrawable.setLevel(clipDrawable.getLevel() + 1000);
+                            }
+                        });
+                    }
+                },
+                TIMER_TASK_DELAY, TIMER_TASK_PERIOD);
 
-        // ƒXƒP[ƒ‹‚ÌƒŒƒxƒ‹‚ğ•ÏX‚·‚é
+        // ã‚¹ã‚±ãƒ¼ãƒ«ã®ãƒ¬ãƒ™ãƒ«ã‚’å¤‰æ›´ã™ã‚‹
         ScaleDrawable scale = (ScaleDrawable) findViewById(R.id.ScaleView).getBackground();
         scale.setLevel(1);
-	}
+    }
 }
