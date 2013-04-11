@@ -8,9 +8,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
+    <!-- Value Resource へいろいろ参照してみる -->
     <TextView
+        android:id="@id/HelloWorld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/hello_world"
+        android:textSize="@dimen/TitleSize"
+        android:textColor="@color/Blue"/>
+
+    <TextView
+        android:id="@id/Hoge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/HelloWorld"
+        android:text="@string/hello_world"
+        android:textSize="@dimen/BodySize"
+        android:textColor="@color/Red"/>
 
 </RelativeLayout>
