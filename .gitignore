@@ -12,15 +12,16 @@
 bin/
 gen/
 lint.xml
+proguard/
+
+# Robolectric generated files
+tmp/
 
 # Local configuration file (sdk path, etc)
 local.properties
 
 # Eclipse project files
-.classpath
-.project
 .metadata
-.settings
 .checkstyle
 
 # Proguard folder
