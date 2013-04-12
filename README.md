@@ -65,3 +65,9 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   6. 自動ビルド
   7. クラウド同期
 
+参考資料・図書
+------
+
+* [Android Developers](http://developer.android.com/index.html)
+  * 公式のリファレンスとして、Android の基礎から API の仕様まで幅広く解説資料が用意されています。このリファレンスは必ず目を通すようにしましょう。
+* [プログラミング Android](http://amzn.to/wr7Yi6)
