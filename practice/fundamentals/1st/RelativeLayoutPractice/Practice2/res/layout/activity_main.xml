@@ -8,9 +8,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
+    <!-- Button1 の右に 2 つボタンを並べて均等割付する -->
+    <Button
+        android:id="@+id/Button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="1"/>
 
+    <!-- Button4 の右に、縦に 2 つのボタンを並べる -->
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_below="@+id/Button1"
+        android:text="4"/>
 </RelativeLayout>
