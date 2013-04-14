@@ -8,9 +8,19 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
+    <!-- TODO: Button1 の右に 2 つのボタンを並べる -->
+    <!-- TODO: Button1 の下に 2 つのボタンを並べる -->
+    <Button
+        android:id="@+id/Button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="1"/>
 
+    <!-- TODO: Button6 を 画面中央に配置する -->
+
+    <!-- TODO: Button7 を画面左下に配置する -->
+    <!-- TODO: Button7 の右に 1 つボタンを並べる -->
+    <!-- TODO: Button7 の上に 1 つボタンを並べる -->
 </RelativeLayout>
