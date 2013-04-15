@@ -43,3 +43,5 @@ Thumbs.db
 # Vim
 *.swp
 
+# Keystore
+.keystore
