@@ -44,4 +44,4 @@ Thumbs.db
 *.swp
 
 # Keystore
-.keystore
+*.keystore
