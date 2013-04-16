@@ -10,15 +10,18 @@
     tools:context=".MainActivity" >
 
     <!-- TODO 自由に電卓のレイアウトを作ってください。 idは動作に影響が出るため変更しないでください。 -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
-        <TextView 
+
+        <TextView
             android:id="@+id/result"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textIsSelectable="true" />
-        </LinearLayout>
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
@@ -66,82 +69,90 @@
         <Button
             android:id="@+id/button6"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/six" />
 
         <Button
             android:id="@+id/button7"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/seven" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/eight" />
 
         <Button
             android:id="@+id/button9"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/nine" />
 
         <Button
             android:id="@+id/button0"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/zero" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
+
         <Button
             android:id="@+id/plus"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/plus" />
+
         <Button
             android:id="@+id/minus"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/minus" />
+
         <Button
             android:id="@+id/calc"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/calc" />
+
         <Button
             android:id="@+id/clear"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/clear" />
+
         <Button
             android:id="@+id/times"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/times" />
+
         <Button
             android:id="@+id/divide"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/divide" />
+
         <Button
             android:id="@+id/dot"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@string/dot" />
     </LinearLayout>
 
