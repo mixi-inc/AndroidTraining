@@ -28,7 +28,7 @@ public class SherlockListNavigationActivity extends SherlockActivity implements 
         getSupportActionBar().setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
         // List Navigation の準備
         getSupportActionBar().setListNavigationCallbacks(
-                new ArrayAdapter<String>(getApplicationContext(),
+                new ArrayAdapter<String>(this,
                         android.R.layout.simple_list_item_1,
                         android.R.id.text1, list),
                 this);
