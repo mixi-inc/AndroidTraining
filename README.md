@@ -50,12 +50,12 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   3. [アプリのリソース管理](https://github.com/mixi-inc/AndroidTraining/wiki/2.03-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9%E7%AE%A1%E7%90%86)
   4. [ActionBar とインタラクション制御](https://github.com/mixi-inc/AndroidTraining/wiki/2.04-ActionBar%E3%81%A8%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%A9%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E5%88%B6%E5%BE%A1)
   5. [ListView と ViewPager](https://github.com/mixi-inc/AndroidTraining/wiki/2.05-ListView%E3%81%A8ViewPager)
-  6. メッセージング
-  7. 直列化とコレクション、永続化
-  8. 非同期処理
-  9. ネットワーク通信
-  10. データベース
-  11. テスト
+  6. [メッセージングと通知](https://github.com/mixi-inc/AndroidTraining/wiki/2.06.-%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0)
+  7. [直列化とコレクション、永続化](https://github.com/mixi-inc/AndroidTraining/wiki/2.07.-%E7%9B%B4%E5%88%97%E5%8C%96%E3%81%A8%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%80%81%E6%B0%B8%E7%B6%9A%E5%8C%96)
+  8. [非同期処理](https://github.com/mixi-inc/AndroidTraining/wiki/2.08.-%E9%9D%9E%E5%90%8C%E6%9C%9F%E5%87%A6%E7%90%86)
+  9. [ネットワーク通信](https://github.com/mixi-inc/AndroidTraining/wiki/2.09.-%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E9%80%9A%E4%BF%A1)
+  10. [データベース](https://github.com/mixi-inc/AndroidTraining/wiki/2.10.-%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9)
+  11. [テスト](https://github.com/mixi-inc/AndroidTraining/wiki/2.11.-%E3%83%86%E3%82%B9%E3%83%88)
 3. 実務編
   1. デバッグ
   2. アーキテクチャ設計
