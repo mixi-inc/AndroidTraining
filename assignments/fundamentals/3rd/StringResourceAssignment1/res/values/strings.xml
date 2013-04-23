@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StringResurceAssignment1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <plurals name="my_apple">
+        <item quantity="other">私は、%1$d 個のりんごを持っています。</item>
+    </plurals>
+
+</resources>
