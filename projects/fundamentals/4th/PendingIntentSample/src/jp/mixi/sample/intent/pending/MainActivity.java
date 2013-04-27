@@ -17,6 +17,8 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this, SubActivity.class);
 
         // PendingIntent オブジェクトの生成。このオブジェクトを他のアプリに渡すことで、引数に渡した Intent の送信を委ねることができる
+        // PendingIntent は、Intent の送信先のコンポーネントの種類によって使い分けること
+        // 第二引数の requestCode は、API リファレンスの記載に間違いがあり、Currently not used とあるが実際には利用されていることに注意する
         PendingIntent activityIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
     }
 }
