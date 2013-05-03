@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntentSample</string>
+    <string name="trigger_new_activity">新しい Activity を起動</string>
+    <string name="trigger_new_activity_for_result">新しい Activity を起動して結果をもらう</string>
+    <string name="trigger_new_activity_with_action">ACTION_VIEW で 新しい Activity を起動</string>
+    <string name="trigger_new_activity_with_extra">Extra を付けて新しい Activity を起動</string>
+    <string name="new_activity_text">新しい Activity</string>
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+</resources>
