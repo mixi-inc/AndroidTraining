@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO ここに、NewActivity3 を呼び出す処理を書く
-                // TODO Intent に、Intent.FLAG_ACTIVITY_CLEAR_TOP という flag をセットするとどうなるかレポートすること
+                // TODO Intent に、Intent.FLAG_ACTIVITY_NO_HISTORY という flag をセットするとどうなるかレポートすること
                 
             }
         });
