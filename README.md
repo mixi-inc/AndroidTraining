@@ -39,12 +39,12 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 このトレーニングコースは、下記のカリキュラムで構成されています。
 カリキュラム構成は、予告なく変更される場合があります。
 
-1. まえがき
+1. **まえがき**
   1. [Android について](https://github.com/mixi-inc/AndroidTraining/wiki/1.01.-Android-OS%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
   2. [開発環境の準備](https://github.com/mixi-inc/AndroidTraining/wiki/1.02.-%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%AE%E6%BA%96%E5%82%99)
   3. [Android プロジェクトの作成](https://github.com/mixi-inc/AndroidTraining/wiki/1.03.-Android%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90)
   4. [Android アプリの基礎知識](https://github.com/mixi-inc/AndroidTraining/wiki/1.04.-Android%E3%81%AE%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98)
-2. 基礎編
+2. **基礎編**
   1. [アプリのレイアウト作成](https://github.com/mixi-inc/AndroidTraining/wiki/2.01.-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E4%BD%9C%E6%88%90)
   2. [Activity と Fragment](https://github.com/mixi-inc/AndroidTraining/wiki/2.02.-Activity-%E3%81%A8-Fragment)
   3. [アプリのリソース管理](https://github.com/mixi-inc/AndroidTraining/wiki/2.03.-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9%E7%AE%A1%E7%90%86)
@@ -56,17 +56,18 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   9. [ネットワーク通信](https://github.com/mixi-inc/AndroidTraining/wiki/2.09.-%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E9%80%9A%E4%BF%A1)
   10. [データベース](https://github.com/mixi-inc/AndroidTraining/wiki/2.10.-%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9)
   11. [テスト](https://github.com/mixi-inc/AndroidTraining/wiki/2.11.-%E3%83%86%E3%82%B9%E3%83%88)
-3. 実務編
-  1. デバッグ
-  2. アーキテクチャ設計
-  3. ユーザインタフェース設計
-  4. Dependency Injection
+3. **実務編**
+  1. デバッグ と 自動ビルド
+  2. アーキテクチャ設計と DI
+  3. 続・アプリのレイアウト作成
+  4. ユーザインタフェース設計
   5. セキュリティ
-  6. 自動ビルド
-  7. クラウド同期
+4. **付録**
+  1. [Git リポジトリからのプロジェクトのインポート](https://github.com/mixi-inc/AndroidTraining/wiki/4.01.-Git-%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%8B%E3%82%89%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%88)
+  2. [Java の文法の基礎](https://github.com/mixi-inc/AndroidTraining/wiki/4.02.-Java-%E3%81%AE%E6%96%87%E6%B3%95%E3%81%AE%E5%9F%BA%E7%A4%8E)
 
 また、リポジトリには下記のディレクトリ構成で、プロジェクトが作成されています。
-課題提出の際には、このリポジトリを fork して、各ブランチにコミットを作ってください。
+課題提出の際には、このリポジトリを fork して、各章ごとにブランチを作成し、コミットを作ってください。
 
 * projectsディレクトリ
   * サンプルプロジェクトが含まれています。
@@ -82,3 +83,6 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 * [Android Developers](http://developer.android.com/index.html)
   * 公式のリファレンスとして、Android の基礎から API の仕様まで幅広く解説資料が用意されています。このリファレンスは必ず目を通すようにしましょう。
 * [プログラミング Android](http://amzn.to/wr7Yi6)
+  * Android のプログラミングの基礎から発展までを幅広く取り扱っています。
+* [Effective Java](http://amzn.to/Sr8iPe)
+  * Java 言語を取り扱う際のプラクティスが詰まっています。
