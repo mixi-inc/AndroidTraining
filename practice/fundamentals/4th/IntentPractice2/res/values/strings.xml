@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IntentPractice2</string>
+    <string name="action_call_1">Call Broadcat Action 1</string>
+    <string name="action_call_2">Call Broadcat Action 2</string>
+    <string name="action_call_3">Call Broadcat Action 3</string>
+</resources>
