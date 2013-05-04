@@ -9,7 +9,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 このトレーニングコースに入る前に、下記の知識・スキルについて勉強しておいてください。
 
 1. Java の知識・スキル
-  * [Java言語プログラミングレッスン](http://www.hyuki.com/jb/)などが参考になります。
+  * [Java言語プログラミングレッスン](http://www.hyuki.com/jb/)や、[Effective Java](http://amzn.to/Sr8iPe)などが参考になります。
 2. IDE の使い方 (Eclipse)
   * 基本操作が分かる程度で大丈夫です。
 
@@ -57,11 +57,11 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   10. [データベース](https://github.com/mixi-inc/AndroidTraining/wiki/2.10.-%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9)
   11. [テスト](https://github.com/mixi-inc/AndroidTraining/wiki/2.11.-%E3%83%86%E3%82%B9%E3%83%88)
 3. **実務編**
-  1. デバッグ と 自動ビルド
-  2. アーキテクチャ設計と DI
-  3. 続・アプリのレイアウト作成
-  4. ユーザインタフェース設計
-  5. セキュリティ
+  1. [デバッグと自動ビルド](https://github.com/mixi-inc/AndroidTraining/wiki/3.01.-%E3%83%87%E3%83%90%E3%83%83%E3%82%B0%E3%81%A8%E8%87%AA%E5%8B%95%E3%83%93%E3%83%AB%E3%83%89)
+  2. [アーキテクチャ設計と DI](https://github.com/mixi-inc/AndroidTraining/wiki/3.02.-%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3%E8%A8%AD%E8%A8%88%E3%81%A8-DI)
+  3. [続・アプリのレイアウト作成](https://github.com/mixi-inc/AndroidTraining/wiki/3.03.-%E7%B6%9A%E3%83%BB%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E4%BD%9C%E6%88%90)
+  4. [ユーザインタフェース設計](https://github.com/mixi-inc/AndroidTraining/wiki/3.04.-%E3%83%A6%E3%83%BC%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9%E8%A8%AD%E8%A8%88)
+  5. [セキュリティ](https://github.com/mixi-inc/AndroidTraining/wiki/3.05.-%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3)
 4. **付録**
   1. [Git リポジトリからのプロジェクトのインポート](https://github.com/mixi-inc/AndroidTraining/wiki/4.01.-Git-%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%8B%E3%82%89%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%88)
   2. [Java の文法の基礎](https://github.com/mixi-inc/AndroidTraining/wiki/4.02.-Java-%E3%81%AE%E6%96%87%E6%B3%95%E3%81%AE%E5%9F%BA%E7%A4%8E)
