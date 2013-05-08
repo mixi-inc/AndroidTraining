@@ -43,6 +43,7 @@ public class MainActivity extends Activity {
         // TODO:ListViewにBookArrayAdapterをセットしてください。
         // TODO:ListViewをタップしたとき、BookActivityに遷移するようにしてください。遷移するときにBookクラスのtitleを渡してください。
         // (BookActivityは用意されているものを使用してください)
+    }
 
     @Override
     protected void onResume() {
