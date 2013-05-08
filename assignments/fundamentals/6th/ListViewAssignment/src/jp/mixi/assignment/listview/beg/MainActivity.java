@@ -8,7 +8,6 @@ import android.view.ContextMenu.ContextMenuInfo;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.ListView;
 
@@ -35,7 +34,6 @@ public class MainActivity extends Activity {
 
         // TODO:BookArrayAdapterを作成して下さい。
         // (リストアイテムのレイアウトは用意されているlist_item_book.xmlをしてください。)
-
         // BookArrayAdapter bookArrayAdapter = new BookArrayAdapter(mActivity,
         // list);
         mListView = (ListView) findViewById(R.id.BookList);
@@ -82,7 +80,7 @@ public class MainActivity extends Activity {
         // ListViewから長押しされたリストアイテムを取得します
         Book book = (Book) mListView.getItemAtPosition(position);
         // ListViewからセットされているAdapterを取得します
-        BookArrayAdapter adapter = (BookArrayAdapter) mListView.getAdapter();
+        // BookArrayAdapter adapter = (BookArrayAdapter) mListView.getAdapter();
 
         if (item.getItemId() == R.id.DeleteListItem) {
             // TODO:Adapterを使用して長押ししたデータを削除してください
@@ -90,7 +88,7 @@ public class MainActivity extends Activity {
             // TODO:Adapterを使用して長押ししたデータを追加してください
         }
         // TODO:Adapterを使用して表示されているデータを更新してください
-        adapter.notifyDataSetChanged();
+        
         return true;
     }
 
