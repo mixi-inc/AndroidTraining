@@ -24,6 +24,12 @@
         </activity>
         <activity
             android:name="jp.mixi.sample.test.SubActivity"></activity>
+        <provider
+            android:name="jp.mixi.sample.test.TestTargetContentProvider"
+            android:authorities="jp.mixi.sample.test.testtargetcontentprovider"
+            android:exported="false"/>
+        <service
+            android:name="jp.mixi.sample.test.TestTargetService"/>
     </application>
 
 </manifest>
