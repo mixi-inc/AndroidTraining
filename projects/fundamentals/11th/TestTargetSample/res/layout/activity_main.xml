@@ -6,11 +6,16 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
-
+    tools:context=".MainActivity">
     <TextView
+        android:id="@+id/ClickCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
+        android:text="@string/ClickCountFormat"/>
+    <Button
+        android:id="@+id/CountEventTrigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ClickCounter"
+        android:text="@string/ClickCountTriggerLabel"/>
 </RelativeLayout>

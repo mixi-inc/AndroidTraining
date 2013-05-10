@@ -1,23 +1,47 @@
 
 package jp.mixi.sample.test;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
+    private static final String STATE_COUNT = "count";
+    private int mCount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        if (savedInstanceState == null) {
+            mCount = 0;
+        } else {
+            mCount = savedInstanceState.getInt(STATE_COUNT);
+        }
+
+        TextView counter = (TextView) findViewById(R.id.ClickCounter);
+        counter.setText(getString(R.string.ClickCountFormat, mCount));
+    }
+
+    protected void onStart() {
+        super.onStart();
+
+        View countTrigger = findViewById(R.id.CountEventTrigger);
+        countTrigger.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                TextView counter = (TextView) findViewById(R.id.ClickCounter);
+                counter.setText(getString(R.string.ClickCountFormat, ++mCount));
+            }
+        });
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
 
+        outState.putInt(STATE_COUNT, mCount);
+    }
 }
