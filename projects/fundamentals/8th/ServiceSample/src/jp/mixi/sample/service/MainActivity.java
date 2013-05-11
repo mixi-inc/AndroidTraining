@@ -17,12 +17,14 @@ public class MainActivity extends Activity {
     private BoundService mBoundService;
     // BoundService を扱う時のインタフェース
     private ServiceConnection mConnection = new ServiceConnection() {
+        // 異常発生時の処理。ここで Bind してあったサービスへのリファレンスを切る
         @Override
         public void onServiceDisconnected(ComponentName name) {
             Log.v(TAG, "onServiceDisconnected");
             mBoundService = null;
         }
 
+        // サービスへのバインドが完了した時のコールバック。ここでバインドしたサービスのインスタンスを得ることで、直接サービスのインスタンスを操作可能となる。
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
             Log.v(TAG, "onServiceConnected");

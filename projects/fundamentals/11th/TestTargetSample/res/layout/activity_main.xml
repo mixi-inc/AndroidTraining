@@ -18,4 +18,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/ClickCounter"
         android:text="@string/ClickCountTriggerLabel"/>
+    <Button
+        android:id="@+id/CallSubActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CountEventTrigger"
+        android:text="@string/CallSubActivity"/>
 </RelativeLayout>

@@ -3,4 +3,6 @@
     <string name="app_name">TestTargetSample</string>
     <string name="ClickCountFormat">%1$d</string>
     <string name="ClickCountTriggerLabel">Count up</string>
+    <string name="OptionsMenuSettings">Settings</string>
+    <string name="CallSubActivity">Launch SubActivity</string>
 </resources>

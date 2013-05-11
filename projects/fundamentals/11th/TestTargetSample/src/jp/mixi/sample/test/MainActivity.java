@@ -2,6 +2,7 @@
 package jp.mixi.sample.test;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -29,11 +30,18 @@ public class MainActivity extends Activity {
         super.onStart();
 
         View countTrigger = findViewById(R.id.CountEventTrigger);
+        View subActivityLauncher = findViewById(R.id.CallSubActivity);
         countTrigger.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 TextView counter = (TextView) findViewById(R.id.ClickCounter);
                 counter.setText(getString(R.string.ClickCountFormat, ++mCount));
+            }
+        });
+        subActivityLauncher.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, SubActivity.class));
             }
         });
     }
