@@ -2,6 +2,7 @@ package jp.mixi.practice.network.networkpractice2;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -11,6 +12,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        StrictMode.enableDefaults();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         View buttonGet = (Button)findViewById(R.id.buttonGet);
