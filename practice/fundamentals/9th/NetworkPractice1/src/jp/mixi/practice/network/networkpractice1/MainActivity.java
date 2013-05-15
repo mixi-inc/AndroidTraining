@@ -1,6 +1,7 @@
 package jp.mixi.practice.network.networkpractice1;
 
 import android.app.Activity;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.view.Menu;
@@ -11,12 +12,14 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        StrictMode.setThreadPolicy(
-                new StrictMode.ThreadPolicy.Builder()
-                .detectNetwork()
-                .penaltyDeath()
-                .build()
-        );
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
+            StrictMode.setThreadPolicy(
+                    new StrictMode.ThreadPolicy.Builder()
+                    .detectNetwork()
+                    .penaltyDeath()
+                    .build());
+        }
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         View buttonGet = findViewById(R.id.buttonGet);
