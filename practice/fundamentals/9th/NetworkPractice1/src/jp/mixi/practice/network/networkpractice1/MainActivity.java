@@ -11,7 +11,12 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        StrictMode.enableDefaults();
+        StrictMode.setThreadPolicy(
+                new StrictMode.ThreadPolicy.Builder()
+                .detectNetwork()
+                .penaltyDeath()
+                .build()
+        );
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         View buttonGet = findViewById(R.id.buttonGet);
