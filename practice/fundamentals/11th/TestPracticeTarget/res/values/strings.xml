@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestPracticeTarget</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_label">タイトル</string>
+    <string name="content_label">本文</string>
+    <string name="commit_label">完了</string>
+    <string name="cancel_label">キャンセル</string>
+</resources>
