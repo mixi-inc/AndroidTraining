@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProGuardSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Description">2 つのボタンは両方共、アプリをクラッシュさせますが、リリース版ではそのスタックトレースに違いが現れます。</string>
+    <string name="Obfuscated">Obfuscated</string>
+    <string name="Unobfuscated">Unobfuscated</string>
+</resources>
