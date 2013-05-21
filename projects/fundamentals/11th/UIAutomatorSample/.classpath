@@ -3,7 +3,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
-	<classpathentry kind="lib" path="/Library/android-sdk-macosx/platforms/android-17/android.jar"/>
-	<classpathentry kind="lib" path="/Library/android-sdk-macosx/platforms/android-17/uiautomator.jar"/>
+	<classpathentry kind="lib" path="/Users/keishin.yokomaku/Documents/Android/repository/AndroidTraining/projects/fundamentals/11th/UIAutomatorSample/libs/android.jar"/>
+	<classpathentry kind="lib" path="/Users/keishin.yokomaku/Documents/Android/repository/AndroidTraining/projects/fundamentals/11th/UIAutomatorSample/libs/uiautomator.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
