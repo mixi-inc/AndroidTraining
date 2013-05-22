@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 別階層になる -->
+    <PreferenceScreen
+        android:key="subscreen_key"
+        android:title="サブスクリーン" >
+        <CheckBoxPreference
+            android:key="subscreen_checkbox1_key"
+            android:title="サブスクリーンチェックボックス1" />
+        <CheckBoxPreference
+            android:key="subscreen_checkbox2_key"
+            android:title="サブスクリーンチェックボックス2" />
+    </PreferenceScreen>
+
+    <CheckBoxPreference
+        android:key="screen_checkbox1_key"
+        android:title="チェックボックス1" />
+
+</PreferenceScreen>

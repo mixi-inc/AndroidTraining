@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- グループ分けされます -->
+    <PreferenceCategory
+        android:key="pref_key_storage_settings"
+        android:title="カテゴリ1" >
+        <CheckBoxPreference
+            android:key="category1_checkbox1_key"
+            android:title="カテゴリ1チェックボックス1" />
+        <CheckBoxPreference
+            android:key="category1_checkbox2_key"
+            android:title="カテゴリ1チェックボックス2" />
+    </PreferenceCategory>
+
+    <!-- グループ分けされます -->
+    <PreferenceCategory
+        android:key="pref_key_storage_settings"
+        android:title="カテゴリ2" >
+        <CheckBoxPreference
+            android:key="category2_checkbox1_key"
+            android:title="カテゴリ2チェックボックス1" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

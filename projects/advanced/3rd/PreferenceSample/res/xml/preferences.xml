@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="sample_checkbox_key"
+        android:summary="サンプルです"
+        android:title="チェックボックスのサンプル" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:dependency="sample_checkbox_key"
+        android:dialogTitle="リスト選択ダイアログ"
+        android:entries="@array/item_entries"
+        android:entryValues="@array/item_entries_value"
+        android:key="sample_list_key"
+        android:title="リストのサンプル" />
+
+    <EditTextPreference
+        android:dialogTitle="エディットテキストダイアログ"
+        android:key="edit_texit_key"
+        android:title="エディットテキストのサンプル" />
+
+</PreferenceScreen>

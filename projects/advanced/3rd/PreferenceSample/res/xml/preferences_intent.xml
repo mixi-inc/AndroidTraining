@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Web表示 -->
+    <Preference android:title="Intent Web" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://mixi.jp/" />
+    </Preference>
+
+    <!-- Activityを起動 -->
+    <Preference android:title="Intent Activity" >
+        <intent
+            android:targetClass="jp.mixi.sample.preference.SubActivity"
+            android:targetPackage="jp.mixi.sample.preference" />
+    </Preference>
+
+</PreferenceScreen>

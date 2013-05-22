@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="item_entries">
+        <item>アイテム1</item>
+        <item>アイテム2</item>
+        <item>アイテム3</item>
+    </string-array>
+    <string-array name="item_entries_value">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+
+</resources>
