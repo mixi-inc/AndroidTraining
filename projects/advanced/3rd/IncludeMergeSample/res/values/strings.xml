@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IncludeSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="include_sample">Include Samle</string>
+    <string name="merge_sample">Merge Samle</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+
+</resources>
