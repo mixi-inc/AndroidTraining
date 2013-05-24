@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DialogSample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="alert_dialog_message">Alert Dialog Message</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="my_dialog_fragment">Dialog</string>
+    <string name="my_alert_dialog_fragment">AlertDialog</string>
+    <string name="err_my_alert_dialog_fragment">Error AlertDialog</string>
+    <string name="custom_content">Custom content</string>
+
+</resources>
