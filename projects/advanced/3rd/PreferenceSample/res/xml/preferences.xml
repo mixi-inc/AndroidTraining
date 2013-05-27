@@ -8,7 +8,7 @@
         android:title="チェックボックスのサンプル" />
 
     <ListPreference
-        android:defaultValue="1"
+        android:defaultValue="two"
         android:dependency="sample_checkbox_key"
         android:dialogTitle="リスト選択ダイアログ"
         android:entries="@array/item_entries"
