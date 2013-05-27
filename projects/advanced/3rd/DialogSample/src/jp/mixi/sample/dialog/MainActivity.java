@@ -69,7 +69,7 @@ public class MainActivity extends FragmentActivity {
     /**
      * Dialogを使用して、コンテンツ領域に独自レイアウトは表示するサンプルです。
      */
-    public class MyDialogFragment extends DialogFragment {
+    public static class MyDialogFragment extends DialogFragment {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -91,7 +91,7 @@ public class MainActivity extends FragmentActivity {
     /**
      * AlertDialogを使用するサンプルです。コンテンツ領域に独自レイアウトは表示しません。
      */
-    public class MyAlertDialogFragment extends DialogFragment {
+    public static class MyAlertDialogFragment extends DialogFragment {
 
         @Override
         public Dialog onCreateDialog(Bundle savedInstanceState) {
@@ -121,7 +121,7 @@ public class MainActivity extends FragmentActivity {
      * エラーが発生します。<br>
      * AlertDialogを使用しつつ、コンテンツ領域に独自レイアウトを表示するサンプルです。
      */
-    public class ErrorMyAlertDialogFragment extends DialogFragment {
+    public static class ErrorMyAlertDialogFragment extends DialogFragment {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
