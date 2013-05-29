@@ -1,0 +1,6 @@
+<resources>
+
+    <color name="result_ok_bg">#22CC22</color>
+    <color name="result_ko_bg">#CC2222</color>
+
+</resources>

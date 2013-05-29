@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MixiDummyInAppPurchase</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_purchase_action_fragment">PurchaseActionFragment</string>
+
+    <string name="action_start_accepted_purchase">承認される決済を行う</string>
+    <string name="action_start_canceled_purchase">キャンセルされる決済を行う</string>
+</resources>
