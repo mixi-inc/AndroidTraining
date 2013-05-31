@@ -1,14 +1,11 @@
 
 package jp.mixi.assignment.controller.adv2;
 
-import android.app.Activity;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.os.Bundle;
-import android.util.Log;
-import android.widget.Toast;
+import android.app.*;
+import android.content.*;
+import android.os.*;
+import android.util.*;
+import android.widget.*;
 
 /**
  * TODO: 課題4
@@ -30,8 +27,10 @@ import android.widget.Toast;
 public class MainActivity extends Activity {
     public static final String TAG = MainActivity.class.getSimpleName();
 
+    private BroadcastReceiver mReceiver;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
@@ -40,18 +39,65 @@ public class MainActivity extends Activity {
     protected void onStart() {
         super.onStart();
 
+        mReceiver = new MyBroadcastReceiver();
+
         // ヘッドセットの接続状態を監視し、接続状態の変化があった時のブロードキャストメッセージを受信する
-        registerReceiver(new MyBroadcastReceiver(), new IntentFilter(Intent.ACTION_HEADSET_PLUG));
+        registerReceiver(mReceiver, new IntentFilter(Intent.ACTION_HEADSET_PLUG));
     }
 
     // ブロードキャストのメッセージを受け取るクラス
     private class MyBroadcastReceiver extends BroadcastReceiver {
 
         @Override
-        public void onReceive(Context context, Intent intent) {
-            // ブロードキャストのメッセージが届いたらログに吐き出す
-            Log.v(TAG, "Broadcast intent received.");
-            Toast.makeText(MainActivity.this, "Headset broadcast received.", Toast.LENGTH_LONG).show();
+        public void onReceive(final Context context, final Intent intent) {
+            final StringBuilder builder = new StringBuilder();
+
+            final Bundle extra = intent.getExtras();
+
+            builder.append(getStateFromExtra(extra));
+            builder.append(":");
+            builder.append(getNameFromExtra(extra));
+            builder.append(":");
+            builder.append(getMicrophoneFromExtra(extra));
+            Log.v(TAG, builder.toString());
+            Toast.makeText(MainActivity.this, builder.toString(), Toast.LENGTH_LONG)
+                    .show();
+        }
+
+        private Object getMicrophoneFromExtra(final Bundle extra) {
+            final int microphone = extra.getInt("microphone");
+            switch (microphone) {
+            case 0:
+                return "";
+            case 1:
+                return "has microphone.";
+            default:
+                return "undefined.";
+            }
+        }
+
+        private String getNameFromExtra(final Bundle extra) {
+            return extra.getString("name");
+        }
+
+        private String getStateFromExtra(final Bundle extra) {
+            final int state = extra.getInt("state");
+            switch (state) {
+            case 0:
+                return "unplugged.";
+            case 1:
+                return "plugged.";
+            default:
+                return "undefined.";
+            }
         }
     }
+
+    @Override
+    protected void onStop() {
+        unregisterReceiver(mReceiver);
+        mReceiver = null;
+        super.onStop();
+    }
+
 }
