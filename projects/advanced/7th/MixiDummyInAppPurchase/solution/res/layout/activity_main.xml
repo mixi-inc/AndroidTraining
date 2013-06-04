@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/action_start_accepted_purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="onStartAcceptedPurchaseClick"
+        android:text="@string/action_start_accepted_purchase" />
+
+    <Button
+        android:id="@+id/action_consume_purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action_start_accepted_purchase"
+        android:layout_centerHorizontal="true"
+        android:onClick="onConsumeLastPurchaseClick"
+        android:text="@string/action_consume_purchase" />
+
+    <Button
+        android:id="@+id/action_start_canceled_purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action_consume_purchase"
+        android:layout_centerHorizontal="true"
+        android:onClick="onStartCanceledPurchaseClick"
+        android:text="@string/action_start_canceled_purchase" />
+
+    <TextView
+        android:id="@+id/print_purchase_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:minHeight="30dp"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
