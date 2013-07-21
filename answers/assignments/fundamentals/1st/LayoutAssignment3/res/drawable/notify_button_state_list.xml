@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- View が押された状態の Drawable -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#bc8f8f"/>
+        </shape>
+    </item>
+    <!-- View が通常の状態の Drawable -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffa07a"/>
+        </shape>
+    </item>
+</selector>
