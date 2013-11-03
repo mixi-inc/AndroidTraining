@@ -63,8 +63,9 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   4. [ユーザインタフェース設計](https://github.com/mixi-inc/AndroidTraining/wiki/3.04.-%E3%83%A6%E3%83%BC%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9%E8%A8%AD%E8%A8%88)
   5. [セキュリティ](https://github.com/mixi-inc/AndroidTraining/wiki/3.05.-%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3)
 4. **付録**
-  1. [Git リポジトリからのプロジェクトのインポート](https://github.com/mixi-inc/AndroidTraining/wiki/4.01.-Git-%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%8B%E3%82%89%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%88)
-  2. [Java の文法の基礎](https://github.com/mixi-inc/AndroidTraining/wiki/4.02.-Java-%E3%81%AE%E6%96%87%E6%B3%95%E3%81%AE%E5%9F%BA%E7%A4%8E)
+  1. [Git リポジトリからのプロジェクトのインポート](https://github.com/mixi-inc/AndroidTraining/wiki/A.01.-Git-%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%8B%E3%82%89%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E3%82%A4%E3%83%B3%E3%83%9D%E3%83%BC%E3%83%88)
+  2. [Java の文法の基礎](https://github.com/mixi-inc/AndroidTraining/wiki/A.02.-Java-%E3%81%AE%E6%96%87%E6%B3%95%E3%81%AE%E5%9F%BA%E7%A4%8E)
+  3. [仮想デバイスの作成](https://github.com/mixi-inc/AndroidTraining/wiki/A.03.-%E4%BB%AE%E6%83%B3%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%AE%E4%BD%9C%E6%88%90)
 
 また、リポジトリには下記のディレクトリ構成で、プロジェクトが作成されています。
 課題提出の際には、このリポジトリを fork して、各章ごとにブランチを作成し、コミットを作ってください。
