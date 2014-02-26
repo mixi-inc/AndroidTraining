@@ -46,6 +46,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
     - [Eclipse](https://github.com/mixi-inc/AndroidTraining/wiki/1.03.-Android%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90-(-Eclipse-))
     - [Android Studio](https://github.com/mixi-inc/AndroidTraining/wiki/1.03.-Android%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90-(-Android-Studio-))    
   4. [Android アプリの基礎知識](https://github.com/mixi-inc/AndroidTraining/wiki/1.04.-Android%E3%81%AE%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98)
+  5. [Android のビルドについて（Gradle）](https://github.com/mixi-inc/AndroidTraining/wiki/1.05.-Android-%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88Gradle%EF%BC%89)  
 2. **基礎編**
   1. [アプリのレイアウト作成](https://github.com/mixi-inc/AndroidTraining/wiki/2.01.-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E4%BD%9C%E6%88%90)
   2. [Activity と Fragment](https://github.com/mixi-inc/AndroidTraining/wiki/2.02.-Activity-%E3%81%A8-Fragment)
