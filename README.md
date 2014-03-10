@@ -70,7 +70,8 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   2. [Java の文法の基礎](https://github.com/mixi-inc/AndroidTraining/wiki/A.02.-Java-%E3%81%AE%E6%96%87%E6%B3%95%E3%81%AE%E5%9F%BA%E7%A4%8E)
   3. [仮想デバイスの作成](https://github.com/mixi-inc/AndroidTraining/wiki/A.03.-%E4%BB%AE%E6%83%B3%E3%83%87%E3%83%90%E3%82%A4%E3%82%B9%E3%81%AE%E4%BD%9C%E6%88%90)
 
-また、リポジトリには下記のディレクトリ構成で、プロジェクトが作成されています。
+また、リポジトリには下記のディレクトリ構成で、プロジェクトが作成されています。  
+Eclipse、Android Studio双方に対応しています。使用するIDEにあわせて参照するディレクトリを変更してください。  
 課題提出の際には、このリポジトリを fork して、各章ごとにブランチを作成し、コミットを作ってください。
 
 * Eclipseディレクトリ  
@@ -83,6 +84,9 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 	* assignmentsディレクトリ
 	  * 課題で使用するプロジェクトが含まれています。
 
+* AndroidStudioディレクトリ  
+  AndroidStudio対応のプロジェクトが含まれています。
+  
 参考資料・図書
 ------
 
