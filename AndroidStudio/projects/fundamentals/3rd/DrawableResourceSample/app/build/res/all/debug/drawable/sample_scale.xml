@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<scale
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:drawable="@drawable/ic_launcher"
-    android:scaleGravity="center"
-    android:scaleWidth="50%"
-    android:scaleHeight="50%"/><!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/projects/fundamentals/3rd/DrawableResourceSample/app/src/main/res/drawable/sample_scale.xml -->
