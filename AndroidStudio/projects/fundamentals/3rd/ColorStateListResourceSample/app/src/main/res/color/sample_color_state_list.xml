@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- View が押された状態の Drawable -->
+    <item android:color="#696969" android:state_pressed="true"/>
+    <!-- View が通常の状態の Drawable -->
+    <item android:color="#f5f5f5"/>
+</selector>

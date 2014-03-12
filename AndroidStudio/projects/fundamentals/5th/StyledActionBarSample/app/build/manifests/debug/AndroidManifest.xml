@@ -1,0 +1,26 @@
+<!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/projects/fundamentals/5th/StyledActionBarSample/app/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="jp.mixi.sample.actionbar.sherlock.styled">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="17"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/Theme.Example">
+        <activity android:label="@string/app_name" android:name="jp.mixi.sample.actionbar.sherlock.styled.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="jp.mixi.sample.actionbar.sherlock.styled.SherlockListNavigationActivity">
+        </activity>
+        <activity android:label="@string/app_name" android:name="jp.mixi.sample.actionbar.sherlock.styled.SherlockTabNavigationActivity">
+        </activity>
+        <activity android:label="@string/app_name" android:name="jp.mixi.sample.actionbar.sherlock.styled.SherlockStandardNavigationActivity">
+        </activity>
+        <activity android:label="@string/app_name" android:name="jp.mixi.sample.actionbar.sherlock.styled.SherlockSplitListNavigationActivity" android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity android:label="@string/app_name" android:name="jp.mixi.sample.actionbar.sherlock.styled.SherlockSplitTabNavigationActivity" android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity android:label="@string/app_name" android:name="jp.mixi.sample.actionbar.sherlock.styled.SherlockSplitStandardNavigationActivity" android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+    </application>
+</manifest>

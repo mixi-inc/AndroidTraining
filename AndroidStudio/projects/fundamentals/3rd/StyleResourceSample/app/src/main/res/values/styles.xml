@@ -1,0 +1,48 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- 自分で定義するスタイル。parent属性は、システムで定義されたスタイルを継承するときにのみ使う。 -->
+    <!-- 自分で定義したスタイルを継承する場合は、継承元のスタイル名をプレフィクスにして、ドット区切りで新しいスタイル名を繋ぐこと。 -->
+    <style name="BigTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="BigTextViewStyle.Black">
+        <item name="android:textColor">#000000</item>
+    </style>
+    <!-- BigTextViewStyle を継承して、赤文字にする。 -->
+    <style name="BigTextViewStyle.Red">
+        <item name="android:textColor">#FF0000</item>
+    </style>
+    <!-- BigTextViewStyle.Red を継承して、太字にする。 -->
+    <style name="BigTextViewStyle.Red.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SmallTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="SmallTextViewStyle.Blue">
+        <item name="android:textColor">#0000FF</item>
+    </style>
+    <style name="SmallTextViewStyle.Green">
+        <item name="android:textColor">#00FF00</item>
+    </style>
+</resources>

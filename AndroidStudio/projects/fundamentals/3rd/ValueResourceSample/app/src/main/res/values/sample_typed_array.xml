@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String や Integer 以外のものでも配列にできる -->
+    <array name="Drawables">
+        <item>@drawable/ic_launcher</item>
+    </array>
+    <array name="Colors">
+        <item>@color/Red</item>
+        <item>@color/Green</item>
+        <item>@color/Blue</item>
+    </array>
+    <!-- 異なる型のものを混ぜても良いが、Java のコード上で扱う際に、場所と型を気をつけないといけないので推奨されない -->
+    <array name="MixedArray">
+        <item>@drawable/ic_launcher</item>
+        <item>@color/Blue</item>
+    </array>
+</resources>

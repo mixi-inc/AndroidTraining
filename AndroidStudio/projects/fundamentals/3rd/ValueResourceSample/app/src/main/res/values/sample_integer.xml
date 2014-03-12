@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 個別の値を定義する -->
+    <integer name="DefaultEggs">1</integer>
+    <integer name="DefaultBooks">3</integer>
+    <integer name="DefaultPickaxe">100</integer>
+    <!-- 配列としても定義が出来る -->
+    <integer-array name="Periods">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+</resources>

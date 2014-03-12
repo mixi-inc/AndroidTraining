@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ServiceSample</string>
+    <string name="started_service">Started Service Control</string>
+    <string name="start_service">Start</string>
+    <string name="stop_service">Stop</string>
+    <string name="bound_service">Bound Service Control</string>
+    <string name="bind_service">Bind</string>
+    <string name="unbind_service">Unbind</string>
+    <string name="intent_service">Intent Service Control</string>
+    <string name="start_intent_service">Call IntentService</string>
+</resources>

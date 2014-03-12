@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.mixi.sample.actionbar.sherlock"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light">
+
+        <!-- ActionBarSherlock の theme を使用するようにする -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Split ActionBar を実現するための属性指定 -->
+        <activity
+            android:name=".SherlockListNavigationActivity"
+            android:label="@string/app_name"
+            android:uiOptions="splitActionBarWhenNarrow">
+        </activity>
+        <activity
+            android:name=".SherlockTabNavigationActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".SherlockStandardNavigationActivity"
+            android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>

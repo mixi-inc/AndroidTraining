@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/projects/fundamentals/4th/IntentSample/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/projects/fundamentals/4th/IntentSample/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">IntentSample</string>
+    <string name="cancel">キャンセル</string>
+    <string name="new_activity_text">新しい Activity</string>
+    <string name="ok">OK</string>
+    <string name="trigger_new_activity">新しい Activity を起動</string>
+    <string name="trigger_new_activity_for_result">新しい Activity を起動して結果をもらう</string>
+    <string name="trigger_new_activity_with_action">ACTION_VIEW で 新しい Activity を起動</string>
+    <string name="trigger_new_activity_with_extra">Extra を付けて新しい Activity を起動</string>
+    <!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/projects/fundamentals/4th/IntentSample/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
