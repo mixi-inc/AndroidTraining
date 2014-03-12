@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="保存する内容を書く" />
+
+        <Button
+            android:id="@+id/internalFileSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内部ストレージに保存" />
+
+        <EditText
+            android:id="@+id/file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="保存するファイルを指定" />
+        <Button
+            android:id="@+id/externalFileSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="外部ストレージに保存" />
+    </LinearLayout>
+
+</RelativeLayout>

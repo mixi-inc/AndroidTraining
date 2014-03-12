@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/practice/fundamentals/3rd/StringResourcePractice2/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/practice/fundamentals/3rd/StringResourcePractice2/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">StringResourcePractice2</string>
+    <string name="confirm_button">Show Toast</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="input_hint">Input text here.</string>
+    <string name="name_hint">Input your name here.</string>
+    <string name="text_counter">%1$d / %2$d</string>
+    <string name="toast_message">%1$s は、%2$d 回ボタンを押しました</string>
+    <!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/practice/fundamentals/3rd/StringResourcePractice2/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

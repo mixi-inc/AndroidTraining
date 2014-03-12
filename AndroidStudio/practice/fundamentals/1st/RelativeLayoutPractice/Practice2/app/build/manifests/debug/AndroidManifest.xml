@@ -1,0 +1,16 @@
+<!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/practice/fundamentals/1st/RelativeLayoutPractice/Practice2/app/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="jp.mixi.practice.layout.relatice.med">
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="17"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="jp.mixi.practice.layout.relatice.med.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

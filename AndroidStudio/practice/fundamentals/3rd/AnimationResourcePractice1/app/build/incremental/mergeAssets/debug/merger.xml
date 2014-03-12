@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/kenji.tazawa/000_Work_AndroidTraining/practice/fundamentals/3rd/AnimationResourcePractice1/app/src/main/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/kenji.tazawa/000_Work_AndroidTraining/practice/fundamentals/3rd/AnimationResourcePractice1/app/src/debug/assets" />
+    </dataSet>
+
+</merger>

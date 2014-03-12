@@ -1,0 +1,18 @@
+<!-- From: file:/Users/kenji.tazawa/000_Work_AndroidTraining/practice/fundamentals/9th/NetworkPractice2/app/src/main/AndroidManifest.xml -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="jp.mixi.practice.network.networkpractice2">
+
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="17"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name="jp.mixi.practice.network.networkpractice2.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

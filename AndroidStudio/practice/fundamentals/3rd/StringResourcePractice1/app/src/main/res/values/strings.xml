@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StringResourcePractice1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- TODO: 実習1: ここから下に、日本語の String リソースを作る -->
+    <!-- TODO: 実習2: 日本語の String リソースに対応する英語リソースを作る -->
+
+</resources>
