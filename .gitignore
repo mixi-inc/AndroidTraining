@@ -45,3 +45,9 @@ Thumbs.db
 
 # Keystore
 *.keystore
+
+# Android Studio files
+build/
+
+# Gradle
+.gradle/
