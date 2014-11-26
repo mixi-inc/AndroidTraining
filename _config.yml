@@ -1,0 +1,10 @@
+markdown: redcarpet
+redcarpet:
+  extensions: [tables,autolink]
+title: mixi-inc/AndroidTraining
+
+# development env
+#baseurl: '/'
+
+# production env
+baseurl: '/AndroidTraining/'
