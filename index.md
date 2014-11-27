@@ -12,13 +12,13 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 ### 目次
 
 1. **まえがき**
-  1. [Androidについて](https://github.com/mixi-inc/AndroidTraining/wiki/1.01.-Android-OS%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
-  2. [開発環境の準備](https://github.com/mixi-inc/AndroidTraining/wiki/1.02.-%E9%96%8B%E7%99%BA%E7%92%B0%E5%A2%83%E3%81%AE%E6%BA%96%E5%82%99)
+  1. [Androidについて]({{site.baseurl}}/introductions/1.01.about-android-os.html)
+  2. [開発環境の準備]({{site.baseurl}}/introductions/1.02.prepare-for-development.html)
   3. Androidプロジェクトの作成
-    * [Eclipse](https://github.com/mixi-inc/AndroidTraining/wiki/1.03.-Android%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90-(-Eclipse-))
-    * [Android Studio](https://github.com/mixi-inc/AndroidTraining/wiki/1.03.-Android%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%AE%E4%BD%9C%E6%88%90-(-Android-Studio-)) 
-  4. [Androidアプリの基礎知識](https://github.com/mixi-inc/AndroidTraining/wiki/1.04.-Android%E3%81%AE%E5%9F%BA%E7%A4%8E%E7%9F%A5%E8%AD%98)
-  5. [Android のビルドについて（Gradle）](https://github.com/mixi-inc/AndroidTraining/wiki/1.05.-Android-%E3%81%AE%E3%83%93%E3%83%AB%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%EF%BC%88Gradle%EF%BC%89)
+     - [Eclipse]({{site.baseurl}}/introductions/1.03.create-project-for-eclipse.html)
+     - [Android Studio]({{site.baseurl}}/introductions/1.03.create-project-for-android-studio.html)
+  4. [Androidアプリの基礎知識]({{site.baseurl}}/introductions/1.04.basic-knowledge.html)
+  5. [Android のビルドについて（Gradle）]({{site.baseurl}}/introductions/1.05.how-to-build-for-gradle.html)
 2. **基礎編**
   1. [アプリのレイアウト作成](https://github.com/mixi-inc/AndroidTraining/wiki/2.01.-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E4%BD%9C%E6%88%90)
   2. [Activity と Fragment](https://github.com/mixi-inc/AndroidTraining/wiki/2.02.-Activity-%E3%81%A8-Fragment)
