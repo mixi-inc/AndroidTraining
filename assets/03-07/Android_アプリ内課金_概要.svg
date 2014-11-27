@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.2" width="297mm" height="210mm" viewBox="0 0 29700 21000" preserveAspectRatio="xMidYMid" fill-rule="evenodd" clip-path="url(#presentation_clip_path)" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+ <defs class="ClipPathGroup">
+  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+   <rect x="0" y="0" width="29700" height="21000"/>
+  </clipPath>
+ </defs>
+ <defs class="TextShapeIndex">
+  <g ooo:slide="id1" ooo:id-list="id3 id4 id5 id6 id7 id8 id9 id10 id11 id12 id13 id14 id15 id16 id17 id18 id19 id20 id21 id22 id23 id24 id25 id26"/>
+ </defs>
+ <defs class="EmbeddedBulletChars">
+  <g id="bullet-char-template(57356)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/>
+  </g>
+  <g id="bullet-char-template(57354)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/>
+  </g>
+  <g id="bullet-char-template(10146)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/>
+  </g>
+  <g id="bullet-char-template(10132)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/>
+  </g>
+  <g id="bullet-char-template(10007)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/>
+  </g>
+  <g id="bullet-char-template(10004)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/>
+  </g>
+  <g id="bullet-char-template(9679)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/>
+  </g>
+  <g id="bullet-char-template(8226)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/>
+  </g>
+  <g id="bullet-char-template(8211)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/>
+  </g>
+ </defs>
+ <defs class="TextEmbeddedBitmaps"/>
+ <g>
+  <g id="id2" class="Master_Slide">
+   <g id="bg-id2" class="Background"/>
+   <g id="bo-id2" class="BackgroundObjects"/>
+  </g>
+ </g>
+ <g class="SlideGroup">
+  <g>
+   <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
+    <g class="Page">
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id3">
+       <path fill="rgb(125,166,71)" fill-opacity="0.698" stroke="rgb(255,255,255)" stroke-opacity="0.698" d="M 2083,8600 C 1791,8600 1500,8891 1500,9183 L 1500,11517 C 1500,11809 1791,12101 2083,12101 L 5817,12101 C 6109,12101 6401,11809 6401,11517 L 6401,9183 C 6401,8891 6109,8600 5817,8600 L 2083,8600 Z M 1500,8600 L 1500,8600 Z M 6401,12101 L 6401,12101 Z"/>
+       <text class="TextShape"><tspan class="TextParagraph" font-family="ヒラギノ明朝 ProN W3" font-size="635px" font-weight="400"><tspan class="TextPosition" x="2998" y="10592"><tspan fill="rgb(0,0,0)" stroke="none">アプリ</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id4">
+       <path fill="rgb(114,159,207)" fill-opacity="0.698" stroke="rgb(255,255,255)" stroke-opacity="0.698" d="M 23946,10000 C 23854,9579 24287,9182 24720,9182 24856,9179 24997,9220 25113,9281 25224,9090 25430,8974 25662,8974 25816,8980 25979,9037 26095,9139 26178,8971 26354,8872 26544,8872 26704,8872 26850,8944 26942,9054 27049,8941 27209,8872 27375,8872 27646,8872 27875,9050 27924,9298 28186,9368 28375,9593 28375,9851 28375,9930 28362,10006 28322,10078 28433,10204 28501,10360 28501,10519 28501,10880 28202,11184 27817,11236 27817,11581 27521,11852 27151,11852 27023,11852 26903,11819 26796,11756 26699,12060 26391,12275 26046,12275 25789,12275 25546,12147 25400,11945 25264,12022 25336,12068 24944,12068 24622,12068 24326,11909 24171,11651 23800,11644 23611,11440 23611,11181 23611,11061 23659,10953 23747,10863 23587,10787 23500,10638 23500,10466 23500,10225 23694,10026 23946,10000 L 23946,10000 Z M 23500,8872 L 23500,8872 Z M 28501,12275 L 28501,12275 Z"/>
+       <text class="TextShape"><tspan class="TextParagraph" font-family="ヒラギノ明朝 ProN W3" font-size="635px" font-weight="400"><tspan class="TextPosition" x="23939" y="10740"><tspan fill="rgb(0,0,0)" stroke="none">課金サーバー</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id5">
+       <path fill="rgb(255,51,51)" fill-opacity="0.698" stroke="rgb(255,255,255)" stroke-opacity="0.698" d="M 15565,7211 C 15737,7211 15845,7419 15994,7386 16195,7342 16252,7204 16280,7044 16326,6769 16280,6206 16280,6206 16280,6113 16187,6020 16094,6020 16094,6020 15531,5974 15256,6020 15096,6048 14958,6105 14914,6306 14881,6455 15089,6563 15089,6735 15089,7072 14832,7330 14494,7330 14157,7330 13899,7072 13899,6735 13899,6563 14108,6455 14075,6306 14031,6105 13893,6048 13733,6020 13457,5974 12894,6020 12894,6020 12802,6020 12709,6113 12709,6206 12709,6206 12756,6769 12709,7044 12682,7204 12625,7342 12423,7386 12274,7419 12166,7211 11995,7211 11658,7211 11400,7468 11400,7806 11400,8143 11658,8401 11995,8401 12166,8401 12274,8192 12423,8225 12625,8269 12682,8407 12709,8567 12756,8843 12709,9406 12709,9406 12709,9498 12802,9591 12894,9591 12894,9591 13457,9544 13733,9591 13893,9618 14031,9675 14075,9877 14108,10026 13899,10134 13899,10305 13899,10642 14157,10900 14494,10900 14832,10900 15089,10642 15089,10305 15089,10134 14881,10026 14914,9877 14958,9675 15096,9618 15256,9591 15531,9544 16094,9591 16094,9591 16187,9591 16280,9498 16280,9406 16280,9406 16326,8843 16280,8567 16252,8407 16195,8269 15994,8225 15845,8192 15737,8401 15565,8401 15228,8401 14970,8143 14970,7806 14970,7468 15228,7211 15565,7211 L 15565,7211 Z M 16300,6000 L 16300,6000 Z M 11399,10901 L 11399,10901 Z"/>
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="12826" y="7941"><tspan fill="rgb(0,0,0)" stroke="none">Google</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="13232" y="8652"><tspan fill="rgb(0,0,0)" stroke="none">Play</tspan></tspan></tspan><tspan class="TextParagraph" font-family="Lucida Sans, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="12777" y="9401"><tspan fill="rgb(0,0,0)" stroke="none">Service</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id6">
+        <path fill="none" stroke="rgb(0,0,0)" d="M 22900,5498 C 22900,5196 22055,4895 21209,4895 L 14442,4895 C 13596,4895 12750,4593 12750,4292 12750,4593 11904,4895 11058,4895 L 4291,4895 C 3445,4895 2599,5196 2599,5498"/>
+        <path fill="none" stroke="rgb(0,0,0)" d="M 22900,4292 L 22900,4292 Z"/>
+        <path fill="none" stroke="rgb(0,0,0)" d="M 2599,5498 L 2599,5498 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+       <g id="id7">
+        <text class="TextShape"><tspan class="TextParagraph" font-family="ヒラギノ明朝 ProN W3" font-size="635px" font-weight="700"><tspan class="TextPosition" x="11465" y="3936"><tspan fill="rgb(0,0,0)" stroke="none">デバイス</tspan></tspan></tspan></text>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id8"/>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id9">
+        <path fill="none" stroke="rgb(0,0,0)" d="M 28100,14799 C 28100,15075 27400,15350 26700,15350 L 21100,15350 C 20400,15350 19700,15625 19700,15900 19700,15625 19000,15350 18300,15350 L 12700,15350 C 12000,15350 11299,15075 11299,14799"/>
+        <path fill="none" stroke="rgb(0,0,0)" d="M 28100,15900 L 28100,15900 Z"/>
+        <path fill="none" stroke="rgb(0,0,0)" d="M 11299,14799 L 11299,14799 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+       <g id="id10">
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="18408" y="16651"><tspan fill="rgb(0,0,0)" stroke="none">Google</tspan></tspan></tspan></text>
+       </g>
+      </g>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id11">
+        <path fill="none" stroke="rgb(0,0,0)" d="M 28000,5500 C 28000,5223 27796,4946 27592,4946 L 25958,4946 C 25754,4946 25550,4669 25550,4392 25550,4669 25346,4946 25142,4946 L 23508,4946 C 23304,4946 23099,5223 23099,5500"/>
+        <path fill="none" stroke="rgb(0,0,0)" d="M 28000,4392 L 28000,4392 Z"/>
+        <path fill="none" stroke="rgb(0,0,0)" d="M 23099,5500 L 23099,5500 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+       <g id="id12">
+        <text class="TextShape"><tspan class="TextParagraph" font-family="ヒラギノ明朝 ProN W3" font-size="635px" font-weight="700"><tspan class="TextPosition" x="24261" y="3936"><tspan fill="rgb(0,0,0)" stroke="none">クラウド</tspan></tspan></tspan></text>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id13"/>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id14">
+        <path fill="none" stroke="rgb(0,0,0)" d="M 11100,14799 C 11100,15075 10750,15350 10400,15350 L 7600,15350 C 7250,15350 6900,15625 6900,15900 6900,15625 6550,15350 6200,15350 L 3400,15350 C 3050,15350 2699,15075 2699,14799"/>
+        <path fill="none" stroke="rgb(0,0,0)" d="M 11100,15900 L 11100,15900 Z"/>
+        <path fill="none" stroke="rgb(0,0,0)" d="M 2699,14799 L 2699,14799 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+       <g id="id15">
+        <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="635px" font-weight="700"><tspan class="TextPosition" x="6184" y="16651"><tspan fill="rgb(0,0,0)" stroke="none">Mixi</tspan></tspan></tspan></text>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id16">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="ヒラギノ明朝 ProN W3" font-size="634px" font-weight="700"><tspan class="TextPosition" x="22150" y="8684"><tspan fill="rgb(0,0,0)" stroke="none">通信</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id17">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="634px" font-weight="700"><tspan class="TextPosition" x="8450" y="7601"><tspan fill="rgb(0,0,0)" stroke="none">IPC</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.TextShape">
+      <g id="id18">
+       <text class="TextShape"><tspan class="TextParagraph" font-family="ヒラギノ明朝 ProN W3" font-size="635px" font-weight="400"><tspan class="TextPosition" x="23650" y="13384"><tspan fill="rgb(0,0,0)" stroke="none">ユーザに紐付い</tspan></tspan><tspan class="TextPosition" x="23650" y="14019"><tspan fill="rgb(0,0,0)" stroke="none">た購入履歴等の</tspan></tspan><tspan class="TextPosition" x="23650" y="14654"><tspan fill="rgb(0,0,0)" stroke="none">管理</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.LineShape">
+       <g id="id19">
+        <path fill="none" stroke="rgb(128,128,128)" d="M 7000,9600 L 10598,9600"/>
+        <path fill="rgb(128,128,128)" stroke="none" d="M 11100,9600 L 10575,9425 10575,9775 11100,9600 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+       <g id="id20">
+        <text class="TextShape"><tspan class="TextParagraph" font-family="ヒラギノ明朝 ProN W3" font-size="493px" font-weight="300"><tspan class="TextPosition" x="6950" y="8857"><tspan fill="rgb(128,128,128)" stroke="none">特定な商品の決済</tspan></tspan><tspan class="TextPosition" x="6950" y="9348"><tspan fill="rgb(128,128,128)" stroke="none">リクエスト</tspan></tspan></tspan></text>
+       </g>
+      </g>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.LineShape">
+       <g id="id21">
+        <path fill="none" stroke="rgb(128,128,128)" d="M 7502,11700 L 11000,11700"/>
+        <path fill="rgb(128,128,128)" stroke="none" d="M 7000,11700 L 7525,11875 7525,11525 7000,11700 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.TextShape">
+       <g id="id22">
+        <text class="TextShape"><tspan class="TextParagraph" font-family="ヒラギノ明朝 ProN W3" font-size="493px" font-weight="300"><tspan class="TextPosition" x="6950" y="10857"><tspan fill="rgb(128,128,128)" stroke="none">決済結果（番号</tspan></tspan><tspan class="TextPosition" x="6950" y="11348"><tspan fill="rgb(128,128,128)" stroke="none">等）</tspan></tspan></tspan></text>
+       </g>
+      </g>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.LineShape">
+       <g id="id23">
+        <path fill="none" stroke="rgb(128,128,128)" d="M 17000,9600 L 22898,9600"/>
+        <path fill="rgb(128,128,128)" stroke="none" d="M 23400,9600 L 22875,9425 22875,9775 23400,9600 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="Group">
+      <g class="com.sun.star.drawing.LineShape">
+       <g id="id24">
+        <path fill="none" stroke="rgb(128,128,128)" d="M 17502,11700 L 23244,11700"/>
+        <path fill="rgb(128,128,128)" stroke="none" d="M 17000,11700 L 17525,11875 17525,11525 17000,11700 Z"/>
+       </g>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id25">
+       <path fill="rgb(255,51,51)" fill-opacity="0.698" stroke="rgb(255,255,255)" stroke-opacity="0.698" d="M 12083,11200 C 11791,11200 11500,11491 11500,11783 L 11500,14117 C 11500,14409 11791,14701 12083,14701 L 15817,14701 C 16109,14701 16401,14409 16401,14117 L 16401,11783 C 16401,11491 16109,11200 15817,11200 L 12083,11200 Z M 11500,11200 L 11500,11200 Z M 16401,14701 L 16401,14701 Z"/>
+       <text class="TextShape"><tspan class="TextParagraph" font-family="Arial, sans-serif" font-size="635px" font-weight="400"><tspan class="TextPosition" x="12221" y="13171"><tspan fill="rgb(0,0,0)" stroke="none">Google Play</tspan></tspan></tspan></text>
+      </g>
+     </g>
+     <g class="com.sun.star.drawing.CustomShape">
+      <g id="id26">
+       <path fill="rgb(114,159,207)" fill-opacity="0.698" stroke="rgb(255,255,255)" stroke-opacity="0.698" d="M 18483,8800 C 18191,8800 17900,9091 17900,9383 L 17900,11717 C 17900,12009 18191,12301 18483,12301 L 21417,12301 C 21709,12301 22001,12009 22001,11717 L 22001,9383 C 22001,9091 21709,8800 21417,8800 L 18483,8800 Z M 17900,8800 L 17900,8800 Z M 22001,12301 L 22001,12301 Z"/>
+       <text class="TextShape"><tspan class="TextParagraph" font-family="ヒラギノ明朝 ProN W3" font-size="635px" font-weight="400"><tspan class="TextPosition" x="18680" y="10474"><tspan fill="rgb(0,0,0)" stroke="none">課金情報</tspan></tspan><tspan class="TextPosition" x="18375" y="11109"><tspan fill="rgb(0,0,0)" stroke="none">キャッシュ</tspan></tspan></tspan></text>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
