@@ -1,0 +1,43 @@
+markdown: redcarpet
+redcarpet:
+  extensions: [tables,autolink]
+title: mixi-inc/AndroidTraining
+
+# development env
+#baseurl: '/'
+
+# production env
+baseurl: '/AndroidTraining'
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values: 
+            section: ""
+            layout: "default"
+    -
+        scope:
+            path: "introductions"
+            type: "pages"
+        values: 
+            section: "introductions"
+    -
+        scope:
+            path: "fundamentals"
+            type: "pages"
+        values: 
+            section: "fundamentals"
+    -
+        scope:
+            path: "advanced"
+            type: "pages"
+        values: 
+            section: "advanced"
+    -
+        scope:
+            path: "appendix"
+            type: "pages"
+        values: 
+            section: "appendix"
