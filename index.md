@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Home
+og_type: site
 ---
 
 Android アプリ開発の基礎知識と実務スキルを身に付けるトレーニングコース
