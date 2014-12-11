@@ -4,24 +4,35 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Androidtraining : Training course repository for android app development" />
-    <meta content="@github" name="twitter:site" />
+    <meta name="description" content="{{page.description}}" />
+    <!-- ogp for twitter -->
+    <meta content="@mixi_engineers" name="twitter:site" />
     <meta content="summary" name="twitter:card" />
+    {% if page.title %}
+    <meta content="{{page.title}} - {{site.title}}" name="twitter:title" />
+    {% else %}
     <meta content="{{site.title}}" name="twitter:title" />
-    <meta content="AndroidTraining - Training course repository for android app development" name="twitter:description" />
+    {% endif %}
+    <meta content="{{page.description}}" name="twitter:description" />
     <meta content="{{site.github.url}}/assets/logo.png" name="twitter:image:src" />
-    <meta content="GitHub" property="og:site_name" />
-    <meta content="object" property="og:type" />
+    <!-- ogp -->
+    <meta content="{{site.title}}" property="og:site_name" />
+    <meta content="{{page.og_type}}" property="og:type" />
     <meta content="{{site.github.url}}/assets/logo.png" property="og:image" />
+    {% if page.title %}
+    <meta content="{{page.title}} - {{site.title}}" name="og:title" />
+    {% else %}
     <meta content="{{site.title}}" property="og:title" />
-    <meta content="https://github.com/mixi-inc/AndroidTraining" property="og:url" />
-    <meta content="AndroidTraining - Training course repository for android app development" property="og:description" />
+    {% endif %}
+    <meta content="{{site.github.url}}{{page.url}}" property="og:url" />
+    <meta content="{{page.description}}" property="og:description" />
+
     <meta name="go-import" content="github.com/mixi-inc/AndroidTraining git https://github.com/mixi-inc/AndroidTraining.git">
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{site.baseurl}}/stylesheets/stylesheet.css">
     <link rel="shortcut icon" href="{{site.baseurl}}/assets/favicon.ico" />
 
-    <title>{{page.title}} - {{site.title}}</title>
+    <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
   </head>
 
   <body>
