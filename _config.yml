@@ -17,6 +17,8 @@ defaults:
         values: 
             section: ""
             layout: "default"
+            description: "AndroidTraining - Training course repository for android app development"
+            og_type: "article"
     -
         scope:
             path: "introductions"
