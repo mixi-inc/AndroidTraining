@@ -366,7 +366,35 @@ Full-Width Styles
   background: #212121;
 }
 
+aside {
+  position: absolute;
+  float:left;
+  padding-top: 40px;
+  padding-right: 40px;
+  width: 200px;
+  border-right: 1px dashed #999999;
+}
 
+aside + section {
+  position: absolute;
+  left: 100px;
+  max-width: 860px;
+}
+
+.chapter_navigation li {
+    font-weight: bolder;
+    list-style-type: decimal;
+}
+
+.appex_navigation li {
+    font-weight: bolder;
+    list-style-type: upper-latin;
+}
+
+.section_navigation li {
+    font-weight: normal;
+    list-style-type: decimal;
+}
 
 /*******************************************************************************
 Small Device Styles
