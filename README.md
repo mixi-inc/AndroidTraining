@@ -1,6 +1,7 @@
 Android Development Training Course Repository
 ======
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/mixi-inc/AndroidTraining?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AndroidTraining-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1245)
 
 Android アプリ開発の基礎知識と実務スキルを身に付けるトレーニングコース
 
