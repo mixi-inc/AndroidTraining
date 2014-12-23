@@ -9,13 +9,13 @@ Android Virtual Device Manager で、仮想デバイスの管理を行います�
 
 Android Virtual Device Manager は、Eclipse のメニューから起動するか、またはコマンドラインから`android avd`で起動します。
 
-![AVD Manager](https://raw.github.com/mixi-inc/AndroidTraining/master/docs/resources/images/04-03/avd-manager.png)
+![AVD Manager]({{site.baseurl}}/assets/04-03/avd-manager.png)
 
 ### 仮想デバイスの作成
 
 AVD Manager の画面右のメニューから、`New`を選択します。
 
-![AVD Manager](https://raw.github.com/mixi-inc/AndroidTraining/master/docs/resources/images/04-03/new-avd.png)
+![AVD Manager]({{site.baseurl}}/assets/04-03/new-avd.png)
 
 入力する項目は以下のとおりです。
 
@@ -35,7 +35,7 @@ Emulation Options | Snapshot を有効にすると、エミュレータを終了
 現在の最新のリビジョンは 3 です。2 までのものでは、Retina MacBook Pro でカーネルパニックを引き起こしますので、最新のリビジョンのものをインストールしてください。
 
 1. SDK Manager で、Intel x86 Emulator Accelerator(HAXM) をインストールします
-  ![HAXM from SDK Manager](https://raw.github.com/mixi-inc/AndroidTraining/da4695069a1a71084772931b3243b54e814956a4/docs/resources/images/04-03/haxm-from-sdk-manager.png)
+  ![HAXM from SDK Manager]({{site.baseurl}}/assets/04-03/haxm-from-sdk-manager.png)
 2. SDK のディレクトリから、`extras/intel/Hardware_Accelerated_Execution_Manager/` を辿り、`haxm-macosx_r03.dmg`を実行します(Mac の場合)
-  ![HAXM dmg](https://raw.github.com/mixi-inc/AndroidTraining/c5a8281727fe14d2cb8b75a828b06e87df119333/docs/resources/images/04-03/dir-haxm.png)
+  ![HAXM dmg]({{site.baseurl}}/assets/04-03/dir-haxm.png)
 3. mpkg ファイルを実行し、インストールを行います
