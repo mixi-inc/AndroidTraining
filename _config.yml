@@ -8,6 +8,8 @@ title: mixi-inc/AndroidTraining
 
 # production env
 baseurl: '/AndroidTraining'
+components:
+    polymer: '/AndroidTraining/components/polymer'
 
 defaults:
     -
