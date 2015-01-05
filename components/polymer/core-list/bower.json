@@ -1,0 +1,40 @@
+{
+  "name": "core-list",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.0",
+    "core-selection": "Polymer/core-selection#^0.5.0",
+    "core-resizable": "Polymer/core-resizable#^0.5.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#master",
+    "core-ajax": "Polymer/core-ajax#master",
+    "core-animated-pages": "Polymer/core-animated-pages#master",
+    "core-icon": "Polymer/core-icon#master",
+    "core-icon-button": "Polymer/core-icon-button#master",
+    "core-icons": "Polymer/core-icons#master",
+    "core-image": "Polymer/core-image#master",
+    "core-menu": "Polymer/core-menu#master",
+    "core-media-query": "Polymer/core-media-query#master",
+    "core-overlay": "Polymer/core-overlay#master",
+    "core-scroll-header-panel": "Polymer/core-scroll-header-panel#master",
+    "core-scroll-threshold": "Polymer/core-scroll-threshold#master",
+    "core-selector": "Polymer/core-selector#master",
+    "core-splitter": "Polymer/core-splitter#master",
+    "core-toolbar": "Polymer/core-toolbar#master",
+    "core-tooltip": "Polymer/core-tooltip#master",
+    "paper-button": "Polymer/paper-button#master",
+    "paper-dialog": "Polymer/paper-dialog#master",
+    "paper-dropdown": "Polymer/paper-dropdown#master",
+    "paper-fab": "Polymer/paper-fab#master",
+    "paper-icon-button": "Polymer/paper-icon-button#master",
+    "paper-input": "Polymer/paper-input#master",
+    "paper-item": "Polymer/paper-item#master",
+    "paper-menu-button": "Polymer/paper-menu-button#master",
+    "paper-shadow": "Polymer/paper-shadow#master",
+    "paper-slider": "Polymer/paper-slider#master",
+    "paper-spinner": "Polymer/paper-spinner#master",
+    "paper-tabs": "Polymer/paper-tabs#master"
+  },
+  "version": "0.5.2"
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="../webcomponentsjs/webcomponents.js" debug></script>
+  <meta charset="utf-8">
+  <title>Race condition</title>
+</head>
+<body>
+  <link rel="import" href="core-ajax.html">
+  <link rel="import" href="../paper-progress/paper-progress.html">
+  <polymer-element name="progress-test">
+    <template>
+      <core-ajax
+          id="ajax" auto
+          url="http://httpbin.org/drip"
+          params="{{ {numbytes: numbytes, duration:5} }}"
+          response="{{response}}"
+          progress="{{progress}}"
+          loading="{{loading}}"
+          ></core-ajax>
+
+      <!--
+        Ordinarily you'd gate on progress.lengthComputable, but we know the
+        length in this case (and httpbin sadly doesn't return a
+        Content-Length header for this requesthere).
+
+        https://github.com/kennethreitz/httpbin/pull/160
+       -->
+      <div>
+        <button on-click="{{restart}}">Restart</button>
+        <template if="{{loading}}">
+          Loading...
+        </template>
+        <template if="{{!loading}}">
+          Loaded!
+        </template>
+      </div>
+      <template if="{{loading && progress.loaded}}">
+        <paper-progress
+            value="{{progress.loaded}}"
+            min="0"
+            max="{{numbytes}}">
+        </paper-progress><br>
+      </template>
+    </template>
+    <script>
+      Polymer('progress-test', {
+        loading: true,
+        i: 0,
+        numbytes: 1000,
+        pretty: function(i) {
+          return JSON.stringify(i, null, 2);
+        },
+        restart: function() {
+          this.$.ajax.abort();
+          this.$.ajax.go();
+        }
+      });
+    </script>
+
+  </polymer-element>
+
+  <progress-test></progress-test>
+</body>
+</html>
