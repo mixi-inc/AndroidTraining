@@ -1,0 +1,23 @@
+{
+  "name": "core-tooltip",
+  "private": true,
+  "description": "Tooltip popup for content",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.0",
+    "core-focusable": "Polymer/core-focusable#^0.5.0",
+    "core-icon-button": "Polymer/core-icon-button#^0.5.0",
+    "paper-fab": "Polymer/paper-fab#^0.5.0",
+    "core-resizable": "Polymer/core-resizable#^0.5.0"
+  },
+  "version": "0.5.2",
+  "homepage": "https://github.com/Polymer/core-tooltip",
+  "_release": "0.5.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.5.2",
+    "commit": "71c84fa464bf8185180a839fc19399a8ab708335"
+  },
+  "_source": "git://github.com/Polymer/core-tooltip.git",
+  "_target": "^0.5.0",
+  "_originalSource": "Polymer/core-tooltip"
+}
