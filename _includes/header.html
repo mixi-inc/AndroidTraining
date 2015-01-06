@@ -1,11 +1,11 @@
-<header class="inner">
-  <a id="forkme_banner" href="https://github.com/mixi-inc/AndroidTraining">View on GitHub</a>
+<core-toolbar  class="tall mainheader">
+  <core-icon-button icon="menu" core-drawer-toggle></core-icon-button>
+  <div flex></div>
+  <a id="forkme_banner" href="https://github.com/mixi-inc/AndroidTraining">
+      <core-icon-button src="{{site.baseurl}}/images/blacktocat.png"><span>View on GitHub</span></core-icon-button>
+  </a>
+  <div class="middle">{{ site.title }}</div>
+  <h1 class="bottom title">{% if page.title %}{{page.title}}{% else %}AndroidTraining{% endif %}</h1>
 
-  <h1 id="project_title">Androidtraining</h1>
-  <h2 id="project_tagline">Training course repository for android app development</h2>
-
-  <section id="downloads">
-    <a class="zip_download_link" href="https://github.com/mixi-inc/AndroidTraining/zipball/master">Download this project as a .zip file</a>
-    <a class="tar_download_link" href="https://github.com/mixi-inc/AndroidTraining/tarball/master">Download this project as a tar.gz file</a>
-  </section>
-</header>
+</core-toolbar>
+<div id="discription">{{% page.discription %}}</div>

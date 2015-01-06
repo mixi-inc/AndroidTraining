@@ -1,0 +1,9 @@
+{
+  "name": "core-animation",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.0",
+    "web-animations-js": "web-animations/web-animations-js#1.0.1"
+  },
+  "version": "0.5.2"
+}

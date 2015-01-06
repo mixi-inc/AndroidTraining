@@ -1,0 +1,20 @@
+{
+  "name": "core-dropdown-menu",
+  "private": false,
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.0",
+    "core-a11y-keys": "Polymer/core-a11y-keys#^0.5.0",
+    "core-collapse": "Polymer/core-collapse#^0.5.0",
+    "core-dropdown": "Polymer/core-dropdown#^0.5.0",
+    "core-focusable": "Polymer/core-focusable#^0.5.0",
+    "core-icon": "Polymer/core-icon#^0.5.0",
+    "core-icons": "Polymer/core-icons#^0.5.0",
+    "core-icon-button": "Polymer/core-icon-button#^0.5.0",
+    "core-item": "Polymer/core-item#^0.5.0",
+    "core-menu": "Polymer/core-menu#^0.5.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^1.1.4"
+  },
+  "version": "0.5.2"
+}
