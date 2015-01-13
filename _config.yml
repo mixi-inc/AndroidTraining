@@ -6,9 +6,6 @@ gems:
 
 title: mixi-inc/AndroidTraining
 
-# development env
-#baseurl: '/'
-
 # production env
 baseurl: '/AndroidTraining'
 components:
