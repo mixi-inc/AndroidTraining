@@ -1,6 +1,9 @@
 markdown: redcarpet
 redcarpet:
   extensions: [tables,autolink]
+gems:
+    - jekyll-sitemap
+
 title: mixi-inc/AndroidTraining
 
 # development env
