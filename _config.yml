@@ -1,10 +1,10 @@
 markdown: redcarpet
 redcarpet:
   extensions: [tables,autolink]
-title: mixi-inc/AndroidTraining
+gems:
+    - jekyll-sitemap
 
-# development env
-#baseurl: '/'
+title: mixi-inc/AndroidTraining
 
 # production env
 baseurl: '/AndroidTraining'
