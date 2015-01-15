@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LayoutAssignment1</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="calc">=</string>
+    <string name="clear">C</string>
+    <string name="times">×</string>
+    <string name="divide">÷</string>
+    <string name="dot">.</string>
+
+</resources>
