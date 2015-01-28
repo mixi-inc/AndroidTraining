@@ -1,4 +1,4 @@
-apply plugin: 'android'
+apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 17
@@ -9,6 +9,7 @@ android {
         targetSdkVersion 17
     }
 
+
     buildTypes {
         release {
             minifyEnabled false
@@ -18,5 +19,5 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:support-v4:21.0.3'
 }
