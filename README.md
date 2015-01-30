@@ -104,3 +104,12 @@ Eclipse、Android Studio双方に対応しています。使用するIDEにあ�
   * Android のプログラミングの基礎から発展までを幅広く取り扱っています。
 * [Effective Java](http://amzn.to/Sr8iPe)
   * Java 言語を取り扱う際のプラクティスが詰まっています。
+
+Pull Request
+------
+Pull Requestは歓迎します。  
+コードはmasterブランチ、http://mixi-inc.github.io/AndroidTraining への変更はgh-pagesブランチにPull Requestしてください。
+
+License
+------
+Code released under the [Apache License, Version2.0](http://www.apache.org/licenses/LICENSE-2.0.html). Docs released under [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
