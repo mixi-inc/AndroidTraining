@@ -8,9 +8,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+    <fragment
+        android:id="@+id/my_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="jp.mixi.practice.fragment.beg.BlankFragment"
+        tools:layout="@layout/fragment_blank" />
 
 </RelativeLayout>
