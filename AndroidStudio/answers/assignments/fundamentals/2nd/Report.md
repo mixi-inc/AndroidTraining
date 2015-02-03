@@ -9,4 +9,13 @@ Activity と Fragment
 ### Activity
 
 3. ライフサイクルのコールバックメソッドの呼び出し順
+ onCreate
+ onStart
+ onPostCreate
+ onResume
+ onPostResume
+// activity running
+ onPause
+ onStop
+ onDestroy
 
