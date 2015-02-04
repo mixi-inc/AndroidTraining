@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="jp.mixi.assignment.controller.adv.Main2Activity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/TitleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hello"
+        android:name="jp.mixi.assignment.controller.adv.TitleFragment"
+        tools:layout="@layout/fragment_title" />
+
+    <fragment
+        android:id="@+id/BodyFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TitleFragment"
+        android:name="jp.mixi.assignment.controller.adv.BodyFragment"
+        tools:layout="@layout/fragment_body" />
+
+    <fragment
+        android:id="@+id/ButtonFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BodyFragment"
+        android:name="jp.mixi.assignment.controller.adv.ButtonFragment"
+        tools:layout="@layout/fragment_button" />
+
+</RelativeLayout>
