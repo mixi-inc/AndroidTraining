@@ -1,4 +1,3 @@
-
 package jp.mixi.assignment.controller.adv2;
 
 import android.app.Activity;
@@ -15,20 +14,21 @@ import android.widget.Toast;
  * この Activity 内で、メモリリークを引き起こす原因を特定し、リークしないように修正してください。
  * (Activity のライフサイクルを超えた参照によってメモリリークが引き起こされます。
  * 画面回転や、アプリの終了、他のアプリへの遷移等で動作を見てみましょう。)
- *
+ * <p/>
  * Hint:
  * この Activity では、端末内全体に送られているメッセージを受け取るための仕組み（ブロードキャストレシーバ）
  * を利用しています。
  * ブロードキャスト等のメッセージングについての詳細は今後の研修で触れますが、
  * この Activity のライフサイクルの中でブロードキャストレシーバが動作している必要があります。
- *
+ * <p/>
  * {@link Activity#registerReceiver(android.content.BroadcastReceiver, android.content.IntentFilter)}
  *
  * @author keishin.yokomaku
- *
  */
 public class MainActivity extends Activity {
     public static final String TAG = MainActivity.class.getSimpleName();
+
+    private MyBroadcastReceiver mMyBroadcastReceiver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,8 +40,17 @@ public class MainActivity extends Activity {
     protected void onStart() {
         super.onStart();
 
+        mMyBroadcastReceiver = new MyBroadcastReceiver();
         // ヘッドセットの接続状態を監視し、接続状態の変化があった時のブロードキャストメッセージを受信する
-        registerReceiver(new MyBroadcastReceiver(), new IntentFilter(Intent.ACTION_HEADSET_PLUG));
+        registerReceiver(mMyBroadcastReceiver, new IntentFilter(Intent.ACTION_HEADSET_PLUG));
+    }
+
+    @Override
+    protected void onStop() {
+        if (mMyBroadcastReceiver != null) {
+            unregisterReceiver(mMyBroadcastReceiver);
+        }
+        super.onStop();
     }
 
     // ブロードキャストのメッセージを受け取るクラス
