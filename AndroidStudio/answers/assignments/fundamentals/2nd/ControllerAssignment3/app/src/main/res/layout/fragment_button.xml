@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.mixi.assignment.controller.adv.ButtonFragment">
+
+    <View
+        android:id="@+id/CenterDivider"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/Post"
+        android:background="#393939"/>
+    <Button
+        android:id="@+id/Post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@id/CenterDivider"
+        android:text="@string/PostLabel"/>
+    <Button
+        android:id="@+id/Discard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignLeft="@id/CenterDivider"
+        android:text="@string/DiscardLabel"/>
+
+</RelativeLayout>
