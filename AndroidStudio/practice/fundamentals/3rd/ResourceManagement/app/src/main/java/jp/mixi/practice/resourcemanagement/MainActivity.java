@@ -20,8 +20,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mTitles = new ArrayList<String>();
-        mTitles.add(getString(R.string.string1));
-        mTitles.add(getString(R.string.string2));
+        mTitles.add(getString(R.string.string1_2));
+        mTitles.add(getString(R.string.string3));
         mTitles.add(getString(R.string.drawable));
         mTitles.add(getString(R.string.animation));
 
@@ -38,10 +38,10 @@ public class MainActivity extends ActionBarActivity {
                 String item = (String) listView.getItemAtPosition(position);
 
                 if (item.equals(mTitles.get(0))) {
-                    startActivity(new Intent(getApplicationContext(), StringPractice1Activity.class));
+                    startActivity(new Intent(getApplicationContext(), StringPractice1And2Activity.class));
                 }
                 else if (item.equals(mTitles.get(1))) {
-                    startActivity(new Intent(getApplicationContext(), StringPractice2Activity.class));
+                    startActivity(new Intent(getApplicationContext(), StringPractice3Activity.class));
                 }
                 else if (item.equals(mTitles.get(2))) {
                     startActivity(new Intent(getApplicationContext(), DrawablePracticeActivity.class));

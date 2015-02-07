@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class StringPractice2Activity extends ActionBarActivity implements TextWatcher {
+public class StringPractice3Activity extends ActionBarActivity implements TextWatcher {
     public static final int TEXT_MAX_LENGTH = 100;
     private int mClickCount = 0;
 

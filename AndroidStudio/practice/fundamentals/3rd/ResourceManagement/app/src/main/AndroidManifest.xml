@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="jp.mixi.practice.resourcemanagement.StringPractice1Activity"
-            android:label="@string/string1"
+            android:name=".StringPractice1And2Activity"
+            android:label="@string/string1_2"
             android:parentActivityName="jp.mixi.practice.resourcemanagement.MainActivity">
         </activity>
         <activity
-            android:name="jp.mixi.practice.resourcemanagement.StringPractice2Activity"
-            android:label="@string/string2"
+            android:name=".StringPractice3Activity"
+            android:label="@string/string3"
             android:parentActivityName="jp.mixi.practice.resourcemanagement.MainActivity">
         </activity>
         <activity

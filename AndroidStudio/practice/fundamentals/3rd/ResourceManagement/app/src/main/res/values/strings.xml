@@ -3,8 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="string1">String Practice 1</string>
-    <string name="string2">String Practice 2</string>
+    <string name="string1_2">String Practice 1&amp;2</string>
+    <string name="string3">String Practice 3</string>
     <string name="drawable">Drawable Practice 1&amp;2</string>
     <string name="animation">Animation Practice 1</string>
     <string name="input_hint">Input text here.</string>
