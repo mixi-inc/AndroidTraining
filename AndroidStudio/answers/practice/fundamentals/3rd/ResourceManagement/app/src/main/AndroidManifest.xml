@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.mixi.practice.resourcemanagement" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="jp.mixi.practice.resourcemanagement.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StringPractice1And2Activity"
+            android:label="@string/string1_2"
+            android:parentActivityName="jp.mixi.practice.resourcemanagement.MainActivity">
+        </activity>
+        <activity
+            android:name=".StringPractice3Activity"
+            android:label="@string/string3"
+            android:parentActivityName="jp.mixi.practice.resourcemanagement.MainActivity">
+        </activity>
+        <activity
+            android:name="jp.mixi.practice.resourcemanagement.DrawablePracticeActivity"
+            android:label="@string/drawable"
+            android:parentActivityName="jp.mixi.practice.resourcemanagement.MainActivity">
+        </activity>
+        <activity
+            android:name="jp.mixi.practice.resourcemanagement.AnimationPracticeActivity"
+            android:label="@string/animation"
+            android:parentActivityName="jp.mixi.practice.resourcemanagement.MainActivity">
+        </activity>
+    </application>
+
+</manifest>
