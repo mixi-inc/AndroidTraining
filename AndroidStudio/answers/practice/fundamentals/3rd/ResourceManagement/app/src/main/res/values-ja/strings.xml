@@ -1,0 +1,9 @@
+<resources>
+    <!-- Practice 1 -->
+    <string name="ant">蟻</string>
+    <string name="bear">熊</string>
+    <string name="cow">牛</string>
+    <string name="deer">鹿</string>
+    <string name="elephant">象</string>
+
+</resources>
