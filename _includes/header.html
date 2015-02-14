@@ -5,7 +5,7 @@
       <core-icon-button src="{{site.baseurl}}/images/blacktocat.png"><span>View on GitHub</span></core-icon-button>
   </a>
   <div class="middle">{{ site.title }}</div>
-  <h1 class="bottom title">{% if page.title %}{{page.title}}{% else %}AndroidTraining{% endif %}</h1>
+  <h1 class="bottom title" itemprop="name">{% if page.title %}{{page.title}}{% else %}AndroidTraining{% endif %}</h1>
 
 </core-toolbar>
-<div id="discription">{{% page.discription %}}</div>
+<div id="discription" itemprop="description">{{% page.discription %}}</div>

@@ -51,7 +51,7 @@
     </script>
   </head>
 
-  <body fullbleed layout vertical>
+  <body itemscope itemtype="http://schema.org/Article" fullbleed layout vertical>
 
     <core-drawer-panel selected="main" >
       <!-- MENU -->
@@ -63,7 +63,7 @@
         {% include header.html %}
 
         <!-- MAIN CONTENT -->
-        <div id="main_content_wrap" class="content outer">
+        <div id="main_content_wrap" class="content outer" itemprop="articleBody">
           <section id="main_content" class="inner">
             {{content}}
           </section>
