@@ -1,7 +1,7 @@
 ---
 title: Java の文法の基礎
+description: この章では、Java の文法の基礎を簡単に解説します。
 ---
-この章では、Java の文法の基礎を簡単に解説します。
 
 参考：[Effective Java](http://amzn.to/Sr8iPe)
 
