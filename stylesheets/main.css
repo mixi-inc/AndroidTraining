@@ -79,10 +79,15 @@ footer {
 }
 
 #main_content{
-  margin: 50px 40px;
+  margin: 20px 40px;
 }
 #forkme_banner{
     color: white;
+}
+
+#description {
+  margin: 20px 40px;
+  font-size: 20px;
 }
 
 // for elements
