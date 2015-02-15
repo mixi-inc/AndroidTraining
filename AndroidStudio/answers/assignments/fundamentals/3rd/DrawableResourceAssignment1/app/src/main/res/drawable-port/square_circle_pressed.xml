@@ -4,8 +4,8 @@
     <!-- 円だけを配置 -->
     <item>
         <shape android:shape="oval">
-            <solid android:color="@color/indigo_light" />
+            <solid android:color="@color/indigo" />
         </shape>
     </item>
 
-</layeqr-list>
+</layer-list>
