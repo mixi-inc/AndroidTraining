@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="my_apple">
+        <item quantity="one">I have an apple.</item>
+        <item quantity="other">I have %1$d apples.</item>
+    </plurals>
+
+</resources>
