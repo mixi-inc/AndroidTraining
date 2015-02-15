@@ -2,4 +2,5 @@
 <resources>
     <color name="cyan">#00BCD4</color>
     <color name="indigo">#3F51B5</color>
+    <color name="indigo_light">#C5CAE9</color>
 </resources>
