@@ -4,7 +4,7 @@
     <!-- 円だけを配置 -->
     <item>
         <shape android:shape="oval">
-            <solid android:color="@color/indigo" />
+            <solid android:color="@color/orange" />
         </shape>
     </item>
 

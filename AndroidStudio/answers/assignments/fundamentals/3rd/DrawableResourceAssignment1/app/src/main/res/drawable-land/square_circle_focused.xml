@@ -4,14 +4,14 @@
     <!-- 一番下に四角形の塗りつぶしを配置 -->
     <item>
         <shape android:shape="rectangle">
-            <solid android:color="@color/cyan" />
+            <solid android:color="@color/yellow" />
         </shape>
     </item>
 
     <!-- その上に円を配置 -->
     <item>
         <shape android:shape="oval">
-            <solid android:color="@color/indigo" />
+            <solid android:color="@color/orange" />
         </shape>
     </item>
 
