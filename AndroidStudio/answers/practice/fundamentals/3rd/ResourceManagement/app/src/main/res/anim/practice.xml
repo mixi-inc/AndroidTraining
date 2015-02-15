@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:duration="1000"
+     android:shareInterpolator="true">
+
+    <!-- 回転しながら大きくなる -->
+    <rotate
+        android:fromDegrees="0"
+        android:toDegrees="-45"
+        />
+
+    <scale
+        android:toXScale="2.0"
+        android:toYScale="2.0"
+        />
+
+    <!-- 移動しながら消えていく -->
+    <translate
+        android:startOffset="1000"
+        android:toXDelta="50%p"
+        android:toYDelta="-50%p"
+        />
+
+    <alpha
+        android:startOffset="1000"
+        android:toAlpha="0"
+        />
+
+</set>

@@ -1,0 +1,9 @@
+<resources>
+    <!-- Practice 2 -->
+    <string name="ant">ant</string>
+    <string name="bear">bear</string>
+    <string name="cow">cow</string>
+    <string name="deer">deer</string>
+    <string name="elephant">elephant</string>
+
+</resources>

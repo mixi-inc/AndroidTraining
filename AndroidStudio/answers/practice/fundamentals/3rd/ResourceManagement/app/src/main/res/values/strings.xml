@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ResourceManagementPractice</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="string1_2">String Practice 1&amp;2</string>
+    <string name="string3">String Practice 3</string>
+    <string name="drawable">Drawable Practice 1&amp;2</string>
+    <string name="animation">Animation Practice 1</string>
+    <string name="input_hint">Input text here.</string>
+    <string name="text_counter">%1$d / %2$d</string>
+    <string name="name_hint">Input your name here.</string>
+    <string name="confirm_button">Show Toast</string>
+    <string name="toast_message">%1$s は、%2$d 回ボタンを押しました</string>
+</resources>
