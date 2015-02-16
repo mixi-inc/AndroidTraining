@@ -1,8 +1,7 @@
 ---
 og_type: site
+description: Android アプリ開発の基礎知識と実務スキルを身に付けるトレーニングコース
 ---
-
-Android アプリ開発の基礎知識と実務スキルを身に付けるトレーニングコース
 
 ## Welcome to Android Development Training Course!
 
