@@ -1,3 +1,4 @@
+exclude: ['vendor', 'Gemfile', 'Gemfile.lock', 'Readme.md']
 markdown: redcarpet
 redcarpet:
   extensions: [tables,autolink]
