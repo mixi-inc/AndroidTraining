@@ -59,6 +59,10 @@ pre code {
 p {
   margin: 10px 0 15px 0;
 }
+img {
+  max-width: 90%;
+  height: auto;
+}
 
 footer {
   background-color: #A5CA39;
