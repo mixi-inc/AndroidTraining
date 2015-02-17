@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ボタンが押された時 -->
+    <item android:state_pressed="true"
+          android:drawable="@drawable/square_circle_pressed" />
+
+    <!-- ボタンにフォーカスが当たった時 -->
+    <item android:state_focused="true"
+          android:drawable="@drawable/square_circle_focused" />
+
+    <!-- ボタンが押されていない時 -->
+    <item android:drawable="@drawable/square_circle_default" />
+
+</selector>

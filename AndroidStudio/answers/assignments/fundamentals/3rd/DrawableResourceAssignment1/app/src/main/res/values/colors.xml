@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 縦画面（port）用 -->
+    <color name="cyan">#00BCD4</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="indigo_light">#C5CAE9</color>
+
+    <!-- 横画面（land）用 -->
+    <color name="yellow">#FFEB3B</color>
+    <color name="orange">#FF9800</color>
+    <color name="orange_light">#FFE0B2</color>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 円だけを配置 -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/orange" />
+        </shape>
+    </item>
+
+</layer-list>
