@@ -109,6 +109,7 @@ Pull Request
 ------
 Pull Requestは歓迎します。  
 コードはmasterブランチ、http://mixi-inc.github.io/AndroidTraining への変更はgh-pagesブランチにPull Requestしてください。
+よろしくお願いします。
 
 License
 ------
