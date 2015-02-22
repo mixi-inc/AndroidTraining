@@ -8,5 +8,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_new_activity1">NewActivity1</string>
     <string name="title_activity_new_activity2">NewActivity2</string>
+    <string name="title_activity_new_activity3">NewActivity3</string>
 
 </resources>
