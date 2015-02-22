@@ -5,7 +5,8 @@
     <string name="activity_call_1">Call Activity 1</string>
     <string name="activity_call_2">Call Activity 2</string>
     <string name="activity_call_3">Call Activity 3</string>
-    <string name="title_activity_new_activity1">NewActivity1</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_new_activity1">NewActivity1</string>
+    <string name="title_activity_new_activity2">NewActivity2</string>
 
 </resources>

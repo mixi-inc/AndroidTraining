@@ -2,11 +2,9 @@ package jp.mixi.practice.intent.beg;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 
-public class NewActivity1 extends Activity {
+public class NewActivity2 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
