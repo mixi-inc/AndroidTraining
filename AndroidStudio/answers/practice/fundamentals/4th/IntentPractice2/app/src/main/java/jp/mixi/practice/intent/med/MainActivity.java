@@ -2,6 +2,7 @@
 package jp.mixi.practice.intent.med;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -24,21 +25,27 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO ここに、ACTION_FIRST を呼び出す処理を書く
-                
+                Intent intent = new Intent();
+                intent.setAction(ACTION_FIRST);
+                sendBroadcast(intent);
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // TODO ここに、ACTION_SECOND を呼び出す処理を書く
-                
+                Intent intent = new Intent();
+                intent.setAction(ACTION_SECOND);
+                sendBroadcast(intent);
             }
         });
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // TODO ここに、ACTION_THIRD を呼び出す処理を書く
-                
+                Intent intent = new Intent();
+                intent.setAction(ACTION_THIRD);
+                sendBroadcast(intent);
             }
         });
     }
