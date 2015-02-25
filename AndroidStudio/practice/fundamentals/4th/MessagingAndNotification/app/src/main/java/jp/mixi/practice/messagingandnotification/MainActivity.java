@@ -24,6 +24,7 @@ public class MainActivity extends ActionBarActivity {
         ArrayList<ClickableAdapter.ClickableItem> clickableItems = new ArrayList<>();
         clickableItems.add(new ClickableAdapter.ClickableItem(getString(R.string.intent_1), new ItemClickListener(IntentActivity1.class)));
         clickableItems.add(new ClickableAdapter.ClickableItem(getString(R.string.intent_2), new ItemClickListener(IntentActivity2.class)));
+        clickableItems.add(new ClickableAdapter.ClickableItem(getString(R.string.notification), new ItemClickListener(NotificationActivity.class)));
         ArrayAdapter<ClickableAdapter.ClickableItem> adapter = new ClickableAdapter(this, clickableItems);
 
         ListView lv = (ListView) findViewById(R.id.practiceList);

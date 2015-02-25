@@ -15,4 +15,6 @@
     <string name="action_call_2">Call Action 2</string>
     <string name="action_call_3">Call Action 3</string>
 
+    <string name="notification">Notification Practice</string>
+
 </resources>
