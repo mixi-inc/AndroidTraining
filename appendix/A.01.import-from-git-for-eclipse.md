@@ -1,6 +1,8 @@
 ---
 title: Git リポジトリからのプロジェクトのインポート
 description: この章では、Eclipse 上で、Git リポジトリからプロジェクトをインポートする手順を解説します。
+keywords: ["android","training", "基礎", "スキル", "開発", "developer", "プログラミング", "git", "Eclipse"]
+
 ---
 
 ## Git リポジトリからのインポート
