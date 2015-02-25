@@ -11,6 +11,7 @@
     <string name="activity_call_3">Call Activity 3</string>
     <string name="title_activity_new_activity1">NewActivity1</string>
     <string name="title_activity_new_activity2">NewActivity2</string>
+    <string name="title_activity_new_activity3">NewActivity3</string>
 
     <string name="intent_2">Intent Practice 2</string>
     <string name="action_call_1">Call Action 1</string>

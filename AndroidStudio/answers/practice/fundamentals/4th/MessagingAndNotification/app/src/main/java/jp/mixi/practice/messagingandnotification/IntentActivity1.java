@@ -44,6 +44,12 @@ public class IntentActivity1 extends Activity {
                 // TODO ここに、NewActivity3 を呼び出す処理を書く
                 // TODO Intent に、Intent.FLAG_ACTIVITY_NO_HISTORY という flag をセットするとどうなるかレポートすること
 
+                Intent intent = new Intent(IntentActivity1.this, NewActivity3.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+                startActivity(intent);
+                // 解答
+                // FLAG_ACTIVITY_NO_HISTORYを指定すると、NewActivity3への遷移がスタックに積まれないようになる。
+                // そのため、更に先のActivityから戻ってきた場合にNewActivity3はスキップされる。
             }
         });
     }
