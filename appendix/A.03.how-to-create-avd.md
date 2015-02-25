@@ -1,6 +1,8 @@
 ---
 title: 仮想デバイスの作成
 description: この章では、Android のエミュレータで動作させる仮想デバイスの作成について解説します。
+keywords: ["android","training", "基礎", "スキル", "開発", "developer", "プログラミング", "avd", "Android Virtual Device Manager"]
+
 ---
 
 ## 仮想デバイスの管理
