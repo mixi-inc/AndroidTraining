@@ -1,39 +1,44 @@
 package jp.mixi.practice.messagingandnotification;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
+import java.util.ArrayList;
 
+/**
+ * 各Activityへ遷移するためのActivity
+ */
 public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ArrayList<ClickableAdapter.ClickableItem> clickableItems = new ArrayList<>();
+        clickableItems.add(new ClickableAdapter.ClickableItem(getString(R.string.intent_1), new ItemClickListener(IntentActivity1.class)));
+        ArrayAdapter<ClickableAdapter.ClickableItem> adapter = new ClickableAdapter(this, clickableItems);
+
+        ListView lv = (ListView) findViewById(R.id.practiceList);
+        lv.setAdapter(adapter);
     }
 
+    private class ItemClickListener implements View.OnClickListener {
+        private Class<? extends Activity> mClass;
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        public ItemClickListener(Class<? extends Activity> activityClass) {
+            mClass = activityClass;
         }
 
-        return super.onOptionsItemSelected(item);
+        @Override
+        public void onClick(View v) {
+            startActivity(new Intent(v.getContext(), mClass));
+        }
     }
 }
