@@ -1,6 +1,8 @@
 ---
 title: Java の文法の基礎
 description: この章では、Java の文法の基礎を簡単に解説します。
+keywords: ["android","training", "基礎", "スキル", "開発", "developer", "プログラミング", "java"]
+
 ---
 
 参考：[Effective Java](http://amzn.to/Sr8iPe)
