@@ -32,6 +32,10 @@
         <activity
             android:name=".NewActivity1"
             android:label="@string/title_activity_new_activity1" />
+
+        <activity
+            android:name=".NewActivity2"
+            android:label="@string/title_activity_new_activity2" />
     </application>
 
 </manifest>
