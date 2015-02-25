@@ -1,6 +1,8 @@
 ---
 title: Javaの活用
 description: この章では、より発展的な Java の活用と実践について簡単に解説します。  
+keywords: ["android","training", "基礎", "スキル", "開発", "developer", "プログラミング", "java"]
+
 ---
 数々の API の使い方と合わせて、様々なプラクティスやイディオムについても含まれます。
 
