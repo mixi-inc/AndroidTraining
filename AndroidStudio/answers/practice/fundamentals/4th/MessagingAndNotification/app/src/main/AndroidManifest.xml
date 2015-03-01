@@ -51,6 +51,11 @@
             </intent-filter>
         </receiver>
 
+
+        <activity
+            android:name=".NotificationSubActivity"
+            android:label="@string/title_activity_notification_sub" />
+
     </application>
 
 </manifest>
