@@ -40,6 +40,17 @@
         <activity
             android:name=".NewActivity3"
             android:label="@string/title_activity_new_activity3" />
+
+        <receiver
+            android:name=".MyBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="jp.mixi.practice.messagingandnotification.intent.action.FIRST"/>
+                <action android:name="jp.mixi.practice.messagingandnotification.intent.action.SECOND"/>
+                <action android:name="jp.mixi.practice.messagingandnotification.intent.action.THIRD"/>
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
