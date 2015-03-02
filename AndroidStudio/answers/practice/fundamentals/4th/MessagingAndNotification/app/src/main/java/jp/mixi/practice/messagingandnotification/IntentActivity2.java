@@ -23,11 +23,9 @@ public class IntentActivity2 extends Activity {
         View button2 = findViewById(R.id.CallAction2);
         View button3 = findViewById(R.id.CallAction3);
 
-        // TODO それぞれ、Broadcast を受け取ったら Log.v(String, String) を利用して、ログ出力にどの Action を受信したかを表示する処理を書くこと
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO ここに、ACTION_FIRST を呼び出す処理を書く
                 Intent intent = new Intent();
                 intent.setAction(ACTION_FIRST);
                 sendBroadcast(intent);
@@ -36,7 +34,6 @@ public class IntentActivity2 extends Activity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO ここに、ACTION_SECOND を呼び出す処理を書く
                 Intent intent = new Intent();
                 intent.setAction(ACTION_SECOND);
                 sendBroadcast(intent);
@@ -45,7 +42,6 @@ public class IntentActivity2 extends Activity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO ここに、ACTION_THIRD を呼び出す処理を書く
                 Intent intent = new Intent();
                 intent.setAction(ACTION_THIRD);
                 sendBroadcast(intent);

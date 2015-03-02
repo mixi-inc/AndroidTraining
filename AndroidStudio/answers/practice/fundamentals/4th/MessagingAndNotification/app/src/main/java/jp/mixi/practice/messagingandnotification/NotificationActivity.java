@@ -19,7 +19,6 @@ public class NotificationActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification);
 
-        // TODO ここで通知を表示する
         Intent intent = new Intent(this, NotificationSubActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
