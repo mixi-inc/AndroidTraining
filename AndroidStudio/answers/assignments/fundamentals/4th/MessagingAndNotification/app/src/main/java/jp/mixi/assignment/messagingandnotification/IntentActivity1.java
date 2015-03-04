@@ -1,6 +1,8 @@
 package jp.mixi.assignment.messagingandnotification;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -18,7 +20,10 @@ public class IntentActivity1 extends Activity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO http://mixi.jp をブラウザで開くための Intent を作って、ブラウザを立ち上げる
+                Intent intent = new Intent();
+                intent.setAction(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("http://mixi.jp"));
+                startActivity(intent);
             }
         });
     }
