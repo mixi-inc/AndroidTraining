@@ -7,14 +7,11 @@
 
     <string name="intent_1">Intent Assignment 1</string>
     <string name="ViewMixiOnBrowser">View mixi on browser</string>
-    <string name="activity_call_1">Call Activity 1</string>
-    <string name="activity_call_2">Call Activity 2</string>
-    <string name="activity_call_3">Call Activity 3</string>
 
-    <string name="intent_2">Intent Practice 2</string>
-    <string name="action_call_1">Call Action 1</string>
-    <string name="action_call_2">Call Action 2</string>
-    <string name="action_call_3">Call Action 3</string>
+    <string name="intent_2">Intent Assignment 2</string>
+    <string name="CallActivityForResult">Call activity for result</string>
+    <string name="EditTextHint">Input text here!</string>
+    <string name="Submit">Submit</string>
 
     <string name="notification">Notification Practice</string>
 

@@ -4,23 +4,10 @@
                 android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/CallAction1"
+        android:id="@+id/CallActivityForResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/action_call_1"/>
-
-    <Button
-        android:id="@+id/CallAction2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/CallAction1"
-        android:text="@string/action_call_2"/>
-
-    <Button
-        android:id="@+id/CallAction3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/CallAction2"
-        android:text="@string/action_call_3"/>
+        android:text="@string/CallActivityForResult"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>
