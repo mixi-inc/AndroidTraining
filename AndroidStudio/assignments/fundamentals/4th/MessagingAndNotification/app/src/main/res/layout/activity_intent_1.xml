@@ -4,23 +4,10 @@
                 android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/CallActivity1"
+        android:id="@+id/ViewMixi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/activity_call_1"/>
-
-    <Button
-        android:id="@+id/CallActivity2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/CallActivity1"
-        android:text="@string/activity_call_2"/>
-
-    <Button
-        android:id="@+id/CallActivity3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/CallActivity2"
-        android:text="@string/activity_call_3"/>
+        android:text="@string/ViewMixiOnBrowser"
+        android:layout_centerInParent="true"/>
 
 </RelativeLayout>
