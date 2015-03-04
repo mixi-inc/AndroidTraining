@@ -18,4 +18,8 @@
     <string name="notification_2">Notification Assignment2</string>
     <string name="sub_activity">Sub activity #%1$d</string>
 
+
+    <string name="notification_sub_1">Notification Sub Activity 1</string>
+    <string name="notification_sub_2">Notification Sub Activity 2</string>
+
 </resources>
