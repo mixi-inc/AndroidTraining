@@ -27,6 +27,9 @@
     {% endif %}
     <meta content="{{site.github.url}}{{page.url}}" property="og:url" />
     <meta content="{{page.description}}" property="og:description" />
+    {% if page.keywords %}
+    <meta name="keyword" content="{{page.keywords | join: ', '}}" />
+    {% endif %}
 
     <meta name="go-import" content="github.com/mixi-inc/AndroidTraining git https://github.com/mixi-inc/AndroidTraining.git">
     <script src="{{site.components.polymer}}/webcomponentsjs/webcomponents.js"></script>
