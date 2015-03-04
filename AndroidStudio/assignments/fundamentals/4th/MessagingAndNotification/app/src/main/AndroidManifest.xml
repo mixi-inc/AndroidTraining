@@ -28,6 +28,18 @@
         <activity
             android:name=".NotificationActivity1"
             android:label="@string/app_name"/>
+
+        <activity
+            android:name=".NotificationActivity2"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".NotificationSubActivity1"
+            android:label="@string/app_name"/>
+
+        <activity
+            android:name=".NotificationSubActivity2"
+            android:label="@string/app_name"/>
     </application>
 
 </manifest>
