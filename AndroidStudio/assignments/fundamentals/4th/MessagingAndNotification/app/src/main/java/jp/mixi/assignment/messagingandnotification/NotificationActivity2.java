@@ -1,12 +1,12 @@
 package jp.mixi.assignment.messagingandnotification;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 
 /**
  * Created by suino on 2015/02/26.
  */
-public class NotificationActivity2 extends Activity {
+public class NotificationActivity2 extends ActionBarActivity {
     public static final String ACITON_VIEW_MY_OWN = "jp.mixi.assignment.messagingandnotification.android.intent.action.VIEW_MY_OWN";
 
     @Override

@@ -1,13 +1,13 @@
 package jp.mixi.assignment.messagingandnotification;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.widget.TextView;
 
 /**
  * Created by suino on 2015/02/26.
  */
-public class NotificationSubActivity2 extends Activity {
+public class NotificationSubActivity2 extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
