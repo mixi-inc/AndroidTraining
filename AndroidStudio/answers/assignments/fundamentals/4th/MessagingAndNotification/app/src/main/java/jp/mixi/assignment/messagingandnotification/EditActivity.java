@@ -1,15 +1,15 @@
 package jp.mixi.assignment.messagingandnotification;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.EditText;
 
 /**
  * Created by suino on 2015/03/04.
  */
-public class EditActivity extends Activity {
+public class EditActivity extends ActionBarActivity {
     public static final int REQUEST_CODE = 1;
     public static final String KEY_TEXT = "text";
 

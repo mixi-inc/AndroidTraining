@@ -1,15 +1,15 @@
 package jp.mixi.assignment.messagingandnotification;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Toast;
 
 /**
  * Created by suino on 2015/02/25.
  */
-public class IntentActivity2 extends Activity {
+public class IntentActivity2 extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
