@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MessagingAndNotification</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="intent_1">Intent Assignment 1</string>
+    <string name="ViewMixiOnBrowser">View mixi on browser</string>
+
+    <string name="intent_2">Intent Assignment 2</string>
+    <string name="CallActivityForResult">Call activity for result</string>
+    <string name="EditTextHint">Input text here!</string>
+    <string name="Submit">Submit</string>
+
+    <string name="notification_1">Notification Assignment1</string>
+
+    <string name="notification_2">Notification Assignment2</string>
+    <string name="sub_activity">Sub activity #%1$d</string>
+
+
+    <string name="notification_sub_1">Notification Sub Activity 1</string>
+    <string name="notification_sub_2">Notification Sub Activity 2</string>
+
+</resources>
