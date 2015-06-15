@@ -3,20 +3,20 @@ apply plugin: 'android'
 android {
     compileSdkVersion 17
     buildToolsVersion "21.1.2"
-
     defaultConfig {
-        minSdkVersion 7
+        minSdkVersion 14
         targetSdkVersion 17
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:support-v4:22.0.0'
 }

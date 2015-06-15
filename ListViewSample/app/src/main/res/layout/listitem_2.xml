@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.gmomedia.listviewsample.ItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/imageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView1"/>
+
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/id"/>
+
+</com.example.gmomedia.listviewsample.ItemLayout>
