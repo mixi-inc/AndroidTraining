@@ -1,12 +1,12 @@
 apply plugin: 'android'
 
 android {
-    compileSdkVersion 17
+    compileSdkVersion 21
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        minSdkVersion 7
-        targetSdkVersion 17
+        minSdkVersion 14
+        targetSdkVersion 21
     }
 
     buildTypes {
@@ -19,4 +19,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:+'
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+
 }
