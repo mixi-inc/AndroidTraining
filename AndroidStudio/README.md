@@ -1,7 +1,7 @@
-Android Training Android Sutdio
+Android Training Android Studio
 ========
 
-Android Sutdio向けのプロジェクトを格納するティレクトリ
+Android Studio向けのプロジェクトを格納するティレクトリ
 
 ディレクトリ階層
 --------
