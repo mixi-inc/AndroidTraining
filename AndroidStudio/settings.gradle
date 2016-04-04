@@ -1,0 +1,35 @@
+// fundamentals 1st
+include ':1-fundamentals-1st-LinearLayoutPractice-Practice1'
+project(':1-fundamentals-1st-LinearLayoutPractice-Practice1').projectDir = new File('practice/fundamentals/1st/LinearLayoutPractice/Practice1/app')
+include ':1-fundamentals-1st-LinearLayoutPractice-Practice2'
+project(':1-fundamentals-1st-LinearLayoutPractice-Practice2').projectDir = new File('practice/fundamentals/1st/LinearLayoutPractice/Practice2/app')
+include ':1-fundamentals-1st-RelativeLayoutPractice-Practice1'
+project(':1-fundamentals-1st-RelativeLayoutPractice-Practice1').projectDir = new File('practice/fundamentals/1st/RelativeLayoutPractice/Practice1/app')
+include ':1-fundamentals-1st-RelativeLayoutPractice-Practice2'
+project(':1-fundamentals-1st-RelativeLayoutPractice-Practice2').projectDir = new File('practice/fundamentals/1st/RelativeLayoutPractice/Practice2/app')
+include ':1-fundamentals-1st-LayoutAssignment1'
+project(':1-fundamentals-1st-LayoutAssignment1').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment1/app')
+include ':1-fundamentals-1st-LayoutAssignment2'
+project(':1-fundamentals-1st-LayoutAssignment2').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment2/app')
+include ':1-fundamentals-1st-LayoutAssignment3'
+project(':1-fundamentals-1st-LayoutAssignment3').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment3/app')
+
+
+// fundamentals 2nd
+include ':1-fundamentals-2nd-ActivityPractice-Practice1'
+project(':1-fundamentals-2nd-ActivityPractice-Practice1').projectDir = new File('practice/fundamentals/2nd/ActivityPractice/Practice1/app/')
+include ':1-fundamentals-2nd-ActivityPractice-Practice2'
+project(':1-fundamentals-2nd-ActivityPractice-Practice2').projectDir = new File('practice/fundamentals/2nd/ActivityPractice/Practice2/app/')
+include ':1-fundamentals-2nd-FragmentPractice-Practice1'
+project(':1-fundamentals-2nd-FragmentPractice-Practice1').projectDir = new File('practice/fundamentals/2nd/FragmentPractice/Practice1/app/')
+include ':1-fundamentals-2nd-FragmentPractice-Practice2'
+project(':1-fundamentals-2nd-FragmentPractice-Practice2').projectDir = new File('practice/fundamentals/2nd/FragmentPractice/Practice2/app/')
+include ':1-fundamentals-2nd-ControllerAssignment1'
+project(':1-fundamentals-2nd-ControllerAssignment1').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment1/app/')
+include ':1-fundamentals-2nd-ControllerAssignment2'
+project(':1-fundamentals-2nd-ControllerAssignment2').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment2/app/')
+include ':1-fundamentals-2nd-ControllerAssignment3'
+project(':1-fundamentals-2nd-ControllerAssignment3').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment3/app/')
+include ':1-fundamentals-2nd-ControllerAssignment4'
+project(':1-fundamentals-2nd-ControllerAssignment4').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment4/app/')
+
