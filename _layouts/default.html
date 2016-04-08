@@ -32,18 +32,18 @@
     {% endif %}
 
     <meta name="go-import" content="github.com/mixi-inc/AndroidTraining git https://github.com/mixi-inc/AndroidTraining.git">
-    <script src="{{site.components.polymer}}/webcomponentsjs/webcomponents.js"></script>
+    <script src="{{site.components}}/webcomponentsjs/webcomponents.js"></script>
     
     <link rel="stylesheet" type="text/css" media="screen" href="{{site.baseurl}}/stylesheets/main.css">
     <link rel="shortcut icon" href="{{site.baseurl}}/assets/favicon.ico" />
-    <link rel="import" href="{{site.components.polymer}}/core-scroll-header-panel/core-scroll-header-panel.html">
-    <link rel="import" href="{{site.components.polymer}}/core-toolbar/core-toolbar.html">
-    <link rel="import" href="{{site.components.polymer}}/core-menu/core-menu.html">
-    <link rel="import" href="{{site.components.polymer}}/core-item/core-item.html">
-    <link rel="import" href="{{site.components.polymer}}/core-selector/core-selector.html">
-    <link rel="import" href="{{site.components.polymer}}/core-header-panel/core-header-panel.html">
-    <link rel="import" href="{{site.components.polymer}}/core-drawer-panel/core-drawer-panel.html">
-    <link rel="import" href="{{site.components.polymer}}/core-icon-button/core-icon-button.html">
+    <link rel="import" href="{{site.components}}/paper-scroll-header-panel/paper-scroll-header-panel.html">
+    <link rel="import" href="{{site.components}}/paper-drawer-panel/paper-drawer-panel.html">
+    <link rel="import" href="{{site.components}}/paper-header-panel/paper-header-panel.html">
+    <link rel="import" href="{{site.components}}/paper-toolbar/paper-toolbar.html">
+    <link rel="import" href="{{site.components}}/paper-menu/paper-menu.html">
+    <link rel="import" href="{{site.components}}/paper-item/paper-item.html">
+    <link rel="import" href="{{site.components}}/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="{{site.components}}/iron-icons/iron-icons.html">
     <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -57,12 +57,12 @@
 
   <body itemscope itemtype="http://schema.org/Article" fullbleed layout vertical>
 
-    <core-drawer-panel selected="main" >
+    <paper-drawer-panel selected="main" >
       <!-- MENU -->
-      <core-header-panel mode="seamed" drawer class="drawer">
+      <paper-header-panel mode="seamed" drawer class="drawer">
         {% include navigation.html %}
-      </core-header-panel>
-      <core-scroll-header-panel mode="waterfall-tall" main condenses keepCondensedHeader>
+      </paper-header-panel>
+      <paper-scroll-header-panel main fixed>
         <!-- HEADER -->
         {% include header.html %}
 
@@ -77,18 +77,7 @@
         <div id="footer_wrap" class="outer">
           {% include footer.html %}
         </div>
-      </core-scroll-header-panel>
-    </core-drawer-panel>
-    <script>
-    // custom transformation: scale header's title
-    var titleStyle = document.querySelector('.title').style;
-    addEventListener('core-header-transform', function(e) {
-      var d = e.detail;
-      var m = d.height - d.condensedHeight;
-      var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
-      titleStyle.transform = titleStyle.webkitTransform =
-          'scale(' + scale + ') translateZ(0)';
-    });
-  </script>
+      </paper-scroll-header-panel>
+    </paper-drawer-panel>
   </body>
 </html>
