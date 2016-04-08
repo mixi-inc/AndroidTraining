@@ -98,17 +98,17 @@ footer {
 }
 
 // for elements
-core-header-panel {
+paper-header-panel {
   background: #f2f2f2;
   height: 100%;
   width: 100%;
 }
-core-scroll-header-panel {
+paper-scroll-header-panel {
   background: #f2f2f2;
   height: 100%;
   width: 100%;
 }
-core-toolbar {
+paper-toolbar {
   color: #fff;
   width: 100%;
 }
