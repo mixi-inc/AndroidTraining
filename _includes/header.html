@@ -1,9 +1,14 @@
-<paper-toolbar class="fixed mainheader x-scope paper-toolbar-0" role="toolbar" aria-labelledby="paper-toolbar-label-7134">
+<paper-toolbar class="mainheader tall" role="toolbar">
     <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
-    <div class="spacer title" id="paper-toolbar-label-2">{% if page.title %}{{page.title}}{% else %}AndroidTraining{% endif %}</div>
+
+    <span class="title"></span>
+
     <a id="forkme_banner" href="https://github.com/mixi-inc/AndroidTraining" role="button">
-        <paper-icon-button src="{{site.baseurl}}/images/blacktocat.png"></paper-icon-button><span>View on GitHub</span>
+        <paper-icon-button src="{{site.baseurl}}/images/blacktocat.png"></paper-icon-button> <span>View on GitHub</span>
     </a>
+
+    <div class="middle title">{{site.title}}</div>
+    <div class="bottom title">{% if page.title %}{{page.title}}{% else %}AndroidTraining{% endif %}</div>
 </paper-toolbar>
 
 {% if page.description %}
