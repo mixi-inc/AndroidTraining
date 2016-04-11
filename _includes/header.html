@@ -1,13 +1,16 @@
-<core-toolbar  class="tall mainheader">
-  <core-icon-button icon="menu" core-drawer-toggle></core-icon-button>
-  <div flex></div>
-  <a id="forkme_banner" href="https://github.com/mixi-inc/AndroidTraining">
-      <core-icon-button src="{{site.baseurl}}/images/blacktocat.png"><span>View on GitHub</span></core-icon-button>
-  </a>
-  <div class="middle">{{ site.title }}</div>
-  <h1 class="bottom title" itemprop="name">{% if page.title %}{{page.title}}{% else %}AndroidTraining{% endif %}</h1>
+<paper-toolbar class="mainheader tall" role="toolbar">
+    <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
 
-</core-toolbar>
+    <span class="title"></span>
+
+    <a id="forkme_banner" href="https://github.com/mixi-inc/AndroidTraining" role="button">
+        <paper-icon-button src="{{site.baseurl}}/images/blacktocat.png"></paper-icon-button> <span>View on GitHub</span>
+    </a>
+
+    <div class="middle title">{{site.title}}</div>
+    <div class="bottom title">{% if page.title %}{{page.title}}{% else %}AndroidTraining{% endif %}</div>
+</paper-toolbar>
+
 {% if page.description %}
 <div id="description" itemprop="description">{{page.description}}</div>
 {% endif %}
