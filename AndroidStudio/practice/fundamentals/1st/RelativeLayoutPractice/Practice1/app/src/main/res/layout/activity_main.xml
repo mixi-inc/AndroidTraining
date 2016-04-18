@@ -17,10 +17,66 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="1"/>
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="@+id/Button1"
+        android:layout_toRightOf="@+id/Button1"
+        android:text="2"/>
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Button2"
+        android:text="3"/>
+    <Button
+        android:id="@+id/Button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="@+id/Button1"
+        android:layout_below="@+id/Button1"
+        android:text="4"/>
+    <Button
+        android:id="@+id/Button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button1"
+        android:layout_below="@+id/Button4"
+        android:text="5"/>
 
     <!-- TODO: Button6 を 画面中央に配置する -->
+    <Button
+        android:id="@+id/Button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="6"/>
 
     <!-- TODO: Button7 を画面左下に配置する -->
+    <Button
+        android:id="@+id/Button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_alignParentBottom="true"
+        android:text="7"/>
     <!-- TODO: Button7 の右に 1 つボタンを並べる -->
+    <Button
+        android:id="@+id/Button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Button7"
+        android:layout_toRightOf="@+id/Button7"
+        android:text="8"/>
     <!-- TODO: Button7 の上に 1 つボタンを並べる -->
+    <Button
+        android:id="@+id/Button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button1"
+        android:layout_above="@+id/Button7"
+        android:text="9"/>
 </RelativeLayout>
