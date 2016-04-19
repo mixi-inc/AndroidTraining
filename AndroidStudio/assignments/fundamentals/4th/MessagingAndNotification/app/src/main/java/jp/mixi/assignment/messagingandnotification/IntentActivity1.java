@@ -1,5 +1,6 @@
 package jp.mixi.assignment.messagingandnotification;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.View;
@@ -19,6 +20,9 @@ public class IntentActivity1 extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 // TODO http://mixi.jp をブラウザで開くための Intent を作って、ブラウザを立ち上げる
+                Intent intent = new Intent(v.getContext(), BrowserActivity.class);
+                intent.putExtra("url", "http://mixi.jp");
+                startActivity(intent);
             }
         });
     }
