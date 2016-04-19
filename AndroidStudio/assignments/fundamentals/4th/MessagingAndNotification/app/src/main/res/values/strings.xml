@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MessagingAndNotification</string>
+    <string name="app_name">インテントやメッセージ通知のテスト！</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
@@ -17,5 +17,6 @@
 
     <string name="notification_2">Notification Assignment2</string>
     <string name="sub_activity">Sub activity #%1$d</string>
+    <string name="title_activity_browser">BrowserActivity</string>
 
 </resources>
