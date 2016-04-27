@@ -40,3 +40,9 @@ include ':1-3-StringResourceAssignment1'
 project(':1-3-StringResourceAssignment1').projectDir = new File('assignments/fundamentals/3rd/StringResourceAssignment1/app/')
 include ':1-3-DrawableResourceAssignment1'
 project(':1-3-DrawableResourceAssignment1').projectDir = new File('assignments/fundamentals/3rd/DrawableResourceAssignment1/app/')
+
+// fundamentals 4th
+include ':1-4-MessagingAndNotificationPractice'
+project(':1-4-MessagingAndNotificationPractice').projectDir = new File('practice/fundamentals/4th/MessagingAndNotification/app/')
+include ':1-4-MessagingAndNotificationAssignments'
+project(':1-4-MessagingAndNotificationAssignments').projectDir = new File('assignments/fundamentals/4th/MessagingAndNotification/app/')
