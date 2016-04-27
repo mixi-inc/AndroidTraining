@@ -102,3 +102,7 @@ project(':1-10-SQLiteAssignment').projectDir = new File('assignments/fundamental
 // fundamentals 11th
 include ':1-11-TestAssignmentTarget'
 project(':1-11-TestAssignmentTarget').projectDir = new File('assignments/fundamentals/11th/TestAssignmentTarget/app/')
+
+// advanced 1st
+include ':2-1-DebugPractice'
+project(':2-1-DebugPractice').projectDir = new File('practice/advanced/1st/DebugPractice/app/')
