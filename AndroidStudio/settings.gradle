@@ -83,3 +83,11 @@ project(':1-7-SharedPreferencesAssignment').projectDir = new File('assignments/f
 include ':1-8-AsyncTaskAssignment1'
 project(':1-8-AsyncTaskAssignment1').projectDir = new File('assignments/fundamentals/8th/AsyncTaskAssignment1/app/')
 
+// fundamentals 9th
+include ':1-9-NetworkPractice1'
+project(':1-9-NetworkPractice1').projectDir = new File('practice/fundamentals/9th/NetworkPractice1/app/')
+include ':1-9-NetworkPractice2'
+project(':1-9-NetworkPractice2').projectDir = new File('practice/fundamentals/9th/NetworkPractice2/app/')
+include ':1-9-NetworkAssignment'
+project(':1-9-NetworkAssignment').projectDir = new File('assignments/fundamentals/9th/NetworkAssignment/app/')
+
