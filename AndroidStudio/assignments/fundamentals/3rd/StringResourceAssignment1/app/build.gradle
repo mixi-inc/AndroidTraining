@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 17
-    buildToolsVersion "21.1.2"
+    compileSdkVersion androidSdkVersion
+    buildToolsVersion androidBuildToolsVersion
 
     defaultConfig {
         applicationId "jp.mixi.assignment.res.string.beg"
-        minSdkVersion 7
-        targetSdkVersion 17
+        minSdkVersion androidMinSdkVersion
+        targetSdkVersion androidSdkVersion
     }
 
     buildTypes {
@@ -19,5 +19,5 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:18.0.0'
+    compile "com.android.support:support-v4:${supportLibVersion}"
 }
