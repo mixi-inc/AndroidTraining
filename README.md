@@ -4,6 +4,7 @@ Android Development Training Course Repository
 
 Android アプリ開発の基礎知識と実務スキルを身に付けるトレーニングコース
 
+
 前提
 ------
 
@@ -11,7 +12,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 
 1. Java の知識・スキル
   * [Java言語プログラミングレッスン](http://www.hyuki.com/jb/)や、[Effective Java](http://amzn.to/Sr8iPe)などが参考になります。
-2. IDE の使い方 (Eclipse)
+2. Android Studio の使い方
   * 基本操作が分かる程度で大丈夫です。
 
 ゴール
@@ -43,9 +44,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 1. **まえがき**
   1. [Android について](http://mixi-inc.github.io/AndroidTraining/introductions/1.01.about-android-os.html)
   2. [開発環境の準備](http://mixi-inc.github.io/AndroidTraining/introductions/1.02.prepare-for-development.html)
-  3. Android プロジェクトの作成
-    - [Eclipse](http://mixi-inc.github.io/AndroidTraining/introductions/1.03.create-project-for-eclipse.html)
-    - [Android Studio](http://mixi-inc.github.io/AndroidTraining/introductions/1.03.create-project-for-android-studio.html)
+  3. [Android プロジェクトの作成](http://mixi-inc.github.io/AndroidTraining/introductions/1.03.create-project-for-android-studio.html)
   4. [Android アプリの基礎知識](http://mixi-inc.github.io/AndroidTraining/introductions/1.04.basic-knowledge.html)
   5. [Android のビルドについて（Gradle）](http://mixi-inc.github.io/AndroidTraining/introductions/1.05.how-to-build-for-gradle.html)  
 2. **基礎編**
@@ -78,21 +77,10 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   3. [Javaの活用](http://mixi-inc.github.io/AndroidTraining/appendix/A.04.advanced-java.html)
 
 また、リポジトリには下記のディレクトリ構成で、プロジェクトが作成されています。  
-Eclipse、Android Studio双方に対応しています。使用するIDEにあわせて参照するディレクトリを変更してください。  
+Eclipse、Android Studio双方に対応していましたが今後Eclipseについての記述は削除する予定です。
+IDE別にディレクトリが分かれている部分がありますが、基本的にはAndroid Studioを利用してください。
 課題提出の際には、このリポジトリを fork して、各章ごとにブランチを作成し、コミットを作ってください。
 
-* Eclipseディレクトリ  
-  Eclipse対応のプロジェクトが含まれています。
-	* projectsディレクトリ
-	  * サンプルプロジェクトが含まれています。
-	  * サンプルコードを参照する際はこちらです。
-	* practiceディレクトリ
-	  * 実習の際に使用するプロジェクトが含まれています。
-	* assignmentsディレクトリ
-	  * 課題で使用するプロジェクトが含まれています。
-
-* AndroidStudioディレクトリ  
-  AndroidStudio対応のプロジェクトが含まれています。
   
 参考資料・図書
 ------
