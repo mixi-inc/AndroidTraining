@@ -43,9 +43,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 1. **まえがき**
   1. [Android について](http://mixi-inc.github.io/AndroidTraining/introductions/1.01.about-android-os.html)
   2. [開発環境の準備](http://mixi-inc.github.io/AndroidTraining/introductions/1.02.prepare-for-development.html)
-  3. Android プロジェクトの作成
-    - [Eclipse](http://mixi-inc.github.io/AndroidTraining/introductions/1.03.create-project-for-eclipse.html)
-    - [Android Studio](http://mixi-inc.github.io/AndroidTraining/introductions/1.03.create-project-for-android-studio.html)
+  3. [Android プロジェクトの作成](http://mixi-inc.github.io/AndroidTraining/introductions/1.03.create-project-for-android-studio.html)
   4. [Android アプリの基礎知識](http://mixi-inc.github.io/AndroidTraining/introductions/1.04.basic-knowledge.html)
   5. [Android のビルドについて（Gradle）](http://mixi-inc.github.io/AndroidTraining/introductions/1.05.how-to-build-for-gradle.html)  
 2. **基礎編**
