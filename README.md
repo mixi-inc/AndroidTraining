@@ -11,7 +11,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 このトレーニングコースに入る前に、下記の知識・スキルについて勉強しておいてください。
 
 1. Java の知識・スキル
-  * [Java言語プログラミングレッスン](http://www.hyuki.com/jb/)や、[Effective Java](http://amzn.to/Sr8iPe)などが参考になります。
+  * [Java言語プログラミングレッスン](http://www.hyuki.com/jb/)や、[Effective Java](http://amzn.to/28OVw8y)などが参考になります。
 2. Android Studio の使い方
   * 基本操作が分かる程度で大丈夫です。
 
@@ -30,7 +30,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 このトレーニングコースを受講する上で、下記のものを準備しておいてください。
 
 1. Android デバイス
-  * Android 2.2 以上であることが望ましいです。
+  * Android 4.0.3 以上であることが望ましいです。
 2. 開発環境
   * 下記の構成の、まえがきの章を参考に準備してください。
   * Mac または Linux の各種 OS で実践することを推奨します。
@@ -85,11 +85,11 @@ IDE別にディレクトリが分かれている部分がありますが、基�
 参考資料・図書
 ------
 
-* [Android Developers](http://developer.android.com/index.html)
+* [Android Developers](https://developer.android.com/index.html)
   * 公式のリファレンスとして、Android の基礎から API の仕様まで幅広く解説資料が用意されています。このリファレンスは必ず目を通すようにしましょう。
 * [プログラミング Android](http://amzn.to/wr7Yi6)
   * Android のプログラミングの基礎から発展までを幅広く取り扱っています。
-* [Effective Java](http://amzn.to/Sr8iPe)
+* [Effective Java](http://amzn.to/28OVw8y)
   * Java 言語を取り扱う際のプラクティスが詰まっています。
 
 Pull Request
