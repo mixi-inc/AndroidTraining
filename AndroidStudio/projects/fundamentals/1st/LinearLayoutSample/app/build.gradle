@@ -1,4 +1,3 @@
-apply plugin: 'android'
 
 android {
     compileSdkVersion 17
