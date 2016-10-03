@@ -2,7 +2,7 @@
 package jp.mixi.assignment.controller.beg;
 
 import android.os.Bundle;
-import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 
 /**
@@ -11,9 +11,10 @@ import android.view.Menu;
  * {@link Toast#makeText(Context, int, int)} を利用して、各ライフサイクルメソッドがどのような順番で
  * 実行されているかを確認してください。
  * 確認したら、assignments/fundamentals/2nd/Report.md にその順番を記述してください。
+ *
  * @author keishin.yokomaku
  */
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
