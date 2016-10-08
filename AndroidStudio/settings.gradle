@@ -19,6 +19,10 @@ include ':1-1-LayoutAssignment2'
 project(':1-1-LayoutAssignment2').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment2/app')
 include ':1-1-LayoutAssignment3'
 project(':1-1-LayoutAssignment3').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment3/app')
+include ':answer-1-1-LayoutAssignment2'
+project(':answer-1-1-LayoutAssignment2').projectDir = new File('answers/assignments/fundamentals/1st/LayoutAssignment2/app')
+include ':answer-1-1-LayoutAssignment3'
+project(':answer-1-1-LayoutAssignment3').projectDir = new File('answers/assignments/fundamentals/1st/LayoutAssignment3/app')
 
 // fundamentals 2nd
 include ':1-2-ActivityPractice-Practice1'
@@ -37,6 +41,14 @@ include ':1-2-ControllerAssignment3'
 project(':1-2-ControllerAssignment3').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment3/app/')
 include ':1-2-ControllerAssignment4'
 project(':1-2-ControllerAssignment4').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment4/app/')
+include ':answer-1-2-ControllerAssignment1'
+project(':answer-1-2-ControllerAssignment1').projectDir = new File('answers/assignments/fundamentals/2nd/ControllerAssignment1/app')
+include ':answer-1-2-ControllerAssignment2'
+project(':answer-1-2-ControllerAssignment2').projectDir = new File('answers/assignments/fundamentals/2nd/ControllerAssignment2/app')
+include ':answer-1-2-ControllerAssignment3'
+project(':answer-1-2-ControllerAssignment3').projectDir = new File('answers/assignments/fundamentals/2nd/ControllerAssignment3/app')
+include ':answer-1-2-ControllerAssignment4'
+project(':answer-1-2-ControllerAssignment4').projectDir = new File('answers/assignments/fundamentals/2nd/ControllerAssignment4/app')
 
 // fundamentals 3rd
 include ':1-3-ResourceManagement'
@@ -45,12 +57,18 @@ include ':1-3-StringResourceAssignment1'
 project(':1-3-StringResourceAssignment1').projectDir = new File('assignments/fundamentals/3rd/StringResourceAssignment1/app/')
 include ':1-3-DrawableResourceAssignment1'
 project(':1-3-DrawableResourceAssignment1').projectDir = new File('assignments/fundamentals/3rd/DrawableResourceAssignment1/app/')
+include ':answer-1-3-StringResourceAssignment1'
+project(':answer-1-3-StringResourceAssignment1').projectDir = new File('answers/assignments/fundamentals/3rd/StringResourceAssignment1/app/')
+include ':answer-1-3-DrawableResourceAssignment1'
+project(':answer-1-3-DrawableResourceAssignment1').projectDir = new File('answers/assignments/fundamentals/3rd/DrawableResourceAssignment1/app/')
 
 // fundamentals 4th
 include ':1-4-MessagingAndNotificationPractice'
 project(':1-4-MessagingAndNotificationPractice').projectDir = new File('practice/fundamentals/4th/MessagingAndNotification/app/')
 include ':1-4-MessagingAndNotificationAssignments'
 project(':1-4-MessagingAndNotificationAssignments').projectDir = new File('assignments/fundamentals/4th/MessagingAndNotification/app/')
+include ':answer-1-4-MessagingAndNotificationAssignments'
+project(':answer-1-4-MessagingAndNotificationAssignments').projectDir = new File('answers/assignments/fundamentals/4th/MessagingAndNotification/app/')
 
 // fundamentals 5th
 include ':1-5-ActionBarPractice1'
