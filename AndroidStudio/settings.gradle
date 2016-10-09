@@ -19,6 +19,40 @@ include ':1-1-LayoutAssignment2'
 project(':1-1-LayoutAssignment2').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment2/app')
 include ':1-1-LayoutAssignment3'
 project(':1-1-LayoutAssignment3').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment3/app')
+include ':answer-1-1-LinearLayoutPractice-Practice1'
+project(':answer-1-1-LinearLayoutPractice-Practice1').projectDir = new File('answers/practice/fundamentals/1st/LinearLayoutPractice/Practice1/app')
+include ':answer-1-1-LinearLayoutPractice-Practice2'
+project(':answer-1-1-LinearLayoutPractice-Practice2').projectDir = new File('answers/practice/fundamentals/1st/LinearLayoutPractice/Practice2/app')
+include ':answer-1-1-RelativeLayoutPractice-Practice1'
+project(':answer-1-1-RelativeLayoutPractice-Practice1').projectDir = new File('answers/practice/fundamentals/1st/RelativeLayoutPractice/Practice1/app')
+include ':answer-1-1-RelativeLayoutPractice-Practice2'
+project(':answer-1-1-RelativeLayoutPractice-Practice2').projectDir = new File('answers/practice/fundamentals/1st/RelativeLayoutPractice/Practice2/app')
+include ':answer-1-1-FrameLayoutPractice-Practice1'
+project(':answer-1-1-FrameLayoutPractice-Practice1').projectDir = new File('answers/practice/fundamentals/1st/FrameLayoutPractice/Practice1/app')
+include ':answer-1-1-FrameLayoutPractice-Practice2'
+project(':answer-1-1-FrameLayoutPractice-Practice2').projectDir = new File('answers/practice/fundamentals/1st/FrameLayoutPractice/Practice2/app')
+include ':answer-1-1-ScrollViewPractice-Practice1'
+project(':answer-1-1-ScrollViewPractice-Practice1').projectDir = new File('answers/practice/fundamentals/1st/ScrollViewPractice/Practice1/app')
+include ':answer-1-1-LayoutAssignment2'
+project(':answer-1-1-LayoutAssignment2').projectDir = new File('answers/assignments/fundamentals/1st/LayoutAssignment2/app')
+include ':answer-1-1-LayoutAssignment3'
+project(':answer-1-1-LayoutAssignment3').projectDir = new File('answers/assignments/fundamentals/1st/LayoutAssignment3/app')
+include ':projects-1-FrameLayoutSample'
+project(':projects-1-FrameLayoutSample').projectDir = new File('projects/fundamentals/1st/FrameLayoutSample/app/')
+include ':projects-1-GravitySample'
+project(':projects-1-GravitySample').projectDir = new File('projects/fundamentals/1st/GravitySample/app/')
+include ':projects-1-LayoutGravitySample'
+project(':projects-1-LayoutGravitySample').projectDir = new File('projects/fundamentals/1st/LayoutGravitySample/app/')
+include ':projects-1-LayoutParamsSample'
+project(':projects-1-LayoutParamsSample').projectDir = new File('projects/fundamentals/1st/LayoutParamsSample/app/')
+include ':projects-1-LinearLayoutSample'
+project(':projects-1-LinearLayoutSample').projectDir = new File('projects/fundamentals/1st/LinearLayoutSample/app/')
+include ':projects-1-PaddingMarginSample'
+project(':projects-1-PaddingMarginSample').projectDir = new File('projects/fundamentals/1st/PaddingMarginSample/app/')
+include ':projects-1-RelativeLayoutSample'
+project(':projects-1-RelativeLayoutSample').projectDir = new File('projects/fundamentals/1st/RelativeLayoutSample/app/')
+include ':projects-1-ScrollViewSample'
+project(':projects-1-ScrollViewSample').projectDir = new File('projects/fundamentals/1st/ScrollViewSample/app/')
 
 // fundamentals 2nd
 include ':1-2-ActivityPractice-Practice1'
@@ -37,6 +71,24 @@ include ':1-2-ControllerAssignment3'
 project(':1-2-ControllerAssignment3').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment3/app/')
 include ':1-2-ControllerAssignment4'
 project(':1-2-ControllerAssignment4').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment4/app/')
+include ':answer-1-2-ActivityPractice-Practice1'
+project(':answer-1-2-ActivityPractice-Practice1').projectDir = new File('answers/practice/fundamentals/2nd/ActivityPractice/Practice1/app/')
+include ':answer-1-2-ActivityPractice-Practice2'
+project(':answer-1-2-ActivityPractice-Practice2').projectDir = new File('answers/practice/fundamentals/2nd/ActivityPractice/Practice2/app/')
+include ':answer-1-2-FragmentPractice-Practice1'
+project(':answer-1-2-FragmentPractice-Practice1').projectDir = new File('answers/practice/fundamentals/2nd/FragmentPractice/Practice1/app/')
+include ':answer-1-2-FragmentPractice-Practice2'
+project(':answer-1-2-FragmentPractice-Practice2').projectDir = new File('answers/practice/fundamentals/2nd/FragmentPractice/Practice2/app/')
+include ':answer-1-2-ControllerAssignment1'
+project(':answer-1-2-ControllerAssignment1').projectDir = new File('answers/assignments/fundamentals/2nd/ControllerAssignment1/app')
+include ':answer-1-2-ControllerAssignment2'
+project(':answer-1-2-ControllerAssignment2').projectDir = new File('answers/assignments/fundamentals/2nd/ControllerAssignment2/app')
+include ':answer-1-2-ControllerAssignment3'
+project(':answer-1-2-ControllerAssignment3').projectDir = new File('answers/assignments/fundamentals/2nd/ControllerAssignment3/app')
+include ':answer-1-2-ControllerAssignment4'
+project(':answer-1-2-ControllerAssignment4').projectDir = new File('answers/assignments/fundamentals/2nd/ControllerAssignment4/app')
+include ':projects-2-ControllerSample'
+project(':projects-2-ControllerSample').projectDir = new File('projects/fundamentals/2nd/ControllerSample/app/')
 
 // fundamentals 3rd
 include ':1-3-ResourceManagement'
@@ -45,12 +97,46 @@ include ':1-3-StringResourceAssignment1'
 project(':1-3-StringResourceAssignment1').projectDir = new File('assignments/fundamentals/3rd/StringResourceAssignment1/app/')
 include ':1-3-DrawableResourceAssignment1'
 project(':1-3-DrawableResourceAssignment1').projectDir = new File('assignments/fundamentals/3rd/DrawableResourceAssignment1/app/')
+include ':answer-1-3-ResourceManagement'
+project(':answer-1-3-ResourceManagement').projectDir = new File('answers/practice/fundamentals/3rd/ResourceManagement/app/')
+include ':answer-1-3-StringResourceAssignment1'
+project(':answer-1-3-StringResourceAssignment1').projectDir = new File('answers/assignments/fundamentals/3rd/StringResourceAssignment1/app/')
+include ':answer-1-3-DrawableResourceAssignment1'
+project(':answer-1-3-DrawableResourceAssignment1').projectDir = new File('answers/assignments/fundamentals/3rd/DrawableResourceAssignment1/app/')
+include ':projects-3-AnimationResourceSample'
+project(':projects-3-AnimationResourceSample').projectDir = new File('projects/fundamentals/3rd/AnimationResourceSample/app/')
+include ':projects-3-ColorStateListResourceSample'
+project(':projects-3-ColorStateListResourceSample').projectDir = new File('projects/fundamentals/3rd/ColorStateListResourceSample/app/')
+include ':projects-3-DrawableResourceSample'
+project(':projects-3-DrawableResourceSample').projectDir = new File('projects/fundamentals/3rd/DrawableResourceSample/app/')
+include ':projects-3-MenuResourceSample'
+project(':projects-3-MenuResourceSample').projectDir = new File('projects/fundamentals/3rd/MenuResourceSample/app/')
+include ':projects-3-StringResourceSample'
+project(':projects-3-StringResourceSample').projectDir = new File('projects/fundamentals/3rd/StringResourceSample/app/')
+include ':projects-3-StyleResourceSample'
+project(':projects-3-StyleResourceSample').projectDir = new File('projects/fundamentals/3rd/StyleResourceSample/app/')
+include ':projects-3-ValueResourceSample'
+project(':projects-3-ValueResourceSample').projectDir = new File('projects/fundamentals/3rd/ValueResourceSample/app/')
 
 // fundamentals 4th
 include ':1-4-MessagingAndNotificationPractice'
 project(':1-4-MessagingAndNotificationPractice').projectDir = new File('practice/fundamentals/4th/MessagingAndNotification/app/')
 include ':1-4-MessagingAndNotificationAssignments'
 project(':1-4-MessagingAndNotificationAssignments').projectDir = new File('assignments/fundamentals/4th/MessagingAndNotification/app/')
+include ':answer-1-4-MessagingAndNotificationPractice'
+project(':answer-1-4-MessagingAndNotificationPractice').projectDir = new File('answers/practice/fundamentals/4th/MessagingAndNotification/app/')
+include ':answer-1-4-MessagingAndNotificationAssignments'
+project(':answer-1-4-MessagingAndNotificationAssignments').projectDir = new File('answers/assignments/fundamentals/4th/MessagingAndNotification/app/')
+include ':projects-4-BroadcastReceiverSample'
+project(':projects-4-BroadcastReceiverSample').projectDir = new File('projects/fundamentals/4th/BroadcastReceiverSample/app/')
+include ':projects-4-IntentSample'
+project(':projects-4-IntentSample').projectDir = new File('projects/fundamentals/4th/IntentSample/app/')
+include ':projects-4-LocalBroadcastReceiverSample'
+project(':projects-4-LocalBroadcastReceiverSample').projectDir = new File('projects/fundamentals/4th/LocalBroadcastReceiverSample/app/')
+include ':projects-4-NotificationSample'
+project(':projects-4-NotificationSample').projectDir = new File('projects/fundamentals/4th/NotificationSample/app/')
+include ':projects-4-PendingIntentSample'
+project(':projects-4-PendingIntentSample').projectDir = new File('projects/fundamentals/4th/PendingIntentSample/app/')
 
 // fundamentals 5th
 include ':1-5-ActionBarPractice1'
@@ -65,12 +151,28 @@ include ':1-5-InteractionCallbackAssignment1'
 project(':1-5-InteractionCallbackAssignment1').projectDir = new File('assignments/fundamentals/5th/InteractionCallbackAssignment1/app/')
 include ':1-5-InteractionCallbackAssignment2'
 project(':1-5-InteractionCallbackAssignment2').projectDir = new File('assignments/fundamentals/5th/InteractionCallbackAssignment2/app/')
+include ':projects-5-ActionBarSample'
+project(':projects-5-ActionBarSample').projectDir = new File('projects/fundamentals/5th/ActionBarSample/app/')
+include ':projects-5-InteractionCallbackSample'
+project(':projects-5-InteractionCallbackSample').projectDir = new File('projects/fundamentals/5th/InteractionCallbackSample/app/')
+include ':projects-5-StyledActionBarSample'
+project(':projects-5-StyledActionBarSample').projectDir = new File('projects/fundamentals/5th/StyledActionBarSample/app/')
+include ':projects-5-ToolbarSample'
+project(':projects-5-ToolbarSample').projectDir = new File('projects/fundamentals/5th/ToolbarSample/app/')
 
 // fundamentals 6th
 include ':1-6-ListViewPractice'
 project(':1-6-ListViewPractice').projectDir = new File('practice/fundamentals/6th/ListViewPractice/app/')
 include ':1-6-ListViewAssignment'
 project(':1-6-ListViewAssignment').projectDir = new File('assignments/fundamentals/6th/ListViewAssignment/app/')
+include ':projects-6-CustomListItemSample'
+project(':projects-6-CustomListItemSample').projectDir = new File('projects/fundamentals/6th/CustomListItemSample/app/')
+include ':projects-6-FragmentViewPagerSample'
+project(':projects-6-FragmentViewPagerSample').projectDir = new File('projects/fundamentals/6th/FragmentViewPagerSample/app/')
+include ':projects-6-ListViewSample'
+project(':projects-6-ListViewSample').projectDir = new File('projects/fundamentals/6th/ListViewSample/app/')
+include ':projects-6-ViewPagerSample'
+project(':projects-6-ViewPagerSample').projectDir = new File('projects/fundamentals/6th/ViewPagerSample/app/')
 
 // fundamentals 7th
 include ':1-7-SerializablePractice1'
@@ -83,18 +185,28 @@ include ':1-7-SerializableAssignment'
 project(':1-7-SerializableAssignment').projectDir = new File('assignments/fundamentals/7th/SerializableAssignment/app/')
 include ':1-7-SharedPreferencesAssignment'
 project(':1-7-SharedPreferencesAssignment').projectDir = new File('assignments/fundamentals/7th/SharedPreferencesAssignment/app/')
+include ':projects-7-JsonObjectSample'
+project(':projects-7-JsonObjectSample').projectDir = new File('projects/fundamentals/7th/JsonObjectSample/app/')
+include ':projects-7-ParcelableSample'
+project(':projects-7-ParcelableSample').projectDir = new File('projects/fundamentals/7th/ParcelableSample/app/')
 
 // fundamentals 8th
 include ':1-8-AsyncTaskAssignment1'
 project(':1-8-AsyncTaskAssignment1').projectDir = new File('assignments/fundamentals/8th/AsyncTaskAssignment1/app/')
+include ':projects-8-ParcelableSample'
+project(':projects-8-ParcelableSample').projectDir = new File('projects/fundamentals/8th/ParcelableSample/app/')
+include ':projects-8-ParcelableSample'
+project(':projects-8-ParcelableSample').projectDir = new File('projects/fundamentals/8th/ParcelableSample/app/')
+include ':projects-8-ParcelableSample'
+project(':projects-8-ParcelableSample').projectDir = new File('projects/fundamentals/8th/ParcelableSample/app/')
 
 // fundamentals 9th
-include ':1-9-NetworkPractice1'
-project(':1-9-NetworkPractice1').projectDir = new File('practice/fundamentals/9th/NetworkPractice1/app/')
-include ':1-9-NetworkPractice2'
-project(':1-9-NetworkPractice2').projectDir = new File('practice/fundamentals/9th/NetworkPractice2/app/')
-include ':1-9-NetworkAssignment'
-project(':1-9-NetworkAssignment').projectDir = new File('assignments/fundamentals/9th/NetworkAssignment/app/')
+include ':1-9-AsyncTaskSample'
+project(':1-9-AsyncTaskSample').projectDir = new File('practice/fundamentals/9th/AsyncTaskSample/app/')
+include ':1-9-LoaderSample'
+project(':1-9-LoaderSample').projectDir = new File('practice/fundamentals/9th/LoaderSample/app/')
+include ':1-9-ServiceSample'
+project(':1-9-ServiceSample').projectDir = new File('assignments/fundamentals/9th/ServiceSample/app/')
 
 // fundamentals 10th
 include ':1-10-SQLitePractice'
@@ -103,6 +215,16 @@ include ':1-10-ContentProviderAssignment'
 project(':1-10-ContentProviderAssignment').projectDir = new File('assignments/fundamentals/10th/ContentProviderAssignment/app/')
 include ':1-10-SQLiteAssignment'
 project(':1-10-SQLiteAssignment').projectDir = new File('assignments/fundamentals/10th/SQLiteAssignment/app/')
+include ':projects-10-ContentProviderCallSample'
+project(':projects-10-ContentProviderCallSample').projectDir = new File('projects/fundamentals/10th/ContentProviderCallSample/app/')
+include ':projects-10-ContentProviderLoaderSample'
+project(':projects-10-ContentProviderLoaderSample').projectDir = new File('projects/fundamentals/10th/ContentProviderLoaderSample/app/')
+include ':projects-10-ContentProviderSample'
+project(':projects-10-ContentProviderSample').projectDir = new File('projects/fundamentals/10th/ContentProviderSample/app/')
+include ':projects-10-SimpleCursorAdapterSample'
+project(':projects-10-SimpleCursorAdapterSample').projectDir = new File('projects/fundamentals/10th/SimpleCursorAdapterSample/app/')
+include ':projects-10-SQLiteSample'
+project(':projects-10-SQLiteSample').projectDir = new File('projects/fundamentals/10th/SQLiteSample/app/')
 
 // fundamentals 11th
 include ':1-11-TestAssignmentTarget'

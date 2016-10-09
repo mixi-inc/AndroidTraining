@@ -1,7 +1,7 @@
 package jp.mixi.assignment.controller.med;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
@@ -13,7 +13,7 @@ import android.widget.TextView;
  * これを防ぐため、この Activity の中で状態管理をしてください。
  * @author keishin.yokomaku
  */
-public class SubActivity extends Activity implements TextWatcher {
+public class SubActivity extends AppCompatActivity implements TextWatcher {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         // Hint: 状態遷移が何も起こっていない場合は、savedInstanceState は null です

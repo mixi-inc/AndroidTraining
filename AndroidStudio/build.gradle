@@ -4,7 +4,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.0'
+        classpath 'com.android.tools.build:gradle:2.2.0'
     }
 }
 
@@ -16,8 +16,8 @@ allprojects {
 
 // 全体で共通で使うバージョンをパラメータ化
 ext {
-    androidSdkVersion = 23
-    androidMinSdkVersion = 7
-    androidBuildToolsVersion = "23.0.3"
-    supportLibVersion = "23.4.0"
+    androidSdkVersion = 24
+    androidMinSdkVersion = 16
+    androidBuildToolsVersion = "24.0.2"
+    supportLibVersion = "24.2.1"
 }
