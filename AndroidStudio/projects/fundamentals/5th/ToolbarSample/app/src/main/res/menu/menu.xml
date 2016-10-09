@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- showAsActionについて
+         never -> 常に表示しない
+         ifRoom -> 表示する余裕があれば表示
+         always -> 常に表示
+         withText -> android:titleのテキストを表示。"|"を使用して他の値と同時に指定可能
+         collapseActionView -> android:actionViewLayoutで指定されているアクションビューと関連付ける。"|"を使用して他の値と同時に指定可能
+    -->
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        android:title="@string/favorite"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+</menu>

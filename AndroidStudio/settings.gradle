@@ -157,6 +157,8 @@ include ':projects-5-InteractionCallbackSample'
 project(':projects-5-InteractionCallbackSample').projectDir = new File('projects/fundamentals/5th/InteractionCallbackSample/app/')
 include ':projects-5-StyledActionBarSample'
 project(':projects-5-StyledActionBarSample').projectDir = new File('projects/fundamentals/5th/StyledActionBarSample/app/')
+include ':projects-5-ToolbarSample'
+project(':projects-5-ToolbarSample').projectDir = new File('projects/fundamentals/5th/ToolbarSample/app/')
 
 // fundamentals 6th
 include ':1-6-ListViewPractice'
