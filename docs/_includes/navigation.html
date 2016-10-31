@@ -1,0 +1,38 @@
+<nav>
+    <ol class="chapter_navigation">
+        <a href="{{ site.baseurl }}/">Home</a>
+        <li>まえがき</li>
+        <ol class="section_navigation">
+            {% assign introductions = (site.pages | where: "section" , "introductions") %}
+            {% for introduction in introductions %}
+            <li><a href="{{ introduction.url | prepend: site.baseurl }}">{{ introduction.title }}</a></li>
+            {% endfor %}
+        </ol>
+        <li>基礎編</li>
+        <ol class="section_navigation">
+            {% assign fundamentals = (site.pages | where: "section" , "fundamentals") %}
+            {% for fundamental in fundamentals %}
+            <li><a href="{{ fundamental.url | prepend: site.baseurl }}">{{ fundamental.title }}</a></li>
+            {% endfor %}
+        </ol>
+        <li>実務編</li>
+        <ol class="section_navigation">
+            {% assign advanceds = (site.pages | where: "section" , "advanced") %}
+            {% for advanced in advanceds %}
+            <li><a href="{{ advanced.url | prepend: site.baseurl }}">{{ advanced.title }}</a></li>
+            {% endfor %}
+        </ol>
+        <li>デザイナー編</li>
+        <ol>
+        </ol>
+    </ol>
+    <ol class="appex_navigation">
+        <li>付録</li>
+        <ol class="section_navigation">
+            {% assign appendices = (site.pages | where: "section" , "appendix") %}
+            {% for appendix in appendices %}
+            <li><a href="{{ appendix.url | prepend: site.baseurl }}">{{ appendix.title }}</a></li>
+            {% endfor %}
+        </ol>
+    </ol>
+</nav>

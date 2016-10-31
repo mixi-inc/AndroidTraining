@@ -1,0 +1,47 @@
+exclude: ['vendor', 'Gemfile', 'Gemfile.lock', 'Readme.md']
+markdown: kramdown
+redcarpet:
+  extensions: [tables,autolink]
+gems:
+    - jekyll-sitemap
+
+title: mixi-inc/AndroidTraining
+
+# production env
+baseurl: '/AndroidTraining'
+components: '/AndroidTraining/bower_components'
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values: 
+            section: ""
+            layout: "default"
+            description: "AndroidTraining - Training course repository for android app development"
+            og_type: "article"
+    -
+        scope:
+            path: "introductions"
+            type: "pages"
+        values: 
+            section: "introductions"
+    -
+        scope:
+            path: "fundamentals"
+            type: "pages"
+        values: 
+            section: "fundamentals"
+    -
+        scope:
+            path: "advanced"
+            type: "pages"
+        values: 
+            section: "advanced"
+    -
+        scope:
+            path: "appendix"
+            type: "pages"
+        values: 
+            section: "appendix"

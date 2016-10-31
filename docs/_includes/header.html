@@ -1,0 +1,16 @@
+<paper-toolbar class="mainheader tall" role="toolbar">
+    <paper-icon-button icon="menu" paper-drawer-toggle></paper-icon-button>
+
+    <span class="title"></span>
+
+    <a id="forkme_banner" href="https://github.com/mixi-inc/AndroidTraining" role="button">
+        <paper-icon-button src="{{site.baseurl}}/images/blacktocat.png"></paper-icon-button> <span>View on GitHub</span>
+    </a>
+
+    <div class="middle title">{{site.title}}</div>
+    <div class="bottom title">{% if page.title %}{{page.title}}{% else %}AndroidTraining{% endif %}</div>
+</paper-toolbar>
+
+{% if page.description %}
+<div id="description" itemprop="description">{{page.description}}</div>
+{% endif %}

@@ -1,0 +1,20 @@
+{
+  "name": "AndroidTraining",
+  "homepage": "http://mixi-inc.github.io/AndroidTraining/",
+  "authors": [
+    "mixi Inc"
+  ],
+  "description": "",
+  "main": "",
+  "license": "Apache License Version2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  }
+}

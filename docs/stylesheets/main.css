@@ -1,0 +1,115 @@
+@import url(pygment_trac.css);
+
+html, body {
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
+  font-weight: 700;
+  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  letter-spacing: -1px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #373737;
+  margin-bottom: 20px;
+  text-align: left;
+}
+th {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 10px;
+  background: #373737;
+  color: #fff;
+}
+
+tbody {
+  padding: 0;
+}
+td {
+  padding: 10px;
+  border: 1px solid #373737;
+}
+pre, code {
+  width: 100%;
+  color: #222;
+  background-color: #fff;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-size: 14px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+code {
+  padding: 3px;
+  margin: 0 3px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+pre code {
+  display: block;
+  box-shadow: none;
+}
+p {
+  margin: 10px 0 15px 0;
+}
+img {
+  max-width: 90%;
+  height: auto;
+}
+
+footer {
+  background-color: #A5CA39;
+  color: white;
+  padding: 5px 20px;
+}
+
+.mainheader {
+  background-color: #A5CA39;
+}
+
+.drawer {
+  background: white;
+}
+
+.chapter_navigation {
+  margin: 50px 20px 50px 0px;
+}
+.highlight {
+  overflow: auto;
+}
+
+#main_content{
+  margin: 20px 40px;
+}
+#forkme_banner{
+    color: white;
+}
+
+#description {
+  margin: 20px 40px;
+  font-size: 20px;
+}
+
+// for elements
+paper-header-panel {
+  background: #f2f2f2;
+  height: 100%;
+  width: 100%;
+}
+paper-scroll-header-panel {
+  background: #f2f2f2;
+  height: 100%;
+  width: 100%;
+}
+paper-toolbar {
+  color: #fff;
+  width: 100%;
+}
+

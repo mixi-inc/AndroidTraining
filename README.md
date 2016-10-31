@@ -95,7 +95,7 @@ IDE別にディレクトリが分かれている部分がありますが、基�
 Pull Request
 ------
 Pull Requestは歓迎します。  
-コードはmasterブランチ、http://mixi-inc.github.io/AndroidTraining への変更はgh-pagesブランチにPull Requestしてください。
+コードはmasterブランチ、http://mixi-inc.github.io/AndroidTraining への変更はmasterブランチのdocs以下にPull Requestしてください。
 
 License
 ------
