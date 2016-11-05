@@ -41,28 +41,26 @@ keywords: ["android","training", "基礎", "スキル", "開発", "developer", "
 ### 目次
 
 1. **まえがき**
-  {% assign introductions = (site.pages | where: "section" , "introductions") %}
-  {% for introduction in introductions %}
-  1. [{{ introduction.title }}]({{ introduction.url | prepend: site.baseurl }})
-  {% endfor %}
-1. **基礎編**
-  {% assign fundamentals = (site.pages | where: "section" , "fundamentals") %}
-  {% for fundamental in fundamentals %}
-  1. [{{ fundamental.title }}]({{ fundamental.url | prepend: site.baseurl }})
-  {% endfor %}
-1. **実務編**
-  {% assign advanceds = (site.pages | where: "section" , "advanced") %}
-  {% for advanced in advanceds %}
-  1. [{{ advanced.title }}]({{ advanced.url | prepend: site.baseurl }})
-  {% endfor %}
-
-1. **デザイナー編**
-
-1. **付録**
-  {% assign appendices = (site.pages | where: "section" , "appendix") %}
-  {% for appendix in appendices %}
-  1. [{{ appendix.title }}]({{ appendix.url | prepend: site.baseurl }})
-  {% endfor %}
+    {% assign introductions = (site.pages | where: "section" , "introductions") %}
+    {% for introduction in introductions %}
+    1. [{{ introduction.title }}]({{ introduction.url | prepend: site.baseurl }})
+    {% endfor %}
+2. **基礎編**
+    {% assign fundamentals = (site.pages | where: "section" , "fundamentals") %}
+    {% for fundamental in fundamentals %}
+    1. [{{ fundamental.title }}]({{ fundamental.url | prepend: site.baseurl }})
+    {% endfor %}
+3. **実務編**
+    {% assign advanceds = (site.pages | where: "section" , "advanced") %}
+    {% for advanced in advanceds %}
+    1. [{{ advanced.title }}]({{ advanced.url | prepend: site.baseurl }})
+    {% endfor %}
+4. **デザイナー編**
+5. **付録**
+    {% assign appendices = (site.pages | where: "section" , "appendix") %}
+    {% for appendix in appendices %}
+    1. [{{ appendix.title }}]({{ appendix.url | prepend: site.baseurl }})
+    {% endfor %}
 
 ### 課題の取り組み方
 
