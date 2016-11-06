@@ -38,7 +38,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
 構成
 ------
 
-このトレーニングコースは、下記のカリキュラムで構成されています。
+このトレーニングコースは、下記のカリキュラムで構成されています。  
 カリキュラム構成は、予告なく変更される場合があります。
 
 1. **まえがき**
@@ -47,6 +47,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   3. [Android プロジェクトの作成](http://mixi-inc.github.io/AndroidTraining/introductions/1.03.create-project-for-android-studio.html)
   4. [Android アプリの基礎知識](http://mixi-inc.github.io/AndroidTraining/introductions/1.04.basic-knowledge.html)
   5. [Android のビルドについて（Gradle）](http://mixi-inc.github.io/AndroidTraining/introductions/1.05.how-to-build-for-gradle.html)  
+  6. [課題プロジェクトの開き方](http://mixi-inc.github.io/AndroidTraining/introductions/1.06.how-to-open-project.html)  
 2. **基礎編**
   1. [アプリのレイアウト作成](http://mixi-inc.github.io/AndroidTraining/fundamentals/2.01.create-layout.html)
   2. [Activity と Fragment](http://mixi-inc.github.io/AndroidTraining/fundamentals/2.02.activity-and-fragment.html)
@@ -59,7 +60,7 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   9. [ネットワーク通信](http://mixi-inc.github.io/AndroidTraining/fundamentals/2.09.network-access.html)
   10. [データベース](http://mixi-inc.github.io/AndroidTraining/fundamentals/2.10.database.html)
   11. [テスト](http://mixi-inc.github.io/AndroidTraining/fundamentals/2.11.testing.html)
-  11. [テスト(AndroidStudio)](http://mixi-inc.github.io/AndroidTraining/fundamentals/2.11.testing-for-android-studio.html)  
+  12. [テスト(AndroidStudio)](http://mixi-inc.github.io/AndroidTraining/fundamentals/2.11.testing-for-android-studio.html)  
 3. **実務編**
   1. [デバッグと自動ビルド](http://mixi-inc.github.io/AndroidTraining/advanced/3.01.build-for-eclipse.html)
   1. [自動ビルド(Android Studio)](http://mixi-inc.github.io/AndroidTraining/advanced/3.01.build-for-gradle.html)
@@ -74,11 +75,11 @@ Android アプリ開発の基礎知識と実務スキルを身に付けるトレ
   1. [Git リポジトリからのプロジェクトのインポート](http://mixi-inc.github.io/AndroidTraining/appendix/A.01.import-from-git-for-eclipse.html)
   2. [Java の文法の基礎](http://mixi-inc.github.io/AndroidTraining/appendix/A.02.basic-java.html)
   3. [仮想デバイスの作成](http://mixi-inc.github.io/AndroidTraining/appendix/A.03.how-to-create-avd.html)
-  3. [Javaの活用](http://mixi-inc.github.io/AndroidTraining/appendix/A.04.advanced-java.html)
+  4. [Javaの活用](http://mixi-inc.github.io/AndroidTraining/appendix/A.04.advanced-java.html)
 
 また、リポジトリには下記のディレクトリ構成で、プロジェクトが作成されています。  
-Eclipse、Android Studio双方に対応していましたが今後Eclipseについての記述は削除する予定です。
-IDE別にディレクトリが分かれている部分がありますが、基本的にはAndroid Studioを利用してください。
+Eclipse、Android Studio双方に対応していましたが今後Eclipseについての記述は削除する予定です。  
+IDE別にディレクトリが分かれている部分がありますが、基本的にはAndroid Studioを利用してください。  
 課題提出の際には、このリポジトリを fork して、各章ごとにブランチを作成し、コミットを作ってください。
 
   
