@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/CallAction1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_call_1"/>
+    <Button
+        android:id="@+id/CallAction2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_call_2"/>
+    <Button
+        android:id="@+id/CallAction3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/action_call_3"/>
+</LinearLayout>
