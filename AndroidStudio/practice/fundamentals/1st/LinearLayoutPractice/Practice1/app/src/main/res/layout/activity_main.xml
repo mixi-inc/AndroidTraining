@@ -58,10 +58,24 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"/>
 
-    <!-- TODO: ここの LinearLayout に 3 つの Button を置いて、半分を左端のもの、もう半分を残りの 2 つで半分ずつに割付 -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"/>
     </LinearLayout>
 </LinearLayout>
