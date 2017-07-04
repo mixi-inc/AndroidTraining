@@ -33,7 +33,6 @@
         android:layout_width="match_parent"
         android:layout_height="20dp"/>
 
-    <!-- TODO: ここの LinearLayout に 3 つの Button を置いて均等割付する -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,6 +42,16 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="1"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"/>
     </LinearLayout>
 
     <View
