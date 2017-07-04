@@ -8,16 +8,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
     tools:context=".MainActivity">
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <!-- TODO: この TextView の下に ic_launcher の画像を表示する ImageView を配置し、センタリングする -->
         <!-- TODO: TextView は 縦方向の真ん中に来るようにする -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="center"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/hello_world"/>
+            android:text="@string/hello_world"
+            android:layout_gravity="center_vertical"/>
     </FrameLayout>
     <FrameLayout
         android:layout_width="wrap_content"
@@ -28,6 +36,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_launcher"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"/>
     </FrameLayout>
 
     <FrameLayout
@@ -35,6 +61,20 @@
         android:layout_height="wrap_content">
         <!-- この ImageView の下に、android:background="@drawable/shape"を持つ FrameLayout を配置し、左と上に 20 dp ずつ余白をつける -->
         <!-- 配置した FrameLayout の内側に、20 dp の余白を付け、その子要素に、hogehogeと表示する TextView を配置する -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="hogehoge"/>
+        </FrameLayout>
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
