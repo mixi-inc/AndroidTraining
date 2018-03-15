@@ -1,20 +1,6 @@
 // fundamentals 1st
 include ':1-1-LayoutPractice'
 project(':1-1-LayoutPractice').projectDir = new File('practice/fundamentals/1st/LayoutPractice')
-include ':1-1-LinearLayoutPractice-Practice1'
-project(':1-1-LinearLayoutPractice-Practice1').projectDir = new File('practice/fundamentals/1st/LinearLayoutPractice/Practice1/app')
-include ':1-1-LinearLayoutPractice-Practice2'
-project(':1-1-LinearLayoutPractice-Practice2').projectDir = new File('practice/fundamentals/1st/LinearLayoutPractice/Practice2/app')
-include ':1-1-RelativeLayoutPractice-Practice1'
-project(':1-1-RelativeLayoutPractice-Practice1').projectDir = new File('practice/fundamentals/1st/RelativeLayoutPractice/Practice1/app')
-include ':1-1-RelativeLayoutPractice-Practice2'
-project(':1-1-RelativeLayoutPractice-Practice2').projectDir = new File('practice/fundamentals/1st/RelativeLayoutPractice/Practice2/app')
-include ':1-1-FrameLayoutPractice-Practice1'
-project(':1-1-FrameLayoutPractice-Practice1').projectDir = new File('practice/fundamentals/1st/FrameLayoutPractice/Practice1/app')
-include ':1-1-FrameLayoutPractice-Practice2'
-project(':1-1-FrameLayoutPractice-Practice2').projectDir = new File('practice/fundamentals/1st/FrameLayoutPractice/Practice2/app')
-include ':1-1-ScrollViewPractice-Practice1'
-project(':1-1-ScrollViewPractice-Practice1').projectDir = new File('practice/fundamentals/1st/ScrollViewPractice/Practice1/app')
 include ':1-1-LayoutAssignment1'
 project(':1-1-LayoutAssignment1').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment1/app')
 include ':1-1-LayoutAssignment2'
