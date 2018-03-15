@@ -1,4 +1,6 @@
 // fundamentals 1st
+include ':1-1-LayoutPractice'
+project(':1-1-LayoutPractice').projectDir = new File('practice/fundamentals/1st/LayoutPractice')
 include ':1-1-LinearLayoutPractice-Practice1'
 project(':1-1-LinearLayoutPractice-Practice1').projectDir = new File('practice/fundamentals/1st/LinearLayoutPractice/Practice1/app')
 include ':1-1-LinearLayoutPractice-Practice2'
