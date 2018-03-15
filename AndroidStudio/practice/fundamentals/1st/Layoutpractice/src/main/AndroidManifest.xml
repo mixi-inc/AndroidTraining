@@ -24,5 +24,8 @@
         <activity
             android:name=".RelativeLayout1Activity"
             android:label="@string/relative_layout1_name" />
+        <activity
+            android:name=".RelativeLayout2Activity"
+            android:label="@string/relative_layout2_name" />
     </application>
 </manifest>
