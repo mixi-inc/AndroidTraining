@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">LayoutPractice</string>
 
-    <string name="linear_layout1_name">LinearLayoutPractice1</string>
-    <string name="linear_layout2_name">LinearLayoutPractice2</string>
+    <string name="linear_layout1_name">Linear Layout Practice 1</string>
+    <string name="linear_layout2_name">Linear Layout Practice 2</string>
+    <string name="relative_layout1_name">Relative Layout Practice 1</string>
 </resources>

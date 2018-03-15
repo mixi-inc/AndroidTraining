@@ -21,5 +21,8 @@
         <activity
             android:name=".LinearLayout2Activity"
             android:label="@string/linear_layout2_name" />
+        <activity
+            android:name=".RelativeLayout1Activity"
+            android:label="@string/relative_layout1_name" />
     </application>
 </manifest>

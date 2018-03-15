@@ -10,10 +10,17 @@
         android:id="@+id/linear_layout1_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LinearLayout1" />
+        android:text="@string/linear_layout1_name" />
+
     <Button
         android:id="@+id/linear_layout2_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="LinearLayout2" />
+        android:text="@string/linear_layout2_name" />
+
+    <Button
+        android:id="@+id/relative_layout1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relative_layout1_name" />
 </LinearLayout>
