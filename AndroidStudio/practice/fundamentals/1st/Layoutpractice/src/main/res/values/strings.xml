@@ -2,4 +2,5 @@
     <string name="app_name">LayoutPractice</string>
 
     <string name="linear_layout1_name">LinearLayoutPractice1</string>
+    <string name="linear_layout2_name">LinearLayoutPractice2</string>
 </resources>

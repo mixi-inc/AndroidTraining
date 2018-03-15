@@ -16,7 +16,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Context context = view.getContext();
-                context.startActivity(new Intent(context,LinearLayout1Activity.class));
+                context.startActivity(new Intent(context, LinearLayout1Activity.class));
+            }
+        });
+        findViewById(R.id.linear_layout2_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, LinearLayout2Activity.class));
             }
         });
     }

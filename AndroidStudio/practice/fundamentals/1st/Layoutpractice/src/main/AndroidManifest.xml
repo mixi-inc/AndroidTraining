@@ -18,5 +18,8 @@
         <activity
             android:name=".LinearLayout1Activity"
             android:label="@string/linear_layout1_name" />
+        <activity
+            android:name=".LinearLayout2Activity"
+            android:label="@string/linear_layout2_name" />
     </application>
 </manifest>
