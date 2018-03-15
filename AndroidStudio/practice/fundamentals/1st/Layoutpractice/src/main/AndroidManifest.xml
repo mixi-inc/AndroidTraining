@@ -27,5 +27,8 @@
         <activity
             android:name=".RelativeLayout2Activity"
             android:label="@string/relative_layout2_name" />
+        <activity
+            android:name=".FrameLayout1Activity"
+            android:label="@string/frame_layout1_name" />
     </application>
 </manifest>

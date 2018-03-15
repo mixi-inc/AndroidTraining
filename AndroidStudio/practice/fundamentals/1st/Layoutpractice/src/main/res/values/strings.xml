@@ -5,4 +5,5 @@
     <string name="linear_layout2_name">Linear Layout Practice 2</string>
     <string name="relative_layout1_name">Relative Layout Practice 1</string>
     <string name="relative_layout2_name">Relative Layout Practice 2</string>
+    <string name="frame_layout1_name">Frame Layout Practice 1</string>
 </resources>

@@ -29,4 +29,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/relative_layout2_name" />
+    <Button
+        android:id="@+id/frame_layout1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frame_layout1_name" />
 </LinearLayout>

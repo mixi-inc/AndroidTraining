@@ -40,5 +40,12 @@ public class MainActivity extends AppCompatActivity {
                 context.startActivity(new Intent(context, RelativeLayout2Activity.class));
             }
         });
+        findViewById(R.id.frame_layout1_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, FrameLayout1Activity.class));
+            }
+        });
     }
 }
