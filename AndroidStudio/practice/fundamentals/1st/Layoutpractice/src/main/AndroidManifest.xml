@@ -30,5 +30,8 @@
         <activity
             android:name=".FrameLayout1Activity"
             android:label="@string/frame_layout1_name" />
+        <activity
+            android:name=".FrameLayout2Activity"
+            android:label="@string/frame_layout2_name" />
     </application>
 </manifest>

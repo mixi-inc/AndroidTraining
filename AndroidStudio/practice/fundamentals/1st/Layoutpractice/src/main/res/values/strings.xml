@@ -1,9 +1,12 @@
 <resources>
     <string name="app_name">LayoutPractice</string>
 
+    <string name="hello_world">Hello world! My name is Android.</string>
+
     <string name="linear_layout1_name">Linear Layout Practice 1</string>
     <string name="linear_layout2_name">Linear Layout Practice 2</string>
     <string name="relative_layout1_name">Relative Layout Practice 1</string>
     <string name="relative_layout2_name">Relative Layout Practice 2</string>
     <string name="frame_layout1_name">Frame Layout Practice 1</string>
+    <string name="frame_layout2_name">Frame Layout Practice 2</string>
 </resources>
