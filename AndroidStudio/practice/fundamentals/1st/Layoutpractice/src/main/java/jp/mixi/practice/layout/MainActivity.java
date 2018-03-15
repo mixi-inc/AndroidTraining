@@ -54,5 +54,12 @@ public class MainActivity extends AppCompatActivity {
                 context.startActivity(new Intent(context, FrameLayout2Activity.class));
             }
         });
+        findViewById(R.id.scroll_view1_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, ScrollViewActivity.class));
+            }
+        });
     }
 }

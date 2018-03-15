@@ -33,5 +33,8 @@
         <activity
             android:name=".FrameLayout2Activity"
             android:label="@string/frame_layout2_name" />
+        <activity
+            android:name=".ScrollViewActivity"
+            android:label="@string/scroll_view1_name" />
     </application>
 </manifest>

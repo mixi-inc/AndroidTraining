@@ -39,4 +39,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/frame_layout2_name" />
+    <Button
+        android:id="@+id/scroll_view1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scroll_view1_name" />
 </LinearLayout>
