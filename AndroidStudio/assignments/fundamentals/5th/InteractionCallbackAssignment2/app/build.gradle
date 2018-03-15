@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion androidSdkVersion
-    buildToolsVersion androidBuildToolsVersion
 
     defaultConfig {
         applicationId "jp.mixi.assignment.interaction.med"
