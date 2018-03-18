@@ -23,4 +23,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/assignment3_name" />
+    <Button
+        android:id="@+id/assignment4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/assignment4_name" />
 </LinearLayout>
