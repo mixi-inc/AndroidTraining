@@ -26,5 +26,12 @@ public class MainActivity extends AppCompatActivity {
                 context.startActivity(new Intent(context, Assignment2Activity.class));
             }
         });
+        findViewById(R.id.assignment3_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, Assignment3Activity.class));
+            }
+        });
     }
 }

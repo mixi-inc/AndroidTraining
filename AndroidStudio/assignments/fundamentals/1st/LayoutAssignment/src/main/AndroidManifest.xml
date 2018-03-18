@@ -19,5 +19,8 @@
         <activity
             android:name=".Assignment2Activity"
             android:label="@string/assignment2_name" />
+        <activity
+            android:name=".Assignment3Activity"
+            android:label="@string/assignment3_name" />
     </application>
 </manifest>

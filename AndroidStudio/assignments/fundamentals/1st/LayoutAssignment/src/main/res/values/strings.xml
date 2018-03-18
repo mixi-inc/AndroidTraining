@@ -2,6 +2,7 @@
     <string name="app_name">LayoutAssignment</string>
     <string name="assignment1_name">Layout Assignment 1</string>
     <string name="assignment2_name">Layout Assignment 2</string>
+    <string name="assignment3_name">Layout Assignment 3</string>
 
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
