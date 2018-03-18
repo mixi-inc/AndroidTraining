@@ -21,6 +21,8 @@ include ':1-1-LayoutAssignment3'
 project(':1-1-LayoutAssignment3').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment3/app')
 
 // fundamentals 2nd
+include ':1-2-ActivityAndFragmentPractice'
+project(':1-2-ActivityAndFragmentPractice').projectDir = new File('practice/fundamentals/2nd/ActivityAndFragmentPractice')
 include ':1-2-ActivityPractice-Practice1'
 project(':1-2-ActivityPractice-Practice1').projectDir = new File('practice/fundamentals/2nd/ActivityPractice/Practice1/app/')
 include ':1-2-ActivityPractice-Practice2'
