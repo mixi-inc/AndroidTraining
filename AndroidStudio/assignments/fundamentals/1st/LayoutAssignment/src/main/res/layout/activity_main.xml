@@ -11,4 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/assignment1_name" />
+
+    <Button
+        android:id="@+id/assignment2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/assignment2_name" />
 </LinearLayout>
