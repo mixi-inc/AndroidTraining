@@ -23,6 +23,8 @@ project(':1-1-LayoutAssignment3').projectDir = new File('assignments/fundamental
 // fundamentals 2nd
 include ':1-2-ActivityAndFragmentPractice'
 project(':1-2-ActivityAndFragmentPractice').projectDir = new File('practice/fundamentals/2nd/ActivityAndFragmentPractice')
+include ':1-2-ControllerAssignment'
+project(':1-2-ControllerAssignment').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment')
 include ':1-2-ControllerAssignment1'
 project(':1-2-ControllerAssignment1').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment1/app/')
 include ':1-2-ControllerAssignment2'
