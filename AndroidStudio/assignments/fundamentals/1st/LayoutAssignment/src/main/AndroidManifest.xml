@@ -13,5 +13,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Assignment1Activity"
+            android:label="@string/assignment1_name" />
     </application>
 </manifest>
