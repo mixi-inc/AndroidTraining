@@ -14,6 +14,7 @@ import java.util.List;
  */
 public class ClickableAdapter extends BindableAdapter<ClickableAdapter.ClickableItem> {
     private static final int LAYOUT_ID = android.R.layout.simple_expandable_list_item_1;
+
     public ClickableAdapter(Context context, List<ClickableItem> items) {
         super(context, items);
     }
