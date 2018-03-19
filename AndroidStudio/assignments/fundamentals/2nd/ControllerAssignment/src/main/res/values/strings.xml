@@ -3,4 +3,5 @@
     <string name="hello_world">Hello world!</string>
 
     <string name="controller1_name">Controller Assignment 1</string>
+    <string name="controller2_name">Controller Assignment 2</string>
 </resources>

@@ -9,5 +9,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/controller1_name" />
+    <Button
+        android:id="@+id/controller2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/controller2_name" />
 
 </LinearLayout>

@@ -18,5 +18,8 @@
         <activity
             android:name=".Controller1Activity"
             android:label="@string/controller1_name" />
+        <activity
+            android:name=".Controller2Activity"
+            android:label="@string/controller2_name" />
     </application>
 </manifest>
