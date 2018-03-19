@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jp.mixi.practice.layout.MainActivity">
+
+    <Button
+        android:id="@+id/linear_layout1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linear_layout1_name" />
+
+    <Button
+        android:id="@+id/linear_layout2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/linear_layout2_name" />
+
+    <Button
+        android:id="@+id/relative_layout1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relative_layout1_name" />
+
+    <Button
+        android:id="@+id/relative_layout2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relative_layout2_name" />
+    <Button
+        android:id="@+id/frame_layout1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frame_layout1_name" />
+    <Button
+        android:id="@+id/frame_layout2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frame_layout2_name" />
+    <Button
+        android:id="@+id/scroll_view1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/scroll_view1_name" />
+</LinearLayout>
