@@ -15,5 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".StringResourceActivity"
+            android:label="@string/string_resource_name" />
     </application>
 </manifest>

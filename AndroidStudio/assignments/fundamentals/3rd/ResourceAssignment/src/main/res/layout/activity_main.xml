@@ -6,4 +6,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/string_resource_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_resource_name" />
 </LinearLayout>
