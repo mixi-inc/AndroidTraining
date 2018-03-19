@@ -21,5 +21,8 @@
         <activity
             android:name=".Controller2Activity"
             android:label="@string/controller2_name" />
+        <activity
+            android:name=".Controller3Activity"
+            android:label="@string/controller3_name" />
     </application>
 </manifest>

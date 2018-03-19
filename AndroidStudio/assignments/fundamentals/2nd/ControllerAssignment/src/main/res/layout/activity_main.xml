@@ -14,5 +14,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/controller2_name" />
+    <Button
+        android:id="@+id/controller3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/controller3_name" />
 
 </LinearLayout>
