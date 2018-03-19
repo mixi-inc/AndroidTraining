@@ -18,5 +18,8 @@
         <activity
             android:name=".StringResourceActivity"
             android:label="@string/string_resource_name" />
+        <activity
+            android:name=".DrawableResourceActivity"
+            android:label="@string/drawable_resource_name" />
     </application>
 </manifest>

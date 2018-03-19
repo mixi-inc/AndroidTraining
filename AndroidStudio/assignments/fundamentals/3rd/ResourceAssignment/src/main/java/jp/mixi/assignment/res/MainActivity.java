@@ -19,5 +19,12 @@ public class MainActivity extends AppCompatActivity {
                 context.startActivity(new Intent(context, StringResourceActivity.class));
             }
         });
+        findViewById(R.id.drawable_resource_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, DrawableResourceActivity.class));
+            }
+        });
     }
 }

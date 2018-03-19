@@ -11,4 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/string_resource_name" />
+
+    <Button
+        android:id="@+id/drawable_resource_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/drawable_resource_name" />
 </LinearLayout>

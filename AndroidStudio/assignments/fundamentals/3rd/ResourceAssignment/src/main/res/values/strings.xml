@@ -7,4 +7,5 @@
     </plurals>
 
     <string name="string_resource_name">String Resource</string>
+    <string name="drawable_resource_name">Drawable Resource</string>
 </resources>
