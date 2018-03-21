@@ -43,20 +43,8 @@ project(':1-4-MessagingAndNotificationAssignments').projectDir = new File('assig
 // fundamentals 5th
 include ':1-5-ActionBarPractice'
 project(':1-5-ActionBarPractice').projectDir = new File('practice/fundamentals/5th/ActionBarPractice')
-include ':1-5-ActionBarPractice1'
-project(':1-5-ActionBarPractice1').projectDir = new File('practice/fundamentals/5th/ActionBarPractice1/app/')
-include ':1-5-InteractionCallbackPractice1'
-project(':1-5-InteractionCallbackPractice1').projectDir = new File('practice/fundamentals/5th/InteractionCallbackPractice1/app/')
 include ':1-5-ActionBarAssignment'
 project(':1-5-ActionBarAssignment').projectDir = new File('assignments/fundamentals/5th/ActionBarAssignment')
-include ':1-5-ActionBarAssignment1'
-project(':1-5-ActionBarAssignment1').projectDir = new File('assignments/fundamentals/5th/ActionBarAssignment1/app/')
-include ':1-5-ActionBarAssignment2'
-project(':1-5-ActionBarAssignment2').projectDir = new File('assignments/fundamentals/5th/ActionBarAssignment2/app/')
-include ':1-5-InteractionCallbackAssignment1'
-project(':1-5-InteractionCallbackAssignment1').projectDir = new File('assignments/fundamentals/5th/InteractionCallbackAssignment1/app/')
-include ':1-5-InteractionCallbackAssignment2'
-project(':1-5-InteractionCallbackAssignment2').projectDir = new File('assignments/fundamentals/5th/InteractionCallbackAssignment2/app/')
 
 // fundamentals 6th
 include ':1-6-ListViewPractice'
