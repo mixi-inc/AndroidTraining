@@ -1,7 +1,6 @@
 
 package jp.mixi.assignment.listview;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.ContextMenu;
@@ -13,10 +12,9 @@ import android.widget.AdapterView.AdapterContextMenuInfo;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ListViewActivity extends AppCompatActivity {
-
-    private Activity mActivity;
 
     private ListView mListView;
 
@@ -25,18 +23,15 @@ public class ListViewActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list_view);
 
-        mActivity = this;
-
         // データの作成
-        ArrayList<Book> list = new ArrayList<Book>();
+        List<Book> list = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             list.add(new Book("タイトル" + i, "出版社" + i, i * 10));
         }
 
         // TODO:BookArrayAdapterを作成して下さい。
         // (リストアイテムのレイアウトは用意されているlist_item_book.xmlをしてください。)
-        // BookArrayAdapter bookArrayAdapter = new BookArrayAdapter(mActivity,
-        // list);
+        // BookArrayAdapter bookArrayAdapter = new BookArrayAdapter(this, list);
         mListView = (ListView) findViewById(R.id.BookList);
 
         // TODO:ListViewにBookArrayAdapterをセットしてください。
