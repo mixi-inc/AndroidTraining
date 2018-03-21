@@ -56,7 +56,7 @@ project(':1-5-InteractionCallbackAssignment2').projectDir = new File('assignment
 
 // fundamentals 6th
 include ':1-6-ListViewPractice'
-project(':1-6-ListViewPractice').projectDir = new File('practice/fundamentals/6th/ListViewPractice/app/')
+project(':1-6-ListViewPractice').projectDir = new File('practice/fundamentals/6th/ListViewPractice/')
 include ':1-6-ListViewAssignment'
 project(':1-6-ListViewAssignment').projectDir = new File('assignments/fundamentals/6th/ListViewAssignment/app/')
 
