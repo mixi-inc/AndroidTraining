@@ -4,9 +4,12 @@ android {
     compileSdkVersion androidSdkVersion
 
     defaultConfig {
-        applicationId "jp.mixi.assignment.listview.beg"
         minSdkVersion androidMinSdkVersion
         targetSdkVersion androidSdkVersion
+        applicationId "jp.mixi.assignment.listview"
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -18,5 +21,6 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:support-v4:${supportLibVersion}"
+    implementation "com.android.support:support-v4:${supportLibVersion}"
+    implementation "com.android.support:appcompat-v7:${supportLibVersion}"
 }

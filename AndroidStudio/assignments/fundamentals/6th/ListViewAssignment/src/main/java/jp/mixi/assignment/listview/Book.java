@@ -1,5 +1,5 @@
 
-package jp.mixi.assignment.listview.beg;
+package jp.mixi.assignment.listview;
 
 public class Book {
 
