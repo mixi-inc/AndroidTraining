@@ -84,7 +84,7 @@ Java では、変数の名前やクラスの名前、メソッドの名前など
 5. 演算子として言語仕様で定められた文字も使わないこと
 6. 特殊文字を使用しないこと
 
-```Java
+``` java
 int ほげ = 1; // OK
 int hoge = 1; // OK
 int _hoge = 1; // OK
@@ -98,7 +98,7 @@ int hoge+fuga = 1; // NG
 また、ソースファイルの名前は、そのソースファイルに記述される`public`なクラスの名前と一致する必要がある。
 
 `Main.java`
-```Java
+``` java
 public class Main {
 
 }
@@ -130,7 +130,7 @@ public class Main {
 
 `;`で終わるまでの一連の処理のまとまりを文という。
 
-```Java
+``` java
 // 文
 System.out.println("hogehoge");
 ```
@@ -142,7 +142,7 @@ System.out.println("hogehoge");
 
 局所変数のスコープはブロックの中に限られる。
 
-```Java
+``` java
 int hoge = 0;
 {
     int fuga = 0;
@@ -164,7 +164,7 @@ int hoge = 0;
 
 一般的なスタイルは以下。
 
-```Java
+``` java
 public class Hoge {
     private int hoge;
 
@@ -176,7 +176,7 @@ public class Hoge {
 
 ハンガリアン記法を用いたスタイルは、例えば以下のようにする。
 
-```Java
+``` java
 public class Hoge {
     private int mHoge;
 
@@ -192,7 +192,7 @@ Java では、main メソッドをエントリポイントとしてプログラ�
 
 定型的に、以下のように main メソッドを定義する。
 
-```Java
+``` java
 public class Hoge {
     // public で static な void の main メソッド
     // 引数の文字列型配列は、コマンドライン引数を受け取るためのもの
@@ -277,7 +277,7 @@ Perl などのように、整数値を真偽値として扱うことは出来な
 
 プリミティブ型のリテラルを、それぞれの型に対応する参照型のラッパークラスへの変換を自動化する仕組みのこと。
 
-```Java
+``` java
 // 1 は int 型だが、Integer 型は int 型のラッパークラスのため、オートボクシングにより自動的に参照型のクラスへの変換が行われる
 Integer integer = 1;
 ```
@@ -372,7 +372,7 @@ Integer integer = 1;
 
 #### if 文
 
-```Java
+``` java
 if (条件式) {
     文;
 } else if (条件式)
@@ -384,7 +384,7 @@ if (条件式) {
 
 #### switch 文
 
-```Java
+``` java
 switch (判定対象) {
 case 条件値リテラル:
     文;
@@ -408,7 +408,7 @@ default:
 
 #### for 文
 
-```Java
+``` java
 for (初期化式; 条件式; 変化式) {
     文;
 }
@@ -423,7 +423,7 @@ C 言語と異なり、この初期化式の中で型の宣言もできる。
 
 配列や、リスト構造を持つオブジェクトの各要素にアクセスするために拡張された for 文の文法。
 
-```Java
+``` java
 for (型 変数名 : 配列ないしリスト構造オブジェクト) {
     文;
 }
@@ -435,7 +435,7 @@ for (型 変数名 : 配列ないしリスト構造オブジェクト) {
 
 0 回以上の繰り返しのための構文。
 
-```Java
+``` java
 while (条件式) {
     文;
 }
@@ -447,7 +447,7 @@ while (条件式) {
 
 1 回以上の繰り返しのための構文。
 
-```Java
+``` java
 do {
     文;
 } while (条件式);
@@ -459,7 +459,7 @@ do {
 
 繰り返し処理の制御を行う。
 
-```Java
+``` java
 while (条件式) {
     if (条件式) {
         // (中止) if の条件式に合致した場合、直ちに繰り返し処理を終了する
@@ -482,7 +482,7 @@ Java では、`goto`文は機能しない。
 Java では、1 つのソースファイルに複数のクラスを定義することができる。<br />
 1 つのソースファイルには、必ず 1 つの`public`なクラスが定義され、そのクラスと同じ名前でソースファイル名を付ける。
 
-```Java
+``` java
 public class MyClass {
 
 }
@@ -494,7 +494,7 @@ class MyClass2 {
 
 また、クラスの中にクラスを宣言することも出来る。
 
-```Java
+``` java
 public class MyClass {
     // クラスの中のクラス宣言。インナークラスと呼ぶ。
     public class NestedClass {
@@ -514,7 +514,7 @@ public class MyClass {
 インタフェースに定義するメソッドは全て、後述する「アクセス修飾子」のうちの`public`として定義される（それ以外は指定不可、指定しない場合も強制的に`public`として扱われる）。<br />
 また、実装の本体はインタフェースには持たないので、すべて`abstract`となる。
 
-```Java
+``` java
 public interface MyInterface {
     public void hoge();
 }
@@ -526,7 +526,7 @@ public interface MyInterface {
 特別に文法を持っているが、その実態は、`Enum`クラスを継承したクラスの宣言である。<br />
 列挙型は、後述する「継承」を宣言できず、また、列挙型を継承することもできない。
 
-```Java
+``` java
 public enum MyEnum {
   // MyEnum 型の定数 HOGE と FUGA
   HOGE,
@@ -542,7 +542,7 @@ public enum MyEnum {
 
 メソッドはクラスの中で宣言する。
 
-```Java
+``` java
 public class MyClass {
     // void は値を返さないメソッド
     public void myMethod() {
@@ -566,7 +566,7 @@ public class MyClass {
 
 列挙型もクラスであるので、抽象メソッドを定義したり、インタフェースを実装したりすることができる。
 
-```Java
+``` java
 // 抽象メソッドの定義
 public enum MyEnum {
     HOGE() {
@@ -580,7 +580,7 @@ public enum MyEnum {
 }
 ```
 
-```Java
+``` java
 // インタフェースの実装
 public enum MyEnum implements MyInterface {
     FUGA() {
@@ -610,7 +610,7 @@ interface MyInterface {
 コンストラクタには、メソッドのような返り値の宣言はなく、また、クラス名と同じ名前で宣言する。<br />
 メソッドのように引数をとることも可能だし、オーバーロードも可能である。
 
-```Java
+``` java
 public class MyClass {
     // 引数のないコンストラクタを、デフォルトコンストラクタと呼ぶ
     public MyClass() {
@@ -625,7 +625,7 @@ public class MyClass {
 
 列挙型クラスにもコンストラクタは定義可能であるが、必ず`private`で宣言する。
 
-```Java
+``` java
 public enum Hoge {
     // ここに enum 型定数を定義した時に、コンストラクタの呼び出しがある
     HOGE(1);
@@ -645,7 +645,7 @@ public enum Hoge {
 
 クラスをロードした際に呼ばれる、静的な初期化処理をまとめるブロック。
 
-```Java
+``` java
 public class HogeClass {
     public static final HashMap<String, String> SOME = new HashMap<String, String>();
 
@@ -661,7 +661,7 @@ public class HogeClass {
 名前空間を管理する単位として、パッケージがある。<br />
 パッケージの宣言は、各ソースファイルの一番最初にされなければならない。
 
-```Java
+``` java
 // このソースコードが属するパッケージ名の宣言。
 // パッケージ名の宣言はソースファイルの一番最初にしなければならないが、コメントは許容される。
 package jp.mixi.sample;
@@ -675,7 +675,7 @@ public class MyClass {
 宣言する際には、パッケージ名とクラス名を厳格に指定する方法と、クラス名の指定を避けてワイルドカードとする方法の 2 種類があるが、コーディング規約によって、ワイルドカードを禁止するものがある。<br />
 例外的に、`java.lang`パッケージは、デフォルトで import されているものとして扱われるため、自分で import を宣言する必要はない。
 
-```Java
+``` java
 package jp.mixi.sample2;
 
 // パッケージ名とクラス名を全て記述するものを、完全修飾名（FQDN）と呼ぶ
@@ -723,7 +723,7 @@ public class MyClass2 {
 あるクラスの拡張クラスを宣言することを、クラスを継承すると言う。<br />
 Java においては、多重継承ができない。
 
-```Java
+``` java
 public class ChildClass extends ParentClass {
 
 }
@@ -734,7 +734,7 @@ public class ChildClass extends ParentClass {
 インタフェースをもとに、振る舞いの実装を宣言することを、インタフェースを実装すると言う。<br />
 複数のインタフェースを実装することが可能で、カンマ区切りで宣言する。
 
-```Java
+``` java
 public class ConcreteClass implements MyInterface, AnotherInterface {
 
 }
@@ -748,14 +748,14 @@ public class ConcreteClass implements MyInterface, AnotherInterface {
 あるクラスのオブジェクトを作ることを、 **インスタンスを作る** や、 **インスタンス化** と言う。
 インスタンス化のためのキーワードとして、`new`がある。
 
-```Java
+``` java
 // MyClass 型のオブジェクトの生成
 MyClass myClassObject = new MyClass();
 ```
 
 抽象クラスやインタフェースはインスタンス化できない。<br />
 
-```Java
+``` java
 // コンパイルエラー
 AbstractClass hoge = new AbstractClass();
 MyInterface obj = new MyInterface();
@@ -765,7 +765,7 @@ MyInterface obj = new MyInterface();
 
 抽象クラスやインタフェースを直接インスタンス化するのと同時に、匿名のクラスを作成することができる。
 
-```Java
+``` java
 MyInterface obj = new MyInterface() {
     @Override
     public void hoge() {
@@ -777,7 +777,7 @@ MyInterface obj = new MyInterface() {
 匿名クラスから、その外側のクラスのローカル変数を参照する場合、ローカル変数は`final`でなければならない。  
 この時、暗黙的に、匿名クラスのフィールドに、`final`なローカル変数のコピーが作られることに注意する。
 
-```Java
+``` java
 final int hoge = 0;
 MyInterface obj = new MyInterface() {
     @Override
@@ -791,7 +791,7 @@ MyInterface obj = new MyInterface() {
 
 `this`は、そのブロックが属するクラスの型のオブジェクトを指す。
 
-```Java
+``` java
 public class HogeClass {
     private int hoge;
 
@@ -802,7 +802,7 @@ public class HogeClass {
 }
 ```
 
-```Java
+``` java
 public class HogeClass {
     private int hoge;
 
@@ -834,7 +834,7 @@ public class HogeClass {
 
 `class`は、そのクラスのクラスオブジェクト（クラスの情報を取り扱うクラス型のインスタンス）が得られる。
 
-```Java
+``` java
 Class<HogeClass> clazz = HogeClass.class;
 ```
 
@@ -848,7 +848,7 @@ Class<HogeClass> clazz = HogeClass.class;
 
 以下は Java の標準 API で用意されているアノテーションを使用した例。
 
-```Java
+``` java
 // @Deprecated アノテーションによって、このクラスの使用が推奨されないことを示す
 // もし他のクラスがこのクラスを使用している場合、コンパイラが警告を発する
 @Deprecated
@@ -869,7 +869,7 @@ public class MyClass extends Hoge {
 アノテーションを定義する際には、プログラム上のどの要素（クラス、メソッド、フィールド、など）に対してアノテーションを付与することが出来るか、という情報をアノテーションで宣言する。  
 このような、アノテーションのためのアノテーションのことを、メタアノテーションと呼ぶ。
 
-```Java
+``` java
 // メソッドに付与するアノテーション MyAnnotation の宣言
 @Target(ElementType.METHOD)
 public @interface MyAnnotation {
@@ -879,7 +879,7 @@ public @interface MyAnnotation {
 アノテーションは、デフォルトではコンパイル後の中間コードにもその情報が保存される。  
 メタアノテーションによって、コンパイル時に消すようにしたり、実行時にリフレクションによる読み込みも可能にしたりすることができる。
 
-```Java
+``` java
 // リフレクションによる実行時の読み込みが出来るアノテーションの宣言
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MyAnnotation {
@@ -888,7 +888,7 @@ public @interface MyAnnotation {
 
 アノテーションに引数を渡す場合には、以下のように、型と名前を指定する。  
 
-```Java
+``` java
 public @interface MyAnnotation {
     String value();
 }
@@ -911,7 +911,7 @@ public @interface MyAnnotation {
 コーディング規約によっては、型変数名を大文字 1 文字に制約するものがあるが、先頭を大文字にした命名でも良しとする規約もある。<br />
 Java の標準 API では大文字 1 文字で型変数を宣言しているものが多い。
 
-```Java
+``` java
 // 型変数を <> で囲って宣言する。
 public class MyClass<Value> {
     // 型変数に宣言した変数名は、型名として扱う。
@@ -919,7 +919,7 @@ public class MyClass<Value> {
 }
 ```
 
-```Java
+``` java
 public class MyClass2 {
     // 返り値の型の宣言の前に、型変数の宣言をする
     public <T> void hoge(T hoge) {
@@ -933,7 +933,7 @@ public class MyClass2 {
 }
 ```
 
-```Java
+``` java
 // 型変数を複数宣言することも可能
 public class MyClass3<E, V> {
 
@@ -944,7 +944,7 @@ public class MyClass3<E, V> {
 
 型変数を宣言しているクラスのインスタンス化、あるいは継承、実装の際に、型変数に実際の型を指定する。
 
-```Java
+``` java
 public class Hoge {
     public void hoge() {
         // MyClass の型変数 Value に、String 型をバインドする。
@@ -956,7 +956,7 @@ public class Hoge {
 }
 ```
 
-```Java
+``` java
 public class Hoge {
     public void hoge() {
         MyClass2 myclass = new MyClass2();
@@ -966,7 +966,7 @@ public class Hoge {
 }
 ```
 
-```Java
+``` java
 // 型変数を宣言しているクラスのサブクラスを定義する際にも、型のバインドを行う
 public class MyChildClass extends MyClass3<String, String> {
 
@@ -978,14 +978,14 @@ public class MyChildClass extends MyClass3<String, String> {
 型変数の宣言に、型の境界を設けることが出来る。<br />
 境界には、上限境界と下限境界の 2 種類の境界が定義されている。
 
-```Java
+``` java
 // 型変数へのバインドの際、バインドする型が String 型ないしそのサブクラスであることを要求する
 public class MyClass<Value extends String> {
 
 }
 ```
 
-```Java
+``` java
 // 型変数へのバインドの際、バインドする型が String 型ないしそのサブクラスであり、かつ Cloneable インタフェースを実装していることを要求する
 // インタフェースの実装の要求も extends キーワードを使用する
 // インタフェースの実装の要求の宣言は、クラスの継承の要求の宣言の後に行われなければならない
@@ -997,7 +997,7 @@ public class MyClass2<Value extends String & Cloneable> {
 また、型変数へのバインドの際にも、境界の指定が可能である。<br />
 あわせて、バインドの指定にワイルドカードを使用することも出来る。<br />
 
-```Java
+``` java
 public class Hoge {
     public void hoge() {
         // 何らかの型にバインドすることを宣言するために、ワイルドカードを使用する
@@ -1031,7 +1031,7 @@ Java においてマルチスレッドを実現するためには、`Thread`ク�
 `Thread`クラスを継承する場合、`Runnable`クラスを実装する場合のどちらでも、サブクラスまたは実装クラスで`run()`メソッドを実装する。<br />
 この`run()`メソッドが、新しいスレッドでのエントリポイントとなる。
 
-```Java
+``` java
 public class MyThread extends Thread {
     @Override
     public void run() {
@@ -1040,7 +1040,7 @@ public class MyThread extends Thread {
 }
 ```
 
-```Java
+``` java
 public class MyRunnable implements Runnable {
     @Override
     public void run() {
@@ -1055,7 +1055,7 @@ public class MyRunnable implements Runnable {
 `start()`メソッドの呼び出しによって、呼び出されたスレッドは実行可能状態へ遷移し、システムがリソースを割当てるのを待機する。<br />
 リソースが割当てられた後、実行状態となって、`run()`メソッドに定義した処理が実行される。
 
-```Java
+``` java
 public class MySample {
     // メインスレッドのエントリポイントの main メソッド
     // main メソッドの宣言は必ずこのようにする
@@ -1071,7 +1071,7 @@ public class MySample {
 
 スレッドの中で実行される処理の順序は上から順に実行されるが、異なるスレッド間での処理の順序は不定である (厳密には、VM のスケジューリング機能に依存して決まる) 。
 
-```Java
+``` java
 public class MySample {
     public static void main(String[] args) {
         Runnable runnable1 = new MyRunnable1();
@@ -1114,7 +1114,7 @@ public class MySample {
 Java では、排他制御の機構を言語仕様として持っている。<br />
 `synchronized`をメソッドに付与するか、`synchronized`を指定したブロックを定義することで、排他制御を実現している。
 
-```Java
+``` java
 public class MyClass {
     private Object lockObject = new Object();
     private int something;
@@ -1239,7 +1239,7 @@ GC によっても、必要なだけのメモリ領域が確保できない場�
 
 あるメソッドが、検査例外を発生させる場合、必ずメソッドの宣言に`throws`文が必要。
 
-```Java
+``` java
 public class MyClass {
     public void hogehoge() throws IOException {
         // IO をつかって何かする
@@ -1253,7 +1253,7 @@ public class MyClass {
 
 実行時例外を発生させる場合は、`throws`文の宣言は不要。
 
-```Java
+``` java
 public class MyClass {
     public void hogehoge(int index) {
         if (index >= 5) {
@@ -1271,7 +1271,7 @@ public class MyClass {
 検査例外を発生させるメソッドの呼び出しを行う場合は、かならずこの構文で例外処理を記述する必要がある。<br />
 それ以外の例外・エラーは任意で、必要がなければ書かなくてもよい。
 
-```Java
+``` java
 public class MyClass {
     public void hogehoge() {
         try {
@@ -1294,7 +1294,7 @@ public class MyClass {
 たとえば、FileNotFoundException は IOException を継承した例外クラスである。
 よって、下記の順番で記述すると、FileNotFoundException が発生しても正常にキャッチできなくなる。
 
-```Java
+``` java
 public class MyClass {
     public void hogehoge() {
         try {
@@ -1320,7 +1320,7 @@ public class MyClass {
 例外の発生があってもなくても、必ず finally の中の処理を実行する。<br />
 ファイルやDBなどの、リソースの開放処理を確実に行う目的で利用されることが多い。
 
-```Java
+``` java
 public class MyClass {
     public void hogehoge() {
         try {
@@ -1337,7 +1337,7 @@ public class MyClass {
 `catch`文は無くても良い。<br />
 この場合、その構文の中では例外をキャッチすべきではなく、呼び出し元で適切にハンドリングされるべき、という意味合いを持つ。
 
-```Java
+``` java
 public class MyClass {
     public void hogehoge() {
         try {
@@ -1416,14 +1416,14 @@ public class MyClass {
 
 String クラスのオブジェクトは、リテラルによって、new を明示しなくてもオブジェクトが生成される。
 
-```Java
+``` java
 String hoge = "hoge";
 ```
 
 String クラスの文字列は、一度オブジェクトを生成した後は **状態の変化を起こさない** ように設計されている（このことをイミュータブルと呼ぶ）。<br />
 このため、文字列の結合などの文字列操作を伴うものは、その都度あたらしい String クラスのオブジェクトを生成することとなる。
 
-```Java
+``` java
 // 新しい String クラスの hoge オブジェクト
 String hoge = "hoge";
 
@@ -1462,7 +1462,7 @@ Java では、入力のストリームを`InputStream`、出力のストリー�
 `try-finally`ブロックを用いて、例外が発生しようとも必ずストリームを閉じる。<br />
 このようにしないと、リソースがリークすることとなる。
 
-```Java
+``` java
 public class Sample {
     public static void main(String[] args) {
         BufferedReader reader = null;
@@ -1499,7 +1499,7 @@ Java では、実行時にプログラム自身の情報にアクセスする、
 
 クラスの`Class`型のインスタンスを得る為に、幾つかの方法が用意されている。
 
-```Java
+``` java
 package jp.mixi.sample;
 
 class Hoge {
@@ -1522,7 +1522,7 @@ public class Main {
 
 `Class`型のオブジェクトを介して、以下のように、クラスに関する様々な情報にアクセスすることができる。
 
-```Java
+``` java
 package jp.mixi.sample;
 
 class Hoge {
