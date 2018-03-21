@@ -21,7 +21,7 @@ public class CustomListItemAdapter extends ArrayAdapter<String> {
         // 第2引数はtextViewResourceIdとされていますが、カスタムリストアイテムを使用する場合は特に意識する必要のない引数です
         super(context, 0, objects);
         // レイアウト生成に使用するインフレーター
-        mLayoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        mLayoutInflater = LayoutInflater.from(context);
     }
 
     @Override
