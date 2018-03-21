@@ -15,5 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Actionbar1Activity"
+            android:label="@string/actionbar1_name" />
     </application>
 </manifest>
