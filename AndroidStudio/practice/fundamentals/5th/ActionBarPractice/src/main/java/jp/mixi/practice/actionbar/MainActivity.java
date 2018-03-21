@@ -15,8 +15,15 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.actionbar_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Context context=view.getContext();
-                context.startActivity(new Intent(context,ActionBarActivity.class));
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, ActionBarActivity.class));
+            }
+        });
+        findViewById(R.id.interaction_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, InteractionActivity.class));
             }
         });
     }

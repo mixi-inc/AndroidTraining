@@ -5,4 +5,5 @@
     <string name="hello_world">Hello world!</string>
 
     <string name="actionbar_practice_name">ActionBar Practice</string>
+    <string name="interaction_practice_name">InteractionCallback Practice</string>
 </resources>

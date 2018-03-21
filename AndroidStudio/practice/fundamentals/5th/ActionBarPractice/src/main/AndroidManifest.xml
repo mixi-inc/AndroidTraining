@@ -17,5 +17,8 @@
         <activity
             android:name=".ActionBarActivity"
             android:label="@string/actionbar_practice_name" />
+        <activity
+            android:name=".InteractionActivity"
+            android:label="@string/interaction_practice_name" />
     </application>
 </manifest>

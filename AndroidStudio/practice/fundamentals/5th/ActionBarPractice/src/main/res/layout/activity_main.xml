@@ -11,4 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/actionbar_practice_name" />
+    <Button
+        android:id="@+id/interaction_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interaction_practice_name" />
 </LinearLayout>
