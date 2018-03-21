@@ -41,6 +41,8 @@ include ':1-4-MessagingAndNotificationAssignments'
 project(':1-4-MessagingAndNotificationAssignments').projectDir = new File('assignments/fundamentals/4th/MessagingAndNotification/app/')
 
 // fundamentals 5th
+include ':1-5-ActionBarPractice'
+project(':1-5-ActionBarPractice').projectDir = new File('practice/fundamentals/5th/ActionBarPractice')
 include ':1-5-ActionBarPractice1'
 project(':1-5-ActionBarPractice1').projectDir = new File('practice/fundamentals/5th/ActionBarPractice1/app/')
 include ':1-5-InteractionCallbackPractice1'
