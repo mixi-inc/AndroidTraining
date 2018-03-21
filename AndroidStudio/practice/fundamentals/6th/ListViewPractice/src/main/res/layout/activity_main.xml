@@ -11,4 +11,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/list_view_activity_name" />
+
+    <Button
+        android:id="@+id/view_pager_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_pager_activity_name" />
 </LinearLayout>
