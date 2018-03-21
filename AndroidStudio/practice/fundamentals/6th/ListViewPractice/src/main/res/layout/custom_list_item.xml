@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="4dp" >
+    android:layout_margin="4dp">
 
     <ImageView
         android:id="@+id/imageView1"
@@ -19,7 +19,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/imageView1"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:text="title" />
 
     <TextView
         android:id="@+id/SubTitleText"
@@ -27,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/TitleText"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/TitleText" />
+        android:layout_below="@+id/TitleText"
+        tools:text="subtitle" />
 
 </RelativeLayout>

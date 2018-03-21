@@ -1,5 +1,5 @@
 
-package jp.mixi.practice.listview.beg;
+package jp.mixi.practice.listview;
 
 import android.content.Context;
 import android.view.LayoutInflater;
