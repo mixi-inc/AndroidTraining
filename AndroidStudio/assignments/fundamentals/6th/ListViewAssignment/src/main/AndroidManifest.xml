@@ -17,8 +17,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ListViewActivity"
+            android:label="@string/list_view_activity_name" />
+        <activity
             android:name=".BookActivity"
-            android:label="@string/app_name" />
+            android:label="@string/book_activity_name" />
     </application>
-
 </manifest>

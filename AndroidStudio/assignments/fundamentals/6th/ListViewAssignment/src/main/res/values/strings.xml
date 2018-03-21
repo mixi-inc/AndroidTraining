@@ -6,5 +6,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="add_list_item">追加</string>
     <string name="remove_list_item">削除</string>
+    <string name="list_view_activity_name">ListView Assignment</string>
+    <string name="book_activity_name">Book</string>
 
 </resources>
