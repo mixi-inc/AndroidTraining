@@ -6,4 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="scroll_to_top">Scroll To Top</string>
 
+    <string name="list_view_activity_name">ListViewPractice</string>
+
 </resources>

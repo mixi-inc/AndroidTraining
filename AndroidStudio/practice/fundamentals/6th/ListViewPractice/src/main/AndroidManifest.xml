@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ListViewActivity"
+            android:label="@string/list_view_activity_name" />
     </application>
 
 </manifest>
