@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:textSize="12sp"
-            tools:text="著者" />
+            tools:text="出版社" />
 
         <TextView
             android:id="@+id/Price"
