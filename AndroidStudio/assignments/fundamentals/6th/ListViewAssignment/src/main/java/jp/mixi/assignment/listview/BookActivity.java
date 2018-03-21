@@ -1,10 +1,10 @@
 
 package jp.mixi.assignment.listview;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-public class BookActivity extends Activity {
+public class BookActivity extends AppCompatActivity {
 
     @SuppressWarnings("unused")
     private static final String TAG = BookActivity.class.getSimpleName();

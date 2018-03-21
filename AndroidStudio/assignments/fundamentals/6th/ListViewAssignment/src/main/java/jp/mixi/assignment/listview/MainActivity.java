@@ -19,5 +19,12 @@ public class MainActivity extends AppCompatActivity {
                 context.startActivity(new Intent(context, ListViewActivity.class));
             }
         });
+        findViewById(R.id.view_pager_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, ViewPagerActivity.class));
+            }
+        });
     }
 }

@@ -22,5 +22,8 @@
         <activity
             android:name=".BookActivity"
             android:label="@string/book_activity_name" />
+        <activity
+            android:name=".ViewPagerActivity"
+            android:label="@string/view_pager_activity_name" />
     </application>
 </manifest>

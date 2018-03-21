@@ -89,7 +89,7 @@ public class ListViewActivity extends AppCompatActivity {
             // TODO:Adapterを使用して長押ししたデータを追加してください
         }
         // TODO:Adapterを使用して表示されているデータを更新してください
-        
+
         return true;
     }
 
