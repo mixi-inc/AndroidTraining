@@ -24,5 +24,8 @@
         <activity
             android:name=".Interaction1Activity"
             android:label="@string/interaction1_name" />
+        <activity
+            android:name=".Interaction2Activity"
+            android:label="@string/interaction2_name" />
     </application>
 </manifest>

@@ -11,14 +11,22 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/actionbar1_name" />
+
     <Button
         android:id="@+id/actionbar2_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/actionbar2_name" />
+
     <Button
         android:id="@+id/interaction1_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/interaction1_name" />
+
+    <Button
+        android:id="@+id/interaction2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/interaction2_name" />
 </LinearLayout>
