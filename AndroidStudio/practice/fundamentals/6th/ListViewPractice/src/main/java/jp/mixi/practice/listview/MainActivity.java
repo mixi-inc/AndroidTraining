@@ -3,7 +3,11 @@ package jp.mixi.practice.listview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,13 +15,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.activity_main, menu);
-        return true;
-    }
+        // データの作成
+        List<String> listData = new ArrayList<>();
+        for (int i = 0; i < 20; i++) {
+            listData.add("タイトル" + i);
+        }
 
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, listData);
+
+        ListView listView = (ListView) findViewById(R.id.list_view);
+        //TODO ここでセットするadapterがCustomListItemAdapterになるように変更してください
+        listView.setAdapter(adapter);
+    }
 }
