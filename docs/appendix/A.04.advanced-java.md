@@ -139,7 +139,7 @@ Java のプリミティブ型のうち、long と double 以外の型の操作�
 
 メンバ変数を、必要になったタイミングで初期化する単純な実装は以下のとおり。
 
-```Java
+``` java
 public class LazyInitializationSample {
     private Map<String, Object> mMap;
 
@@ -164,7 +164,7 @@ public class LazyInitializationSample {
 HashMap の中のデータの操作を同期化するには、`HashMap`ではなく`ConcurrentHashMap`を使用することで解決できる。  
 スレッドセーフなコレクションは`java.util.concurrent`パッケージにいくつかの実装があるほか、`Collections`クラスのユーティリティメソッドを用いてスレッドセーフなコレクションを生成することも出来る。
 
-```Java
+``` java
 public class LazyInitializationSample {
     private Map<String, Object> mMap;
 
@@ -187,7 +187,7 @@ public class LazyInitializationSample {
 
 null チェックを`synchronized`ブロックの外と内で二度行うことから、Double Checked と呼ばれる。
 
-```Java
+``` java
 public class LazyInitializationSample {
     private volatile Map<String, Object> mMap; // どのスレッドからも常に同じ値を見る(可視性)ことを保証
 
@@ -211,7 +211,7 @@ public class LazyInitializationSample {
 
 以下のように、シングルトンパターンの実装にも用いられる。
 
-```Java
+``` java
 public class Singleton {
     private static volatile Singleton sInstance;
 
@@ -235,7 +235,7 @@ public class Singleton {
 `static`なフィールドが、クラスをロードしたタイミングで初期化されることと、`static`な内部クラスが、使用されるタイミングで初めてロードされることを利用したイディオム。  
 クラスのロードは VM 上で逐次実行されることと、`static`なフィールドの初期化も逐次実行されることから、同期化のコードを書かなくてもよい。これにより、同期化に掛かるオーバヘッドも削減できるほか、Java のバージョンに依らず正しく動作する。
 
-```Java
+``` java
 public class LazyInitializedObject {
 	private LazyInitializedObject() {}
  
@@ -292,7 +292,7 @@ Java ではオブジェクトは参照によって共有されるため、ミュ
 
 以下の例では、初期化や状態の取得時にこの問題を誘発する。
 
-```Java
+``` java
 public class SomethingMutable {
     private final List<Object> mList; // 参照は書き換えられないが…
 
@@ -308,7 +308,7 @@ public class SomethingMutable {
 
 フィールドが保持する参照が変更不可能であること意外にも、参照を通じた変更を許容しないことがイミュータブルであることの条件となるので、以下のように防御的コピーの手法を用いる。
 
-```Java
+``` java
 public class SomethingImmutable {
     private final List<Object> mList;
 
@@ -329,7 +329,7 @@ public class SomethingImmutable {
 多数のメンバ変数を持つオブジェクトを生成する際には、コンストラクタよりも Builder パターンを用いることが推奨されている。  
 このパターンを用いて、イミュータブルなオブジェクトを生成する。
 
-```Java
+``` java
 public class Something {
     private final String mName;
     private final String mLocation;
@@ -414,7 +414,7 @@ System.out.println(original.equals(cloned)); // 複製直後の状態は同じ�
 
 以下のように実装する。
 
-```Java
+``` java
 public Something implements Cloneable {
     private int mData;
 
@@ -432,7 +432,7 @@ public Something implements Cloneable {
 
 もしこの`Something`を継承する場合、以下のように実装する。
 
-```Java
+``` java
 public class AnotherThing extends Something {
     private long mTimestamp;
 
@@ -502,7 +502,7 @@ public class Something implements Serializable {
 
 Java には、内部クラスの定義の仕方によって 2 種類の内部クラスがある。
 
-```Java
+``` java
 class OuterClass {
     private String mSomeData;
 
@@ -544,7 +544,7 @@ public class Consumer {
 
 この時、以下の様に、コレクションを`static`なフィールドとして保持すると、メモリリークの原因となり得る。
 
-```Java
+``` java
 public class LeakCollectionHolder {
     // 保持するデータがずっと参照され続けるため、コレクションの中身をクリアするか、コレクションそのものを null としないかぎり GC されなくなる
     private static List<String> LIST = new ArrayList<String>();
@@ -564,7 +564,7 @@ Java の参照には強さがあり、通常なにもしないと強参照とな
 
 このような、弱い参照を実現するためのクラスが`WeakReference`である。
 
-```Java
+``` java
 public class Something {
     private NestedClass mNested;
 
@@ -592,7 +592,7 @@ public class Something {
 
 特に、Android では、Activity への参照を`static`な内部クラスで保持するときに用いられる。
 
-```Java
+``` java
 public class SomeActivity extends Activity {
     private NestedClass mNestedClass;
 
@@ -636,7 +636,7 @@ public class SomeActivity extends Activity {
 
 列挙型は、列挙したオブジェクトが`public static final`な扱いとなるため、そのままでも Singleton パターンをできる。
 
-```Java
+``` java
 public enum Hogehoge {
     SINGLETON; // Hogehoge クラスの public static final なフィールドとして扱われる
 
@@ -648,7 +648,7 @@ public enum Hogehoge {
 
 `abstract`なメソッドを作ることが出来るので、以下のような実装をすると Strategy が組める。
 
-```Java
+``` java
 public enum Hogehoge {
     TYPE_A {
         @Override
@@ -667,7 +667,7 @@ public enum Hogehoge {
 
 列挙オブジェクトが増えると煩雑になりがちなので、以下のように戦略を委譲する。
 
-```Java
+``` java
 public enum Hogehoge {
     TYPE_A(Strategy.A),
     TYPE_B(Strategy.B); // 戦略が同じであれば、この列挙を増やすだけでよい
@@ -703,7 +703,7 @@ public enum Hogehoge {
 
 `enum`のフィールドに、生成したいクラスのインスタンスを持たせることで、Factory を実現する。
 
-```Java
+``` java
 enum Factory {
     HOGE(0, new HogeObject()),
     FUGA(1, new FugaObject());
@@ -767,7 +767,7 @@ public class Main {
 
 インスタンスではなく、型トークンを持たせることで、DI フレームワークによる On-Demand-Injection が可能。
 
-```Java
+``` java
 enum Factory {
     HOGE(0, HogeObject.class),
     FUGA(1, FugaObject.class);
@@ -813,7 +813,7 @@ enum Factory {
 
 `Set`には`EnumSet`、`Map`には`EnumMap`があり、それぞれ enum 専用にパフォーマンスのチューニングが施されている。
 
-```Java
+``` java
 enum Hoge {
     FOO,BAR,BAZ,QUX,QUUX;
 }
@@ -971,7 +971,7 @@ Java の標準 API で提供されている実行時例外を使用すること�
 
 以下のように、例外をラップして、再度スローするように実装する。
 
-```Java
+``` java
 try {
     // IO に関する何らかの処理
 } catch (IOException e) {
@@ -988,7 +988,7 @@ try {
 
 このような、エラーアトミック性を支援する目的で、検査例外を用いる事がある。検査例外は、例外の発生条件を事前に定義することができないが、キャッチした際には、その例外から有用な情報を用いて適切に復帰処理を行わせる目的で使用される。検査例外のキャッチの中で、適切にエラーアトミック性を保つための処理を記述する。
 
-```Java
+``` java
 try {
     // 新規のファイルに何らかのデータを書き出す処理
 } catch (IOException e) {
