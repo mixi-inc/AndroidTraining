@@ -5,22 +5,10 @@ include ':1-1-LayoutAssignment'
 project(':1-1-LayoutAssignment').projectDir = new File('assignments/fundamentals/1st/LayoutAssignment')
 
 // fundamentals 2nd
-include ':1-2-ActivityPractice-Practice1'
-project(':1-2-ActivityPractice-Practice1').projectDir = new File('practice/fundamentals/2nd/ActivityPractice/Practice1/app/')
-include ':1-2-ActivityPractice-Practice2'
-project(':1-2-ActivityPractice-Practice2').projectDir = new File('practice/fundamentals/2nd/ActivityPractice/Practice2/app/')
-include ':1-2-FragmentPractice-Practice1'
-project(':1-2-FragmentPractice-Practice1').projectDir = new File('practice/fundamentals/2nd/FragmentPractice/Practice1/app/')
-include ':1-2-FragmentPractice-Practice2'
-project(':1-2-FragmentPractice-Practice2').projectDir = new File('practice/fundamentals/2nd/FragmentPractice/Practice2/app/')
-include ':1-2-ControllerAssignment1'
-project(':1-2-ControllerAssignment1').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment1/app/')
-include ':1-2-ControllerAssignment2'
-project(':1-2-ControllerAssignment2').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment2/app/')
-include ':1-2-ControllerAssignment3'
-project(':1-2-ControllerAssignment3').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment3/app/')
-include ':1-2-ControllerAssignment4'
-project(':1-2-ControllerAssignment4').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment4/app/')
+include ':1-2-ControllerPractice'
+project(':1-2-ControllerPractice').projectDir = new File('practice/fundamentals/2nd/ControllerPractice')
+include ':1-2-ControllerAssignment'
+project(':1-2-ControllerAssignment').projectDir = new File('assignments/fundamentals/2nd/ControllerAssignment')
 
 // fundamentals 3rd
 include ':1-3-ResourceManagement'

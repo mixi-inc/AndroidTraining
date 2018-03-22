@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/controller1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/controller1_name" />
+
+    <Button
+        android:id="@+id/controller2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/controller2_name" />
+
+    <Button
+        android:id="@+id/controller3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/controller3_name" />
+
+    <Button
+        android:id="@+id/controller4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/controller4_name" />
+</LinearLayout>

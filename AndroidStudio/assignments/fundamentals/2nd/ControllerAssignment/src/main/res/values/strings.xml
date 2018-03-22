@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ControllerAssignment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="TitleLabel">Title</string>
+    <string name="BodyLabel">Body</string>
+    <string name="PostLabel">Post</string>
+    <string name="DiscardLabel">Discard</string>
+
+    <string name="controller1_name">Controller Assignment 1</string>
+    <string name="controller2_name">Controller Assignment 2</string>
+    <string name="controller3_name">Controller Assignment 3</string>
+    <string name="controller4_name">Controller Assignment 4</string>
+</resources>
