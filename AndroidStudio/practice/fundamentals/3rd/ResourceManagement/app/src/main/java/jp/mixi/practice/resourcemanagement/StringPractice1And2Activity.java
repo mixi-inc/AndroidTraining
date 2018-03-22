@@ -2,8 +2,9 @@ package jp.mixi.practice.resourcemanagement;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 
-public class StringPractice1And2Activity extends ActionBarActivity {
+public class StringPractice1And2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
