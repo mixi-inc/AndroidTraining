@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DrawableResourceAssignment1</string>
+    <string name="hello_world">Hello world!</string>
+    <plurals name="my_apple">
+        <item quantity="other">私は、%1$d 個のりんごを持っています。</item>
+    </plurals>
+
+    <string name="string_resource_name">String Resource</string>
+    <string name="drawable_resource_name">Drawable Resource</string>
+</resources>

@@ -1,0 +1,29 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.mixi.assignment.layout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Assignment1Activity"
+            android:label="@string/assignment1_name" />
+        <activity
+            android:name=".Assignment2Activity"
+            android:label="@string/assignment2_name" />
+        <activity
+            android:name=".Assignment3Activity"
+            android:label="@string/assignment3_name" />
+        <activity
+            android:name=".Assignment4Activity"
+            android:label="@string/assignment4_name" />
+    </application>
+</manifest>

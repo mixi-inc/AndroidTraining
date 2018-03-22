@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/assignment1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/assignment1_name" />
+
+    <Button
+        android:id="@+id/assignment2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/assignment2_name" />
+
+    <Button
+        android:id="@+id/assignment3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/assignment3_name" />
+    <Button
+        android:id="@+id/assignment4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/assignment4_name" />
+</LinearLayout>
