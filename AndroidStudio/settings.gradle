@@ -13,10 +13,8 @@ project(':1-2-ControllerAssignment').projectDir = new File('assignments/fundamen
 // fundamentals 3rd
 include ':1-3-ResourceManagement'
 project(':1-3-ResourceManagement').projectDir = new File('practice/fundamentals/3rd/ResourceManagement/app/')
-include ':1-3-StringResourceAssignment1'
-project(':1-3-StringResourceAssignment1').projectDir = new File('assignments/fundamentals/3rd/StringResourceAssignment1/app/')
-include ':1-3-DrawableResourceAssignment1'
-project(':1-3-DrawableResourceAssignment1').projectDir = new File('assignments/fundamentals/3rd/DrawableResourceAssignment1/app/')
+include ':1-3-ResourceAssignment'
+project(':1-3-ResourceAssignment').projectDir = new File('assignments/fundamentals/3rd/ResourceAssignment')
 
 // fundamentals 4th
 include ':1-4-MessagingAndNotificationPractice'
