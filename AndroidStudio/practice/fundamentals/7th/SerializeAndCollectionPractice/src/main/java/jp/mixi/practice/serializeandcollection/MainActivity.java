@@ -26,5 +26,12 @@ public class MainActivity extends AppCompatActivity {
                 context.startActivity(new Intent(context, SharedPreferencesActivity.class));
             }
         });
+        findViewById(R.id.storage_button).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, StorageActivity.class));
+            }
+        });
     }
 }

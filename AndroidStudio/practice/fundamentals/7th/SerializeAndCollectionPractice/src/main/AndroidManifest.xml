@@ -21,6 +21,9 @@
         <activity
             android:name=".SharedPreferencesActivity"
             android:label="@string/shared_preferences_name" />
+        <activity
+            android:name=".StorageActivity"
+            android:label="@string/storage_name" />
     </application>
 
 </manifest>
