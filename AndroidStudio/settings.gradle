@@ -45,6 +45,8 @@ project(':1-6-ListViewAssignment').projectDir = new File('assignments/fundamenta
 // fundamentals 7th
 include ':1-7-SerializeAndCollectionPractice'
 project(':1-7-SerializeAndCollectionPractice').projectDir = new File('practice/fundamentals/7th/SerializeAndCollectionPractice')
+include ':1-7-SerializeAndCollectionAssignment'
+project(':1-7-SerializeAndCollectionAssignment').projectDir = new File('assignments/fundamentals/7th/SerializeAndCollectionAssignment')
 include ':1-7-SerializablePractice1'
 project(':1-7-SerializablePractice1').projectDir = new File('practice/fundamentals/7th/SerializablePractice1/app/')
 include ':1-7-SharedPreferencesPractice1'
