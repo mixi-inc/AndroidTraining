@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SerializeAndCollectionAssignment</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="serializable_name">Serializable Assignment</string>
+    <string name="serializable_detail_name">Serializable Detail</string>
 </resources>
