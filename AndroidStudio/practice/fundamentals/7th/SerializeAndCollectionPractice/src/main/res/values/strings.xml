@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SerializeAndCollectionPractice</string>
+    <string name="serializable_name">Serializable Practice</string>
 </resources>

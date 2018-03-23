@@ -7,8 +7,9 @@
     android:orientation="vertical"
     tools:context="jp.mixi.practice.serializeandcollection.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/serializable_button"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/serializable_name" />
 </LinearLayout>
