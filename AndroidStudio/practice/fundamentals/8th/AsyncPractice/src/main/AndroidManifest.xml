@@ -18,6 +18,9 @@
         <activity
             android:name=".ServicesActivity"
             android:label="@string/services_name" />
+        <activity
+            android:name=".AsyncTaskLoaderActivity"
+            android:label="@string/async_task_loader_name" />
 
         <service android:name=".BoundService" />
         <service android:name=".MyIntentService" />

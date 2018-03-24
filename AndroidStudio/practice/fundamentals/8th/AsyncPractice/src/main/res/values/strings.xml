@@ -2,6 +2,7 @@
     <string name="app_name">AsyncTaskPractice</string>
 
     <string name="services_name">Service Practice</string>
+    <string name="async_task_loader_name">AsyncTaskLoader Practice</string>
     <string name="started_service">Started Service Control</string>
     <string name="start_service">Start</string>
     <string name="stop_service">Stop</string>
