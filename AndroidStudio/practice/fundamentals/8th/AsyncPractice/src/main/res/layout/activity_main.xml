@@ -17,4 +17,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/async_task_loader_name" />
+
+    <Button
+        android:id="@+id/async_task_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/async_task_name" />
 </LinearLayout>

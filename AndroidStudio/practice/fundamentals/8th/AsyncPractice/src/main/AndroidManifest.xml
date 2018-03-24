@@ -21,6 +21,9 @@
         <activity
             android:name=".AsyncTaskLoaderActivity"
             android:label="@string/async_task_loader_name" />
+        <activity
+            android:name=".AsyncTaskActivity"
+            android:label="@string/async_task_name" />
 
         <service android:name=".BoundService" />
         <service android:name=".MyIntentService" />
