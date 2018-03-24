@@ -4,4 +4,5 @@
 
     <string name="serializable_name">Serializable Assignment</string>
     <string name="serializable_detail_name">Serializable Detail</string>
+    <string name="shared_preferences_name">SharedPreferences Assignment</string>
 </resources>
