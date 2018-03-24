@@ -55,6 +55,8 @@ include ':1-7-SharedPreferencesAssignment'
 project(':1-7-SharedPreferencesAssignment').projectDir = new File('assignments/fundamentals/7th/SharedPreferencesAssignment/app/')
 
 // fundamentals 8th
+include ':1-8-AsyncPractice'
+project(':1-8-AsyncPractice').projectDir = new File('practice/fundamentals/8th/AsyncPractice')
 include ':1-8-AsyncAssignment'
 project(':1-8-AsyncAssignment').projectDir = new File('assignments/fundamentals/8th/AsyncAssignment')
 
