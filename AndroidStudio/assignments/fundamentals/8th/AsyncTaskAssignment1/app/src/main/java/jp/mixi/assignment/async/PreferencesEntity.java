@@ -1,4 +1,4 @@
-package jp.mixi.assignment.async.beg;
+package jp.mixi.assignment.async;
 
 import android.os.Parcel;
 import android.os.Parcelable;
