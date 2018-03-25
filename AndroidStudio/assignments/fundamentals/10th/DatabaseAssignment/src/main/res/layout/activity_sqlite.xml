@@ -4,18 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SQLiteActivity">
 
     <Button
-        android:id="@+id/sqlite_button"
+        android:id="@+id/insert"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/sqlite_name" />
+        android:text="@string/insert" />
 
     <Button
-        android:id="@+id/sqlite_list_button"
+        android:id="@+id/query"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/sqlite_list_name" />
+        android:text="@string/query" />
 
 </LinearLayout>

@@ -15,6 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SQLiteActivity"
+            android:label="@string/sqlite_name" />
+        <activity
+            android:name=".SQLiteListActivity"
+            android:label="@string/sqlite_list_name" />
     </application>
 
 </manifest>

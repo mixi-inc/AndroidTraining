@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">DatabaseAssignment</string>
+
+    <string name="sqlite_name">SQLite Assignment</string>
+    <string name="sqlite_list_name">SQLite List Assignment</string>
+    <string name="insert">Insert</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="query">Query</string>
 </resources>
