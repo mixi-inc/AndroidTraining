@@ -67,6 +67,8 @@ include ':1-10-ContentProviderAssignment'
 project(':1-10-ContentProviderAssignment').projectDir = new File('assignments/fundamentals/10th/ContentProviderAssignment/app/')
 include ':1-10-SQLiteAssignment'
 project(':1-10-SQLiteAssignment').projectDir = new File('assignments/fundamentals/10th/SQLiteAssignment/app/')
+include ':1-10-DatabaseAssignment'
+project(':1-10-DatabaseAssignment').projectDir = new File('assignments/fundamentals/10th/DatabaseAssignment')
 
 // fundamentals 11th
 include ':1-11-TestAssignmentTarget'
