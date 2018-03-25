@@ -18,5 +18,11 @@
         <activity
             android:name=".SQLiteActivity"
             android:label="@string/sqlite_name" />
+
+        <!-- TODO:ここのexportedをfalseに変更する -->
+        <provider
+            android:name="jp.mixi.practice.database.BookContentProvider"
+            android:authorities="jp.mixi.practice.database.contentprovider.Book"
+            android:exported="true" />
     </application>
 </manifest>

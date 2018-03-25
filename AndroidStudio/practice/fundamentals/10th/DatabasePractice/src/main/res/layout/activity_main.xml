@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/sqlite_button"
         android:layout_width="match_parent"
-        android:text="@string/sqlite_name"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="@string/sqlite_name" />
 
 </LinearLayout>
