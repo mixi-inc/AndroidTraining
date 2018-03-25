@@ -21,6 +21,9 @@
         <activity
             android:name=".SQLiteListActivity"
             android:label="@string/sqlite_list_name" />
+        <activity
+            android:name=".CursorLoaderActivity"
+            android:label="@string/cursor_loader_name" />
     </application>
 
 </manifest>
