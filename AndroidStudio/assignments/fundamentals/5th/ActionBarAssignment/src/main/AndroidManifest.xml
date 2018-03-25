@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.mixi.assignment.actionbar">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Actionbar1Activity"
+            android:label="@string/actionbar1_name" />
+        <activity
+            android:name=".Actionbar2Activity"
+            android:label="@string/actionbar2_name" />
+        <activity
+            android:name=".Interaction1Activity"
+            android:label="@string/interaction1_name" />
+        <activity
+            android:name=".Interaction2Activity"
+            android:label="@string/interaction2_name" />
+    </application>
+</manifest>
