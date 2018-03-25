@@ -5,5 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/sqlite_button"
+        android:layout_width="match_parent"
+        android:text="@string/sqlite_name"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
