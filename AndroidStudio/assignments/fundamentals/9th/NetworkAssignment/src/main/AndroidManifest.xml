@@ -17,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NetworkActivity"
+            android:label="@string/network_name" />
     </application>
 
 </manifest>
