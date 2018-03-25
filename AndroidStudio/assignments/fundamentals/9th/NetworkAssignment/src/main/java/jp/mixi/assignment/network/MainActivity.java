@@ -1,4 +1,4 @@
-package jp.mixi.assignment.network.networkAssignment;
+package jp.mixi.assignment.network;
 
 import android.app.Activity;
 import android.os.Build;

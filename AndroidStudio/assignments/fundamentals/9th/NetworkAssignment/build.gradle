@@ -4,7 +4,7 @@ android {
     compileSdkVersion androidSdkVersion
 
     defaultConfig {
-        applicationId "jp.mixi.assignment.network.networkAssignment"
+        applicationId "jp.mixi.assignment.network"
         minSdkVersion androidMinSdkVersion
         targetSdkVersion androidSdkVersion
     }
