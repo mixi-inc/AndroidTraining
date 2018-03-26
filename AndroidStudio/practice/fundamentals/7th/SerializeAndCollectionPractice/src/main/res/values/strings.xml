@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SerializeAndCollectionPractice</string>
+    <string name="serializable_name">Serializable Practice</string>
+    <string name="shared_preferences_name">SharedPreferences Practice</string>
+    <string name="storage_name">Storage Practice</string>
+</resources>

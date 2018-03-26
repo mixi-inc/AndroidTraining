@@ -35,16 +35,10 @@ include ':1-6-ListViewAssignment'
 project(':1-6-ListViewAssignment').projectDir = new File('assignments/fundamentals/6th/ListViewAssignment')
 
 // fundamentals 7th
-include ':1-7-SerializablePractice1'
-project(':1-7-SerializablePractice1').projectDir = new File('practice/fundamentals/7th/SerializablePractice1/app/')
-include ':1-7-SharedPreferencesPractice1'
-project(':1-7-SharedPreferencesPractice1').projectDir = new File('practice/fundamentals/7th/SharedPreferencesPractice1/app/')
-include ':1-7-StoragePractice'
-project(':1-7-StoragePractice').projectDir = new File('practice/fundamentals/7th/StoragePractice/app/')
-include ':1-7-SerializableAssignment'
-project(':1-7-SerializableAssignment').projectDir = new File('assignments/fundamentals/7th/SerializableAssignment/app/')
-include ':1-7-SharedPreferencesAssignment'
-project(':1-7-SharedPreferencesAssignment').projectDir = new File('assignments/fundamentals/7th/SharedPreferencesAssignment/app/')
+include ':1-7-SerializeAndCollectionPractice'
+project(':1-7-SerializeAndCollectionPractice').projectDir = new File('practice/fundamentals/7th/SerializeAndCollectionPractice')
+include ':1-7-SerializeAndCollectionAssignment'
+project(':1-7-SerializeAndCollectionAssignment').projectDir = new File('assignments/fundamentals/7th/SerializeAndCollectionAssignment')
 
 // fundamentals 8th
 include ':1-8-AsyncTaskAssignment1'
