@@ -61,8 +61,6 @@ include ':1-10-SQLiteAssignment'
 project(':1-10-SQLiteAssignment').projectDir = new File('assignments/fundamentals/10th/SQLiteAssignment/app/')
 
 // fundamentals 11th
-include ':1-11-TestAssignmentTarget'
-project(':1-11-TestAssignmentTarget').projectDir = new File('assignments/fundamentals/11th/TestAssignmentTarget/app/')
 include ':1-11-TestPractice'
 project(':1-11-TestPractice').projectDir = new File('practice/fundamentals/11th/TestPractice')
 include ':1-11-TestAssignment'
