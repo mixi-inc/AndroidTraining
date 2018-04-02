@@ -26,5 +26,12 @@ public class MainActivity extends AppCompatActivity {
                 context.startActivity(new Intent(context, Dialog1Activity.class));
             }
         });
+        findViewById(R.id.dialog2_practice).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Context context = view.getContext();
+                context.startActivity(new Intent(context, Dialog2Activity.class));
+            }
+        });
     }
 }
