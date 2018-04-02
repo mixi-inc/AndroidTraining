@@ -69,6 +69,8 @@ include ':2-1-DebugPractice'
 project(':2-1-DebugPractice').projectDir = new File('practice/advanced/1st/DebugPractice/app/')
 
 // advanced 3rd
+include ':2-3-AdvancedLayoutPractice'
+project(':2-3-AdvancedLayoutPractice').projectDir = new File('practice/advanced/3rd/LayoutPractice')
 include ':2-3-DialogPractice'
 project(':2-3-DialogPractice').projectDir = new File('practice/advanced/3rd/DialogPractice/app/')
 include ':2-3-DialogPractice2'
