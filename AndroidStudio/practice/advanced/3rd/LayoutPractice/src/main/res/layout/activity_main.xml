@@ -6,9 +6,9 @@
     android:orientation="vertical"
     tools:context="jp.mixi.practice.layout.advanced.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/include_practice"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
+        android:text="@string/include_practice_name" />
 </LinearLayout>

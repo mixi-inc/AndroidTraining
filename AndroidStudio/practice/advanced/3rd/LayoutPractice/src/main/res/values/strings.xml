@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Advanced Layout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="include_practice_name">Include Layout Practice</string>
 </resources>

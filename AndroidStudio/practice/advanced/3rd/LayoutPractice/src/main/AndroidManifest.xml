@@ -15,6 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".IncludeActivity"
+            android:label="@string/include_practice_name" />
     </application>
 
 </manifest>
