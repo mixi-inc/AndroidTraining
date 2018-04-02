@@ -18,6 +18,9 @@
         <activity
             android:name=".IncludeActivity"
             android:label="@string/include_practice_name" />
+        <activity
+            android:name=".Dialog1Activity"
+            android:label="@string/dialog1_practice_name" />
     </application>
 
 </manifest>
