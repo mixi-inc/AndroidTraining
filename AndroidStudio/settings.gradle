@@ -66,7 +66,7 @@ project(':1-11-TestAssignmentTarget').projectDir = new File('assignments/fundame
 
 // advanced 1st
 include ':2-1-DebugPractice'
-project(':2-1-DebugPractice').projectDir = new File('practice/advanced/1st/DebugPractice/app/')
+project(':2-1-DebugPractice').projectDir = new File('practice/advanced/1st/DebugPractice')
 
 // advanced 3rd
 include ':2-3-DialogPractice'
