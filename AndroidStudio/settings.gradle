@@ -51,12 +51,10 @@ include ':1-9-NetworkAssignment'
 project(':1-9-NetworkAssignment').projectDir = new File('assignments/fundamentals/9th/NetworkAssignment')
 
 // fundamentals 10th
-include ':1-10-SQLitePractice'
-project(':1-10-SQLitePractice').projectDir = new File('practice/fundamentals/10th/SQLitePractice/app/')
-include ':1-10-ContentProviderAssignment'
-project(':1-10-ContentProviderAssignment').projectDir = new File('assignments/fundamentals/10th/ContentProviderAssignment/app/')
-include ':1-10-SQLiteAssignment'
-project(':1-10-SQLiteAssignment').projectDir = new File('assignments/fundamentals/10th/SQLiteAssignment/app/')
+include ':1-10-DatabasePractice'
+project(':1-10-DatabasePractice').projectDir = new File('practice/fundamentals/10th/DatabasePractice')
+include ':1-10-DatabaseAssignment'
+project(':1-10-DatabaseAssignment').projectDir = new File('assignments/fundamentals/10th/DatabaseAssignment')
 
 // fundamentals 11th
 include ':1-11-TestAssignmentTarget'
