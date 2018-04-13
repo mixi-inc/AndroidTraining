@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AsyncPractice</string>
+
+    <string name="services_name">Service Practice</string>
+    <string name="async_task_loader_name">AsyncTaskLoader Practice</string>
+    <string name="async_task_name">AsyncTask Practice</string>
+    <string name="started_service">Started Service Control</string>
+    <string name="start_service">Start</string>
+    <string name="stop_service">Stop</string>
+    <string name="bound_service">Bound Service Control</string>
+    <string name="bind_service">Bind</string>
+    <string name="unbind_service">Unbind</string>
+    <string name="intent_service">Intent Service Control</string>
+    <string name="start_intent_service">Call IntentService</string>
+    <string name="hello_world">Hello world!</string>
+</resources>

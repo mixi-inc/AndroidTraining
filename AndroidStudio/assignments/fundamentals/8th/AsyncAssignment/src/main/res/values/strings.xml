@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AsyncTaskAssignment</string>
+    <string name="SaveButton">Save</string>
+    <string name="LoadButton">Load</string>
+    <string name="async_task_name">AsyncTask Assignment</string>
+</resources>
