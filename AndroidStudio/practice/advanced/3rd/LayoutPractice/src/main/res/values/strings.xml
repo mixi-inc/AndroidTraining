@@ -11,5 +11,6 @@
     <string name="include_practice_name">Include Layout Practice</string>
     <string name="dialog1_practice_name">Dialog1 Practice</string>
     <string name="dialog2_practice_name">Dialog2 Practice</string>
+    <string name="preferences_practice_name">Preferences Practice</string>
 
 </resources>

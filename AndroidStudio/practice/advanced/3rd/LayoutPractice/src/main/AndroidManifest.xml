@@ -24,6 +24,9 @@
         <activity
             android:name=".Dialog2Activity"
             android:label="@string/dialog2_practice_name" />
+        <activity
+            android:name=".PreferencePracticeActivity"
+            android:label="@string/preferences_practice_name" />
     </application>
 
 </manifest>
