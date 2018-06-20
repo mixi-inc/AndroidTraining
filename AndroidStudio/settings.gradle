@@ -71,16 +71,6 @@ project(':2-1-DebugPractice').projectDir = new File('practice/advanced/1st/Debug
 // advanced 3rd
 include ':2-3-AdvancedLayoutPractice'
 project(':2-3-AdvancedLayoutPractice').projectDir = new File('practice/advanced/3rd/LayoutPractice')
-include ':2-3-DialogPractice'
-project(':2-3-DialogPractice').projectDir = new File('practice/advanced/3rd/DialogPractice/app/')
-include ':2-3-DialogPractice2'
-project(':2-3-DialogPractice2').projectDir = new File('practice/advanced/3rd/DialogPractice2/app/')
-include ':2-3-IncludePractice'
-project(':2-3-IncludePractice').projectDir = new File('practice/advanced/3rd/IncludePractice/app/')
-include ':2-3-PreferencePractice'
-project(':2-3-PreferencePractice').projectDir = new File('practice/advanced/3rd/PreferencePractice/app/')
-include ':2-3-DialogAssignment'
-project(':2-3-DialogAssignment').projectDir = new File('assignments/advanced/3rd/DialogAssignment/app/')
 include ':2-3-AdvancedLayoutAssignment'
 project(':2-3-AdvancedLayoutAssignment').projectDir = new File('assignments/advanced/3rd/LayoutAssignment')
 
