@@ -81,4 +81,6 @@ include ':2-3-PreferencePractice'
 project(':2-3-PreferencePractice').projectDir = new File('practice/advanced/3rd/PreferencePractice/app/')
 include ':2-3-DialogAssignment'
 project(':2-3-DialogAssignment').projectDir = new File('assignments/advanced/3rd/DialogAssignment/app/')
+include ':2-3-AdvancedLayoutAssignment'
+project(':2-3-AdvancedLayoutAssignment').projectDir = new File('assignments/advanced/3rd/LayoutAssignment')
 
