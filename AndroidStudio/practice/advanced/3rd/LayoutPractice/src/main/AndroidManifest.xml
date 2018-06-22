@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jp.mixi.practice.layout.advanced">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IncludeActivity"
+            android:label="@string/include_practice_name" />
+        <activity
+            android:name=".Dialog1Activity"
+            android:label="@string/dialog1_practice_name" />
+        <activity
+            android:name=".Dialog2Activity"
+            android:label="@string/dialog2_practice_name" />
+        <activity
+            android:name=".PreferencePracticeActivity"
+            android:label="@string/preferences_practice_name" />
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Advanced Layout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="show_practice_dialog">Show PracticeDialog</string>
+    <string name="text">Text</string>
+    <string name="practice">1. (実習)</string>
+    <string name="message">タイトルにアイコンと文言、コンテンツエリアにメッセージを設定してください。closeボタンもつけてください。</string>
+    <string name="close">close</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="include_practice_name">Include Layout Practice</string>
+    <string name="dialog1_practice_name">Dialog1 Practice</string>
+    <string name="dialog2_practice_name">Dialog2 Practice</string>
+    <string name="preferences_practice_name">Preferences Practice</string>
+
+</resources>

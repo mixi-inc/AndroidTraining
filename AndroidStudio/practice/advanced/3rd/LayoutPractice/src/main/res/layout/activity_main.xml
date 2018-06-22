@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jp.mixi.practice.layout.advanced.MainActivity">
+
+    <Button
+        android:id="@+id/include_practice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/include_practice_name" />
+
+    <Button
+        android:id="@+id/dialog1_practice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog1_practice_name" />
+
+    <Button
+        android:id="@+id/dialog2_practice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dialog2_practice_name" />
+
+</LinearLayout>
