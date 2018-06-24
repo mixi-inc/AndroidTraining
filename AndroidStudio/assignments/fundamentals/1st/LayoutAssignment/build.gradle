@@ -21,6 +21,6 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:support-v4:${supportLibVersion}"
+    implementation "com.android.support:support-v4:${supportLibVersion}"
     implementation "com.android.support:appcompat-v7:${supportLibVersion}"
 }
