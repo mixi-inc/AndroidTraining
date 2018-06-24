@@ -1,13 +1,13 @@
 package jp.mixi.assignment.messagingandnotification;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 /**
  * Created by suino on 2015/03/04.
  */
-public class EditActivity extends ActionBarActivity {
+public class EditActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
