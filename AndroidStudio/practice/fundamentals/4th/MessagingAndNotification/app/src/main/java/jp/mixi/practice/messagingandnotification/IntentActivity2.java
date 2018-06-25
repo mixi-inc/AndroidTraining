@@ -1,13 +1,13 @@
 package jp.mixi.practice.messagingandnotification;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 /**
  * Created by suino on 2015/02/25.
  */
-public class IntentActivity2 extends Activity {
+public class IntentActivity2 extends AppCompatActivity {
 
     public static final String ACTION_FIRST = "jp.mixi.practice.messagingandnotification.intent.action.FIRST";
     public static final String ACTION_SECOND = "jp.mixi.practice.messagingandnotification.intent.action.SECOND";

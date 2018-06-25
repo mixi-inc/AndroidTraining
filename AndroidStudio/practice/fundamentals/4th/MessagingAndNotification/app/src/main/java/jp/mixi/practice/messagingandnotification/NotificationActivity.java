@@ -1,12 +1,12 @@
 package jp.mixi.practice.messagingandnotification;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * Created by suino on 2015/02/26.
  */
-public class NotificationActivity extends Activity {
+public class NotificationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
