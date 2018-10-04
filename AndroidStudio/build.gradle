@@ -19,6 +19,6 @@ allprojects {
 // 全体で共通で使うバージョンをパラメータ化
 ext {
     androidSdkVersion = 23
-    androidMinSdkVersion = 7
+    androidMinSdkVersion = 14
     supportLibVersion = "23.4.0"
 }
