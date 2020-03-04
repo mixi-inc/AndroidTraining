@@ -1386,7 +1386,7 @@ public class MyClass {
 
 `Comparable`インタフェースには以下の様な規約がある。
 
-* `a.compareTo(b)`が`1`ならば、`b.compareTo(a)は`-1`となる
+* `a.compareTo(b)`が`1`ならば、`b.compareTo(a)`は`-1`となる
 * `a.compareTo(b)`が`1`で、かつ`b.compareTo(c)`が`1`となるならば、`a.compareTo(c)`も`1`となる
 * `a.compareTo(b)`が`0`ならば、`a.compareTo(c)`と`b.compareTo(c)`は同じ結果となる
 * `a.compareTo(b)`で例外が投げられたならば、`b.compareTo(a)`でも例外が投げられる
